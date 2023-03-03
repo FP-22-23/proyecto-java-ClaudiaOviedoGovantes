@@ -1,0 +1,1001 @@
+Company;Employees;City;Foundation(Date);Rating;Private;Easy apply;Sector;Job Skills
+Zepter;509;Nizip;15/10/06;2.76;true;true;Information_Technology;Work Under Pressure,Communication,Learning
+21st Century Fox;120;Finkenstein am Faaker See;28/8/17;2.94;true;false;Tourism;Communication,Work Under Pressure,Adaptability
+Team Guard SRL;500;St. Johann in Tirol;13/9/04;1.37;false;true;Consumer_Services;Work Under Pressure,Self-motivation,Adaptability
+Apple Inc.;720;Pencahue;10/10/16;3.62;false;true;Finance;Adaptability,Communication,Decision Making
+Global Print;706;Lidingo;19/12/04;4.95;true;true;Media;Decision Making,Adaptability,Time Management
+Mars;612;Bayeux;7/8/15;3.11;false;false;Information_Technology;Leadership,Self-motivation,Teamwork
+Apple Inc.;746;Yunnan;30/8/07;0.36;false;true;Tourism;Work Under Pressure,Communication,Leadership
+Comodo;596;Pamplona;2/4/15;1.7;true;false;Consumer_Services;Self-motivation,Communication,Conflict Resolution
+Telekom;650;Thorembais-Saint-Trond;15/1/22;0.71;true;true;Finance;Learning,Self-motivation,Communication
+It Smart Group;935;Rothesay;6/9/11;4.21;true;false;Media;Self-motivation,Communication,Work Under Pressure
+Carrefour;798;Brandon;6/1/15;4.36;false;false;Information_Technology;Learning,Self-motivation,Work Under Pressure
+ENEL;751;Enschede;25/3/05;0.76;false;false;Tourism;Adaptability,Decision Making,Decision Making
+Coca-Cola Company;335;Napier;19/12/20;3.31;false;true;Consumer_Services;Learning,Learning,Time Management
+Zepter;624;Dublin;5/3/06;4.47;false;false;Finance;Adaptability,Leadership,Communication
+Facebook;399;Hudson Bay;11/6/13;1.72;true;true;Media;Work Under Pressure,Work Under Pressure,Communication
+Boeing;388;Oaxaca;13/7/14;1.46;true;false;Information_Technology;Decision Making,Self-motivation,Leadership
+Telekom;483;Chiguayante;26/2/08;0.03;false;false;Tourism;Self-motivation,Teamwork,Time Management
+Amazon.com;228;Sluis;2/12/21;1.93;false;true;Consumer_Services;Leadership,Self-motivation,Decision Making
+Mars;401;Berlin;15/7/11;1.89;true;true;Finance;Adaptability,Communication,Adaptability
+Biolife Grup;672;Tijuana;24/6/17;4.7;true;true;Media;Self-motivation,Adaptability,Learning
+Carrefour;355;Fujian;10/8/16;0.6;true;true;Information_Technology;Time Management,Learning,Leadership
+Global Print;638;Belfast;25/9/07;3.61;true;true;Tourism;Learning,Work Under Pressure,Work Under Pressure
+ExxonMobil;853;Palmerston North;18/11/08;2.03;true;true;Consumer_Services;Self-motivation,Decision Making,Self-motivation
+Danone;477;Develi;9/2/05;0.21;false;true;Finance;Learning,Teamwork,Communication
+Zepter;530;Limoges;25/10/12;1.98;true;true;Media;Leadership,Work Under Pressure,Leadership
+Carrefour;435;Armenia;20/5/10;3.27;false;true;Information_Technology;Time Management,Conflict Resolution,Self-motivation
+Leadertech Consulting;56;San Francisco;18/8/18;3.69;false;true;Tourism;Learning,Work Under Pressure,Adaptability
+Team Guard SRL;560;Bocchigliero;31/1/08;2.7;true;true;Consumer_Services;Leadership,Adaptability,Decision Making
+Amazon.com;85;Berlin;3/6/19;2.58;false;false;Finance;Leadership,Leadership,Adaptability
+DynCorp;267;Ternitz;6/5/16;0.55;false;true;Media;Decision Making,Teamwork,Leadership
+21st Century Fox;115;Caxias do Sul;26/11/15;1.93;false;false;Information_Technology;Decision Making,Conflict Resolution,Leadership
+Apple Inc.;576;Berlin;16/3/17;3.79;true;true;Tourism;Self-motivation,Learning,Teamwork
+ExxonMobil;981;Santa Rosa de Cabal;11/5/22;3.29;false;true;Consumer_Services;Leadership,Self-motivation,Adaptability
+It Smart Group;676;San Rafael;17/7/04;3.16;false;true;Finance;Self-motivation,Work Under Pressure,Leadership
+Leadertech Consulting;60;Alto del Carmen;24/4/13;1.98;true;true;Media;Conflict Resolution,Learning,Adaptability
+Apple Inc.;158;Margate;23/8/04;0.87;true;false;Information_Technology;Communication,Teamwork,Conflict Resolution
+Zepter;386;Vienna;27/11/06;4.79;false;false;Tourism;Communication,Learning,Conflict Resolution
+Demaco;662;Knittelfeld;4/10/09;1.25;true;true;Consumer_Services;Decision Making,Communication,Learning
+Metro Cash&Carry;985;Barranca;7/6/04;3.27;true;true;Finance;Leadership,Conflict Resolution,Learning
+Comodo;385;Bredene;26/12/09;2.13;true;true;Media;Time Management,Leadership,Conflict Resolution
+Vodafone;552;Belfast;26/6/11;2.05;false;false;Information_Technology;Work Under Pressure,Leadership,Decision Making
+Global Print;664;Tiel;12/1/23;2.6;true;false;Tourism;Communication,Time Management,Communication
+AECOM;995;London;9/7/22;1.32;false;true;Consumer_Services;Leadership,Conflict Resolution,Self-motivation
+ExxonMobil;596;Canberra;23/11/21;0.81;true;false;Finance;Leadership,Self-motivation,Leadership
+Demaco;451;Ceuta;4/12/21;3.11;true;true;Media;Decision Making,Conflict Resolution,Teamwork
+ExxonMobil;469;Huesca;13/2/11;1.31;false;true;Information_Technology;Teamwork,Decision Making,Time Management
+Amazon.com;192;Tibet;15/1/11;3.9;false;true;Tourism;Decision Making,Time Management,Leadership
+Global Print;752;London;3/2/12;1.71;true;false;Consumer_Services;Communication,Adaptability,Time Management
+Telekom;425;Morrinsville;22/7/21;0.73;false;true;Finance;Self-motivation,Adaptability,Learning
+DynCorp;158;Dublin;15/2/11;3.49;false;true;Media;Work Under Pressure,Communication,Conflict Resolution
+Danone;347;London;16/6/21;2.26;true;false;Information_Technology;Time Management,Decision Making,Decision Making
+Metro Cash&Carry;643;Jilin;18/12/11;2.29;true;true;Tourism;Communication,Time Management,Time Management
+Mars;907;Berlin;4/8/07;4.68;true;true;Consumer_Services;Conflict Resolution,Learning,Self-motivation
+Biolife Grup;472;Nieuwegein;6/9/17;0.07;true;true;Finance;Conflict Resolution,Learning,Communication
+Biolife Grup;866;Palencia;13/11/12;4.82;false;false;Media;Leadership,Leadership,Conflict Resolution
+Leadertech Consulting;574;Dublin;1/3/05;0.11;false;false;Information_Technology;Self-motivation,Teamwork,Conflict Resolution
+Erickson;623;Talence;2/10/18;4.88;false;false;Tourism;Communication,Learning,Leadership
+Telekom;151;Guangdong;13/3/06;4.71;false;true;Consumer_Services;Decision Making,Communication,Communication
+Carrefour;639;Mandurah;30/3/18;0.91;false;false;Finance;Self-motivation,Decision Making,Adaptability
+Danone;76;San Antonio;16/7/11;3.96;false;true;Media;Time Management,Work Under Pressure,Time Management
+Biolife Grup;943;Bournemouth;6/9/08;0.16;true;false;Information_Technology;Adaptability,Learning,Learning
+Coca-Cola Company;914;Alajuela;4/11/13;1.31;true;true;Tourism;Work Under Pressure,Decision Making,Leadership
+Biolife Grup;444;New Haven;31/7/18;3.73;true;false;Consumer_Services;Conflict Resolution,Leadership,Teamwork
+CarMax;165;Kincardine;11/8/13;4.2;false;false;Finance;Leadership,Learning,Leadership
+Apple Inc.;541;Miramichi;7/7/05;0.77;true;false;Media;Learning,Time Management,Decision Making
+ENEL;191;Chongqing;24/2/21;4.96;false;true;Information_Technology;Work Under Pressure,Leadership,Work Under Pressure
+Comodo;267;Florencia;23/1/22;2.08;true;false;Tourism;Adaptability,Adaptability,Adaptability
+Biolife Grup;64;Gravelbourg;15/6/08;1.99;false;false;Consumer_Services;Conflict Resolution,Self-motivation,Leadership
+Apple Inc.;683;Barranca;18/12/13;2.05;true;true;Finance;Decision Making,Learning,Leadership
+DynCorp;533;Santa Fiora;14/6/10;1.0;true;true;Media;Adaptability,Work Under Pressure,Learning
+Boeing;513;Yunnan;3/9/17;3.35;true;false;Information_Technology;Time Management,Teamwork,Decision Making
+Boeing;474;Rome;1/6/07;1.67;false;false;Tourism;Time Management,Conflict Resolution,Teamwork
+Apple Inc.;118;Cartagena;15/7/11;4.08;false;false;Consumer_Services;Leadership,Learning,Time Management
+Coca-Cola Company;112;Winterswijk;24/10/12;3.54;false;false;Finance;Self-motivation,Work Under Pressure,Work Under Pressure
+Danone;754;Heredia;12/4/17;4.21;true;false;Media;Time Management,Leadership,Teamwork
+Biolife Grup;289;Oevel;24/8/04;0.33;false;false;Information_Technology;Teamwork,Learning,Conflict Resolution
+AECOM;563;Montese;29/4/12;2.94;false;true;Tourism;Work Under Pressure,Conflict Resolution,Learning
+ExxonMobil;690;Patos;20/10/12;0.72;true;true;Consumer_Services;Leadership,Conflict Resolution,Work Under Pressure
+Leadertech Consulting;733;Rome;16/2/06;4.15;false;true;Finance;Time Management,Decision Making,Time Management
+Mars;742;Mariakerke;12/8/09;0.29;false;false;Media;Leadership,Decision Making,Leadership
+Team Guard SRL;553;Lelystad;10/4/06;3.12;false;false;Information_Technology;Adaptability,Self-motivation,Communication
+Demaco;282;Stirling;3/2/20;1.37;true;false;Tourism;Conflict Resolution,Decision Making,Communication
+Telekom;266;Jerez de la Frontera;30/7/06;3.46;false;true;Consumer_Services;Time Management,Decision Making,Adaptability
+Coca-Cola Company;420;Inverness;26/9/21;1.32;true;false;Finance;Self-motivation,Time Management,Teamwork
+ENEL;410;Berlin;6/3/07;2.16;false;true;Media;Leadership,Self-motivation,Leadership
+Danone;334;Balclutha;11/12/12;0.22;true;true;Information_Technology;Leadership,Work Under Pressure,Communication
+CarMax;116;Greater Hobart;3/12/21;3.68;true;true;Tourism;Leadership,Decision Making,Adaptability
+Metro Cash&Carry;453;Puntarenas;12/6/15;2.8;false;true;Consumer_Services;Self-motivation,Leadership,Leadership
+Boeing;842;Winnipeg;15/3/17;1.87;true;false;Finance;Teamwork,Self-motivation,Communication
+21st Century Fox;366;Onoz;24/6/21;4.6;true;false;Media;Conflict Resolution,Teamwork,Learning
+Areon Impex;921;Santander;19/5/19;0.65;false;true;Information_Technology;Learning,Teamwork,Work Under Pressure
+DynCorp;959;Salamanca;7/9/17;0.26;false;false;Tourism;Conflict Resolution,Self-motivation,Learning
+21st Century Fox;479;Redcliffe;8/4/07;2.57;true;true;Consumer_Services;Self-motivation,Adaptability,Time Management
+Global Print;125;Placanica;19/10/08;0.72;false;false;Finance;Conflict Resolution,Learning,Time Management
+Amazon.com;356;San Vicente;1/5/13;2.72;false;true;Media;Self-motivation,Communication,Teamwork
+Danone;765;Dublin;27/1/13;1.28;false;false;Information_Technology;Communication,Adaptability,Leadership
+Team Guard SRL;719;Arica;27/2/18;3.39;false;true;Tourism;Conflict Resolution,Conflict Resolution,Self-motivation
+Team Guard SRL;501;Limoges;6/9/05;2.92;true;false;Consumer_Services;Decision Making,Teamwork,Teamwork
+Global Print;432;Tocopilla;4/8/04;1.8;false;false;Finance;Leadership,Decision Making,Communication
+DynCorp;688;El Tabo;2/4/12;3.21;false;false;Information_Technology;Leadership,Conflict Resolution,Work Under Pressure
+Zepter;89;Geneva;14/5/12;4.44;false;true;Tourism;Adaptability,Adaptability,Self-motivation
+Comcast;681;London;13/12/07;2.87;true;false;Consumer_Services;Work Under Pressure,Communication,Time Management
+Zepter;969;Alphen aan den Rijn;29/6/16;3.43;false;true;Finance;Leadership,Decision Making,Teamwork
+BuzzFeed;438;Vienna;15/1/16;3.34;false;false;Media;Work Under Pressure,Conflict Resolution,Work Under Pressure
+Carrefour;204;Weiz;21/3/12;3.44;false;true;Information_Technology;Self-motivation,Decision Making,Learning
+Demaco;550;Geneva;18/7/13;2.46;false;true;Tourism;Learning,Teamwork,Work Under Pressure
+Leadertech Consulting;709;Kingston-on-Thames;24/7/22;1.75;true;true;Consumer_Services;Learning,Conflict Resolution,Self-motivation
+DynCorp;337;Geneva;22/7/07;2.3;true;false;Finance;Leadership,Teamwork,Communication
+BuzzFeed;350;Los Muermos;20/10/04;3.11;false;true;Media;Conflict Resolution,Work Under Pressure,Teamwork
+AECOM;342;Limoges;17/11/04;1.7;false;true;Information_Technology;Work Under Pressure,Self-motivation,Adaptability
+UPC;452;Höchst;11/4/21;2.45;true;true;Tourism;Teamwork,Decision Making,Decision Making
+Mars;810;Gifhorn;3/5/12;3.15;false;true;Consumer_Services;Teamwork,Conflict Resolution,Leadership
+BuzzFeed;821;Guaitecas;28/6/09;3.75;true;false;Finance;Learning,Time Management,Adaptability
+CarMax;465;Machynlleth;8/12/08;3.39;false;true;Media;Leadership,Learning,Self-motivation
+Demaco;838;Rio Marina;31/7/15;1.82;false;false;Information_Technology;Leadership,Time Management,Teamwork
+UPC;798;Oosterhout;22/9/10;0.3;false;true;Tourism;Time Management,Work Under Pressure,Decision Making
+Zepter;763;Oxford;14/8/16;3.98;true;false;Consumer_Services;Time Management,Work Under Pressure,Self-motivation
+Team Guard SRL;448;Recife;10/2/17;2.71;true;true;Finance;Self-motivation,Teamwork,Adaptability
+ExxonMobil;106;Rome;24/10/14;4.49;false;true;Media;Learning,Work Under Pressure,Leadership
+DynCorp;426;Belfast;1/7/13;2.29;true;false;Information_Technology;Leadership,Leadership,Self-motivation
+Zepter;456;Putignano;28/9/15;3.51;false;false;Tourism;Time Management,Learning,Teamwork
+ENEL;903;Erlangen;7/11/09;0.09;true;false;Consumer_Services;Teamwork,Teamwork,Learning
+Demaco;843;Brive-la-Gaillarde;29/9/20;2.4;false;true;Finance;Decision Making,Conflict Resolution,Work Under Pressure
+Coca-Cola Company;215;Tirrases;12/2/13;3.09;false;true;Media;Adaptability,Teamwork,Learning
+Vodafone;610;Ulloa (Barrial];25/11/14;2.05;true;true;Information_Technology;Time Management,Adaptability,Decision Making
+Global Print;655;San Pablo;15/10/18;0.9;true;true;Tourism;Adaptability,Adaptability,Learning
+Demaco;962;Spijkenisse;13/11/06;3.44;false;true;Consumer_Services;Communication,Teamwork,Teamwork
+Danone;688;Gaasbeek;17/8/12;2.83;false;false;Finance;Self-motivation,Leadership,Conflict Resolution
+Biolife Grup;502;North Battleford;22/7/09;1.8;true;false;Media;Decision Making,Communication,Decision Making
+21st Century Fox;763;Oxford;10/6/18;3.4;true;false;Information_Technology;Communication,Conflict Resolution,Work Under Pressure
+UPC;755;Fuenlabrada;5/9/11;1.26;true;false;Tourism;Adaptability,Adaptability,Self-motivation
+Team Guard SRL;500;Oxford;11/8/11;0.06;true;false;Consumer_Services;Self-motivation,Decision Making,Adaptability
+Leadertech Consulting;591;Liaoning;31/1/22;2.62;false;true;Finance;Conflict Resolution,Leadership,Work Under Pressure
+Global Print;237;California;27/10/07;2.61;true;false;Media;Time Management,Learning,Learning
+Facebook;835;Bremerhaven;23/12/07;3.57;true;false;Information_Technology;Conflict Resolution,Conflict Resolution,Work Under Pressure
+21st Century Fox;128;Milnathort;16/2/11;3.19;true;false;Tourism;Learning,Time Management,Teamwork
+Vodafone;716;Santa Juana;3/9/09;4.78;true;false;Consumer_Services;Conflict Resolution,Learning,Work Under Pressure
+Erickson;941;Pachuca;13/1/11;0.22;false;true;Finance;Work Under Pressure,Time Management,Leadership
+CarMax;916;Waterbury;19/11/22;1.23;false;true;Media;Self-motivation,Learning,Adaptability
+Facebook;741;Tumba;29/1/09;2.22;false;false;Information_Technology;Learning,Decision Making,Conflict Resolution
+AECOM;864;California;2/2/19;3.96;true;false;Tourism;Time Management,Adaptability,Teamwork
+Mars;376;Hamburg;28/1/07;4.19;true;false;Consumer_Services;Adaptability,Teamwork,Work Under Pressure
+Areon Impex;54;Landeck;25/10/04;0.18;true;true;Finance;Conflict Resolution,Learning,Self-motivation
+Team Guard SRL;281;Canberra;3/10/09;4.16;true;false;Media;Communication,Decision Making,Work Under Pressure
+Leadertech Consulting;232;Taupo;6/12/05;3.96;true;true;Information_Technology;Decision Making,Self-motivation,Time Management
+CarMax;181;Canberra;3/8/09;0.28;true;false;Tourism;Time Management,Work Under Pressure,Decision Making
+Metro Cash&Carry;772;Leoben;25/11/10;4.08;false;true;Consumer_Services;Time Management,Learning,Self-motivation
+Global Print;419;Timon;12/4/08;3.88;true;false;Finance;Self-motivation,Time Management,Decision Making
+Apple Inc.;678;California;26/9/17;2.19;false;false;Media;Adaptability,Leadership,Communication
+Apple Inc.;856;Motala;2/3/18;1.97;true;false;Information_Technology;Decision Making,Teamwork,Leadership
+DynCorp;457;California;29/7/16;1.92;true;false;Tourism;Teamwork,Communication,Time Management
+Telekom;270;Oaxaca;8/12/07;1.08;true;false;Consumer_Services;Leadership,Adaptability,Learning
+Amazon.com;341;Whitehorse;17/3/14;3.5;true;false;Finance;Learning,Conflict Resolution,Conflict Resolution
+Coca-Cola Company;757;Alness;11/3/09;2.19;false;false;Media;Teamwork,Self-motivation,Self-motivation
+ENEL;90;Ternat;16/4/22;0.98;true;false;Information_Technology;Communication,Learning,Work Under Pressure
+21st Century Fox;684;Vlimmeren;17/2/08;1.53;true;false;Tourism;Teamwork,Decision Making,Learning
+Metro Cash&Carry;229;California;24/9/08;0.37;false;false;Consumer_Services;Decision Making,Work Under Pressure,Decision Making
+Telekom;520;New York;29/8/10;3.13;true;true;Finance;Self-motivation,Decision Making,Learning
+Team Guard SRL;571;Chicago;26/1/13;2.67;true;false;Media;Adaptability,Learning,Learning
+BuzzFeed;284;Korbach;14/4/06;4.22;false;false;Information_Technology;Self-motivation,Adaptability,Work Under Pressure
+Telekom;481;Auckland;20/12/13;1.32;true;false;Tourism;Self-motivation,Learning,Learning
+Apple Inc.;208;California;16/5/22;1.96;true;false;Consumer_Services;Decision Making,Decision Making,Adaptability
+21st Century Fox;714;Guizhou;24/2/10;2.26;true;false;Finance;Leadership,Learning,Self-motivation
+DynCorp;710;Chicago;10/6/10;2.44;false;true;Media;Decision Making,Decision Making,Learning
+ENEL;124;Épernay;20/1/19;4.35;true;false;Information_Technology;Work Under Pressure,Work Under Pressure,Conflict Resolution
+Biolife Grup;287;Cartago;15/4/08;1.58;false;true;Tourism;Adaptability,Leadership,Self-motivation
+AECOM;341;Orange;25/5/21;0.62;false;true;Consumer_Services;Self-motivation,Adaptability,Time Management
+CarMax;652;Dole;3/7/18;3.02;false;false;Finance;Adaptability,Teamwork,Leadership
+Coca-Cola Company;304;Itapipoca;6/8/18;2.51;true;false;Media;Time Management,Decision Making,Work Under Pressure
+AECOM;139;Heredia;11/5/10;4.49;false;true;Information_Technology;Decision Making,Leadership,Work Under Pressure
+Vodafone;530;Freiburg;28/10/06;2.57;false;true;Tourism;Teamwork,Conflict Resolution,Conflict Resolution
+AECOM;122;Dunedin;28/12/21;1.29;false;false;Consumer_Services;Work Under Pressure,Decision Making,Communication
+Facebook;510;Saint John;9/1/08;2.66;false;true;Finance;Communication,Teamwork,Work Under Pressure
+21st Century Fox;865;Albury;15/12/12;4.9;false;true;Media;Work Under Pressure,Work Under Pressure,Learning
+Coca-Cola Company;820;Louvain-la-Neuve;28/1/23;2.7;false;true;Information_Technology;Conflict Resolution,Teamwork,Communication
+Biolife Grup;383;Zaragoza;14/3/10;2.23;true;true;Tourism;Leadership,Time Management,Conflict Resolution
+Mars;671;Darwin;28/10/06;4.92;true;true;Consumer_Services;Conflict Resolution,Adaptability,Adaptability
+Danone;841;Cassano Spinola;5/7/18;3.81;false;true;Finance;Time Management,Adaptability,Teamwork
+ExxonMobil;660;Jiangxi;21/9/08;0.9;true;true;Media;Leadership,Self-motivation,Learning
+Zepter;907;Puntarenas;18/3/18;2.63;true;true;Information_Technology;Adaptability,Conflict Resolution,Teamwork
+Global Print;549;San Giovanni in Galdo;14/7/16;1.73;true;true;Tourism;Leadership,Conflict Resolution,Adaptability
+Comcast;213;Abingdon;9/2/08;4.84;true;false;Consumer_Services;Time Management,Self-motivation,Time Management
+AECOM;799;Avesta;22/9/10;2.06;true;false;Finance;Conflict Resolution,Teamwork,Communication
+21st Century Fox;67;Lauro de Freitas;10/6/04;0.47;false;true;Media;Learning,Conflict Resolution,Learning
+UPC;837;Berlin;3/10/12;4.33;true;false;Information_Technology;Conflict Resolution,Time Management,Learning
+DynCorp;635;Baracaldo;29/4/16;4.95;false;true;Tourism;Decision Making,Communication,Adaptability
+21st Century Fox;465;Futrono;3/3/05;4.8;false;true;Consumer_Services;Time Management,Self-motivation,Conflict Resolution
+Carrefour;547;Independencia;20/5/09;0.75;true;true;Finance;Learning,Work Under Pressure,Leadership
+DynCorp;480;Ningxia;25/2/07;3.23;true;true;Media;Time Management,Leadership,Conflict Resolution
+Comodo;400;Chicago;27/9/17;0.58;true;false;Information_Technology;Conflict Resolution,Time Management,Teamwork
+Erickson;405;Falerone;24/1/17;1.83;true;false;Tourism;Adaptability,Learning,Learning
+Leadertech Consulting;858;Avesta;2/7/19;4.91;true;true;Consumer_Services;Work Under Pressure,Conflict Resolution,Leadership
+Areon Impex;579;Elx;17/2/09;3.37;true;true;Finance;Learning,Teamwork,Communication
+Biolife Grup;239;Oamaru;9/12/13;0.09;false;true;Media;Self-motivation,Self-motivation,Work Under Pressure
+DynCorp;604;Mariquina;24/10/12;1.61;true;true;Information_Technology;Learning,Communication,Communication
+Demaco;89;Chicago;9/9/09;3.57;true;true;Tourism;Work Under Pressure,Adaptability,Learning
+Comodo;746;Pau;29/10/13;1.11;false;true;Consumer_Services;Conflict Resolution,Conflict Resolution,Leadership
+Biolife Grup;616;Teruel;2/8/14;4.3;false;true;Finance;Leadership,Learning,Adaptability
+Areon Impex;458;Jerez de la Frontera;8/4/10;4.37;true;false;Information_Technology;Learning,Teamwork,Work Under Pressure
+BuzzFeed;347;Moncton;6/2/12;3.02;false;true;Tourism;Teamwork,Adaptability,Communication
+CarMax;96;Cork;13/12/05;3.79;true;false;Consumer_Services;Leadership,Teamwork,Leadership
+Metro Cash&Carry;69;Borgomasino;20/10/16;1.27;false;true;Finance;Decision Making,Leadership,Decision Making
+Biolife Grup;740;Offenburg;17/11/08;2.22;false;false;Media;Teamwork,Work Under Pressure,Leadership
+Apple Inc.;73;San Pablo;7/6/04;1.32;true;true;Information_Technology;Leadership,Learning,Decision Making
+CarMax;403;Los Patios;14/10/11;3.36;false;true;Tourism;Conflict Resolution,Learning,Adaptability
+Telekom;344;Bremen;6/3/16;1.12;false;false;Consumer_Services;Work Under Pressure,Teamwork,Self-motivation
+BuzzFeed;431;Palmerston;15/4/09;2.36;true;false;Finance;Work Under Pressure,Work Under Pressure,Leadership
+CarMax;875;Chicago;24/10/09;0.15;false;false;Media;Communication,Teamwork,Leadership
+Amazon.com;668;Springdale;29/4/19;0.34;false;false;Information_Technology;Time Management,Teamwork,Adaptability
+Areon Impex;376;Hallein;20/12/07;4.9;true;false;Tourism;Leadership,Self-motivation,Conflict Resolution
+Global Print;966;Waiheke Island;4/4/11;1.57;false;true;Consumer_Services;Communication,Learning,Teamwork
+Facebook;881;General Lagos;1/8/06;1.2;true;false;Finance;Adaptability,Decision Making,Self-motivation
+Facebook;302;San Rafael Abajo;16/11/16;0.22;true;false;Media;Conflict Resolution,Time Management,Leadership
+Comcast;542;New York;5/11/11;3.64;false;true;Information_Technology;Teamwork,Teamwork,Learning
+Comcast;344;Paglieta;25/9/13;3.68;false;true;Tourism;Leadership,Self-motivation,Decision Making
+Apple Inc.;419;Levin;17/2/09;3.28;true;true;Consumer_Services;Conflict Resolution,Self-motivation,Adaptability
+Comodo;726;Watson Lake;27/9/10;1.15;false;false;Finance;Adaptability,Decision Making,Adaptability
+Carrefour;782;Stamford;16/2/20;1.82;true;false;Media;Learning,Leadership,Learning
+ENEL;325;Mersin;1/9/11;3.53;true;false;Information_Technology;Learning,Time Management,Teamwork
+Comcast;349;Cedar Rapids;9/2/22;3.05;true;true;Tourism;Adaptability,Time Management,Learning
+Facebook;145;New York;15/8/08;2.86;false;true;Consumer_Services;Communication,Time Management,Learning
+ENEL;724;New York;7/6/16;4.89;false;false;Finance;Decision Making,Time Management,Teamwork
+BuzzFeed;827;Kapfenberg;30/5/18;4.35;false;true;Media;Decision Making,Conflict Resolution,Time Management
+Vodafone;317;Swindon;2/10/12;3.97;false;false;Information_Technology;Decision Making,Leadership,Leadership
+Vodafone;770;Nicoya;29/7/22;0.25;false;true;Tourism;Decision Making,Work Under Pressure,Work Under Pressure
+BuzzFeed;881;Guaymas;1/1/10;0.8;false;true;Consumer_Services;Teamwork,Leadership,Decision Making
+Facebook;911;Liberia;2/1/19;1.75;false;true;Finance;Conflict Resolution,Leadership,Communication
+UPC;279;Nevers;28/9/09;2.12;true;true;Media;Teamwork,Leadership,Leadership
+Carrefour;661;New York;17/4/07;4.28;false;true;Information_Technology;Conflict Resolution,Adaptability,Leadership
+Comodo;947;Woerden;8/5/15;3.2;false;true;Tourism;Time Management,Work Under Pressure,Conflict Resolution
+DynCorp;688;Lauro de Freitas;22/6/13;2.07;true;true;Consumer_Services;Self-motivation,Conflict Resolution,Adaptability
+Metro Cash&Carry;972;Armidale;13/8/14;1.29;true;true;Finance;Work Under Pressure,Self-motivation,Leadership
+UPC;451;Samsun;27/5/10;0.9;false;true;Media;Teamwork,Time Management,Time Management
+ExxonMobil;611;Siquirres;18/4/17;2.28;false;true;Information_Technology;Decision Making,Learning,Teamwork
+Biolife Grup;727;New York;16/6/04;3.4;true;false;Tourism;Learning,Self-motivation,Learning
+Amazon.com;58;Greymouth;6/6/19;0.72;false;false;Consumer_Services;Work Under Pressure,Work Under Pressure,Learning
+Coca-Cola Company;823;Abaetetuba;21/12/19;0.42;false;true;Finance;Communication,Learning,Self-motivation
+Boeing;190;Melilla;5/1/07;1.35;true;true;Media;Self-motivation,Communication,Conflict Resolution
+Apple Inc.;621;Yunnan;16/6/18;0.62;true;true;Information_Technology;Teamwork,Decision Making,Conflict Resolution
+Carrefour;799;Galway;10/7/18;2.17;true;true;Tourism;Leadership,Time Management,Time Management
+Leadertech Consulting;840;Grand-Manil;17/9/16;2.58;true;false;Consumer_Services;Time Management,Time Management,Time Management
+Boeing;719;Heredia;13/1/05;4.42;true;true;Finance;Adaptability,Teamwork,Self-motivation
+ENEL;482;Konya;21/7/09;0.97;false;false;Media;Adaptability,Conflict Resolution,Communication
+AECOM;907;Sincelejo;1/12/16;2.47;true;true;Information_Technology;Conflict Resolution,Teamwork,Decision Making
+ExxonMobil;775;Pica;14/3/07;4.38;true;false;Tourism;Conflict Resolution,Learning,Teamwork
+UPC;65;Whyalla;18/7/16;4.01;false;true;Consumer_Services;Decision Making,Conflict Resolution,Conflict Resolution
+ExxonMobil;664;Galway;4/7/13;1.55;false;true;Finance;Work Under Pressure,Time Management,Learning
+Areon Impex;180;Salzburg;15/7/21;3.54;true;true;Media;Teamwork,Communication,Self-motivation
+Metro Cash&Carry;867;New York;1/2/17;3.41;true;true;Information_Technology;Adaptability,Adaptability,Communication
+AECOM;525;Göteborg;5/2/20;0.5;false;true;Tourism;Decision Making,Teamwork,Adaptability
+Areon Impex;389;Carmen de Bolivar;9/7/12;0.39;true;false;Consumer_Services;Self-motivation,Work Under Pressure,Teamwork
+Mars;117;Zamora;23/12/07;0.71;true;true;Finance;Adaptability,Time Management,Decision Making
+Erickson;389;Lauterach;29/6/15;3.53;true;true;Media;Leadership,Learning,Conflict Resolution
+AECOM;560;Saguenay;18/2/18;0.47;false;true;Information_Technology;Time Management,Time Management,Learning
+AECOM;671;Barranca;23/8/05;1.28;true;true;Tourism;Work Under Pressure,Conflict Resolution,Communication
+DynCorp;265;Antalya;5/7/06;1.52;false;true;Consumer_Services;Leadership,Teamwork,Leadership
+Apple Inc.;216;San Marcello;15/2/19;1.78;false;false;Finance;Time Management,Decision Making,Time Management
+Apple Inc.;585;Hunan;5/4/18;3.69;false;false;Media;Adaptability,Learning,Teamwork
+ENEL;721;Miami;9/9/04;3.6;false;true;Information_Technology;Self-motivation,Time Management,Communication
+21st Century Fox;57;Ludvika;18/11/14;3.26;false;false;Tourism;Learning,Adaptability,Work Under Pressure
+Amazon.com;141;Hinckley;27/3/17;1.94;true;false;Consumer_Services;Leadership,Conflict Resolution,Time Management
+Boeing;768;Telfs;15/3/19;4.44;false;true;Finance;Learning,Leadership,Leadership
+Areon Impex;525;Shanghai;18/8/06;0.67;true;false;Media;Decision Making,Self-motivation,Decision Making
+Global Print;445;Hastings;6/2/13;1.51;true;false;Information_Technology;Decision Making,Communication,Decision Making
+21st Century Fox;834;Mexico City;5/9/08;1.11;true;true;Tourism;Teamwork,Leadership,Adaptability
+Comodo;264;Gisborne;8/9/05;0.3;true;false;Consumer_Services;Teamwork,Adaptability,Time Management
+Team Guard SRL;373;Beijing;25/3/16;3.78;true;true;Finance;Learning,Teamwork,Adaptability
+CarMax;166;Falun;31/8/04;4.76;false;true;Media;Learning,Time Management,Decision Making
+21st Century Fox;591;Siquirres;25/6/11;2.75;true;false;Information_Technology;Learning,Self-motivation,Self-motivation
+DynCorp;423;Ichtegem;9/4/12;4.36;true;true;Tourism;Adaptability,Self-motivation,Teamwork
+21st Century Fox;956;Bon Accord;16/10/12;4.52;true;false;Consumer_Services;Adaptability,Work Under Pressure,Learning
+It Smart Group;386;Kirkwall;11/8/05;3.86;true;true;Finance;Time Management,Self-motivation,Leadership
+Carrefour;625;Nogales;26/2/14;0.96;false;true;Media;Self-motivation,Conflict Resolution,Self-motivation
+Telekom;688;Mexico City;18/10/14;2.03;false;false;Information_Technology;Leadership,Time Management,Decision Making
+It Smart Group;413;Hoogeveen;15/5/11;4.07;true;false;Tourism;Conflict Resolution,Learning,Adaptability
+Areon Impex;181;Mexico City;30/11/19;2.9;false;true;Consumer_Services;Communication,Adaptability,Adaptability
+Leadertech Consulting;767;Spittal an der Drau;10/2/05;4.67;true;false;Finance;Teamwork,Self-motivation,Time Management
+AECOM;904;Camaragibe;30/7/15;1.08;true;false;Media;Conflict Resolution,Adaptability,Adaptability
+Mars;910;Shanxi;15/4/09;4.12;false;true;Information_Technology;Time Management,Teamwork,Work Under Pressure
+DynCorp;824;Calmar;23/6/13;2.49;false;false;Tourism;Learning,Teamwork,Self-motivation
+AECOM;633;Parla;5/4/14;4.84;true;false;Consumer_Services;Self-motivation,Communication,Teamwork
+21st Century Fox;232;Buckley;6/4/21;4.02;false;true;Finance;Self-motivation,Communication,Self-motivation
+CarMax;624;Linton;9/6/08;4.96;true;false;Media;Learning,Learning,Conflict Resolution
+Team Guard SRL;248;Wichita;24/4/07;1.27;false;true;Information_Technology;Work Under Pressure,Decision Making,Decision Making
+Danone;526;Jilin;23/8/21;0.15;true;true;Tourism;Leadership,Adaptability,Leadership
+Demaco;240;Mexico City;1/1/16;0.96;true;false;Consumer_Services;Conflict Resolution,Self-motivation,Self-motivation
+Metro Cash&Carry;639;Guadalupe;27/7/05;3.19;false;true;Finance;Communication,Teamwork,Self-motivation
+ENEL;749;Petit-Thier;4/9/13;3.4;false;false;Media;Decision Making,Adaptability,Adaptability
+Areon Impex;476;Belfast;20/10/21;3.53;false;true;Information_Technology;Learning,Decision Making,Time Management
+Biolife Grup;537;Groß-Gerau;7/9/21;1.0;true;true;Tourism;Leadership,Adaptability,Self-motivation
+Global Print;799;Seville;30/9/13;3.57;true;false;Consumer_Services;Communication,Learning,Conflict Resolution
+Comcast;690;Nizip;21/9/22;3.52;false;false;Finance;Adaptability,Self-motivation,Communication
+AECOM;898;Finkenstein am Faaker See;13/6/16;4.83;true;false;Media;Decision Making,Leadership,Work Under Pressure
+Coca-Cola Company;896;St. Johann in Tirol;6/4/07;2.26;false;false;Information_Technology;Self-motivation,Leadership,Time Management
+It Smart Group;916;Pencahue;26/10/08;3.16;true;false;Tourism;Decision Making,Adaptability,Adaptability
+Team Guard SRL;762;Lidingo;5/2/07;3.98;false;false;Consumer_Services;Communication,Decision Making,Adaptability
+21st Century Fox;570;Bayeux;16/8/07;3.24;false;false;Finance;Teamwork,Adaptability,Decision Making
+It Smart Group;614;Yunnan;16/2/22;2.33;false;true;Information_Technology;Communication,Work Under Pressure,Adaptability
+DynCorp;498;Pamplona;9/1/22;0.32;false;false;Tourism;Teamwork,Leadership,Communication
+Mars;800;Thorembais-Saint-Trond;11/1/07;2.97;true;false;Consumer_Services;Teamwork,Communication,Teamwork
+Amazon.com;390;Rothesay;5/4/13;0.78;false;true;Finance;Time Management,Leadership,Learning
+Leadertech Consulting;511;Brandon;8/4/19;3.17;false;true;Media;Adaptability,Self-motivation,Leadership
+Demaco;242;Enschede;23/6/21;4.2;false;false;Information_Technology;Time Management,Leadership,Decision Making
+Zepter;848;Napier;25/10/13;3.09;true;false;Tourism;Time Management,Learning,Decision Making
+Comcast;744;Dublin;25/3/19;4.84;true;true;Consumer_Services;Conflict Resolution,Time Management,Work Under Pressure
+BuzzFeed;293;Hudson Bay;10/11/05;0.34;false;false;Finance;Time Management,Adaptability,Adaptability
+Metro Cash&Carry;354;Oaxaca;14/10/17;2.73;true;false;Media;Teamwork,Work Under Pressure,Teamwork
+Danone;424;Chiguayante;29/6/08;1.17;false;false;Information_Technology;Time Management,Leadership,Teamwork
+Biolife Grup;390;Sluis;23/10/21;3.58;false;true;Tourism;Leadership,Adaptability,Decision Making
+AECOM;100;Berlin;24/12/14;0.04;true;false;Consumer_Services;Conflict Resolution,Adaptability,Decision Making
+21st Century Fox;703;Tijuana;6/8/11;2.84;true;true;Finance;Adaptability,Self-motivation,Work Under Pressure
+Leadertech Consulting;408;Fujian;27/11/12;1.09;false;true;Media;Teamwork,Work Under Pressure,Teamwork
+Vodafone;810;Belfast;31/10/13;0.6;true;false;Information_Technology;Self-motivation,Communication,Self-motivation
+Danone;81;Palmerston North;30/5/18;2.43;false;true;Tourism;Teamwork,Self-motivation,Communication
+ENEL;105;Develi;22/11/13;2.39;false;true;Consumer_Services;Self-motivation,Leadership,Work Under Pressure
+Comodo;111;Limoges;15/1/09;3.19;false;true;Finance;Adaptability,Conflict Resolution,Leadership
+Apple Inc.;513;Armenia;21/3/17;4.55;true;true;Media;Leadership,Learning,Adaptability
+Areon Impex;433;San Francisco;30/9/15;4.16;false;true;Information_Technology;Learning,Teamwork,Decision Making
+Comodo;648;Bocchigliero;1/5/12;4.9;true;true;Tourism;Teamwork,Teamwork,Teamwork
+UPC;655;Berlin;28/4/05;0.07;true;false;Consumer_Services;Learning,Teamwork,Self-motivation
+It Smart Group;703;Ternitz;17/11/12;4.38;true;false;Finance;Time Management,Adaptability,Adaptability
+Coca-Cola Company;554;Caxias do Sul;28/11/17;0.89;true;false;Media;Teamwork,Time Management,Time Management
+Global Print;589;Berlin;13/10/13;0.59;false;true;Information_Technology;Self-motivation,Conflict Resolution,Teamwork
+Mars;216;Santa Rosa de Cabal;15/6/18;0.2;true;true;Tourism;Work Under Pressure,Leadership,Conflict Resolution
+Erickson;177;San Rafael;16/4/20;4.72;false;true;Consumer_Services;Decision Making,Adaptability,Communication
+Biolife Grup;972;Alto del Carmen;19/9/08;3.44;false;false;Finance;Conflict Resolution,Leadership,Teamwork
+Demaco;542;Margate;9/1/22;2.65;false;false;Media;Leadership,Leadership,Communication
+Demaco;253;Vienna;13/12/04;2.87;false;false;Information_Technology;Communication,Self-motivation,Work Under Pressure
+Metro Cash&Carry;359;Knittelfeld;28/8/08;4.89;true;false;Tourism;Decision Making,Time Management,Conflict Resolution
+Leadertech Consulting;864;Barranca;26/8/09;0.53;true;false;Consumer_Services;Decision Making,Adaptability,Teamwork
+ENEL;175;Bredene;11/6/10;2.61;true;false;Finance;Adaptability,Learning,Communication
+UPC;833;Belfast;13/1/21;2.33;false;true;Media;Teamwork,Leadership,Self-motivation
+Demaco;847;Tiel;26/12/12;1.84;false;false;Information_Technology;Learning,Conflict Resolution,Decision Making
+Erickson;515;London;9/8/11;3.1;true;false;Tourism;Leadership,Decision Making,Adaptability
+Coca-Cola Company;777;Canberra;28/2/04;0.92;false;true;Consumer_Services;Leadership,Communication,Adaptability
+DynCorp;735;Ceuta;10/7/21;5.0;false;false;Finance;Communication,Work Under Pressure,Work Under Pressure
+Facebook;492;Huesca;18/6/22;2.29;true;true;Media;Adaptability,Communication,Time Management
+Areon Impex;580;Tibet;8/12/06;2.31;false;false;Information_Technology;Teamwork,Leadership,Work Under Pressure
+ExxonMobil;277;London;20/10/18;1.95;false;false;Tourism;Learning,Decision Making,Self-motivation
+Telekom;304;Morrinsville;18/4/15;4.21;false;false;Consumer_Services;Learning,Self-motivation,Teamwork
+Telekom;386;Dublin;29/12/18;2.09;true;true;Finance;Adaptability,Leadership,Conflict Resolution
+Facebook;799;London;23/6/20;0.89;false;true;Media;Teamwork,Work Under Pressure,Teamwork
+Leadertech Consulting;442;Jilin;26/10/06;1.71;true;false;Information_Technology;Learning,Decision Making,Teamwork
+21st Century Fox;799;Berlin;31/7/21;4.11;false;false;Tourism;Time Management,Communication,Self-motivation
+21st Century Fox;543;Nieuwegein;22/11/15;0.49;false;true;Consumer_Services;Self-motivation,Teamwork,Time Management
+Amazon.com;579;Palencia;31/5/22;1.86;false;false;Finance;Communication,Leadership,Leadership
+Comodo;622;Dublin;12/3/09;0.36;false;true;Media;Work Under Pressure,Adaptability,Teamwork
+AECOM;268;Talence;17/4/14;4.68;true;false;Information_Technology;Time Management,Communication,Time Management
+Demaco;527;Guangdong;25/11/12;2.94;false;false;Tourism;Leadership,Adaptability,Leadership
+Amazon.com;882;Mandurah;7/10/22;4.45;false;true;Consumer_Services;Self-motivation,Time Management,Conflict Resolution
+Vodafone;950;San Antonio;30/9/18;3.86;true;false;Finance;Teamwork,Teamwork,Adaptability
+Global Print;71;Bournemouth;7/1/11;4.41;true;false;Media;Self-motivation,Adaptability,Learning
+Metro Cash&Carry;803;Alajuela;15/12/21;2.69;true;false;Information_Technology;Communication,Leadership,Decision Making
+CarMax;876;New Haven;6/7/06;2.65;true;false;Tourism;Leadership,Adaptability,Communication
+Zepter;933;Kincardine;19/1/23;0.55;false;false;Consumer_Services;Teamwork,Communication,Teamwork
+Erickson;382;Miramichi;29/8/13;2.38;true;true;Finance;Learning,Decision Making,Leadership
+CarMax;243;Chongqing;8/3/06;4.4;true;true;Media;Leadership,Teamwork,Communication
+Leadertech Consulting;811;Florencia;28/7/09;1.65;false;false;Information_Technology;Communication,Decision Making,Self-motivation
+Carrefour;624;Gravelbourg;5/8/17;1.95;false;false;Tourism;Teamwork,Learning,Work Under Pressure
+Biolife Grup;165;Barranca;6/8/21;1.34;true;true;Consumer_Services;Teamwork,Work Under Pressure,Time Management
+ExxonMobil;616;Santa Fiora;12/3/06;3.99;true;true;Finance;Time Management,Time Management,Time Management
+Comcast;711;Yunnan;24/1/08;4.94;true;true;Media;Learning,Work Under Pressure,Communication
+BuzzFeed;728;Rome;5/7/16;1.5;true;true;Information_Technology;Self-motivation,Teamwork,Teamwork
+CarMax;909;Cartagena;26/10/18;4.65;false;true;Tourism;Self-motivation,Teamwork,Teamwork
+Carrefour;522;Winterswijk;25/8/04;3.5;true;false;Consumer_Services;Conflict Resolution,Time Management,Teamwork
+Demaco;511;Heredia;25/9/17;3.13;true;false;Finance;Conflict Resolution,Work Under Pressure,Adaptability
+It Smart Group;598;Oevel;5/5/12;2.54;true;false;Media;Time Management,Work Under Pressure,Conflict Resolution
+UPC;620;Montese;24/12/09;3.11;true;false;Information_Technology;Teamwork,Decision Making,Work Under Pressure
+Leadertech Consulting;439;Patos;4/8/12;1.04;true;true;Tourism;Communication,Conflict Resolution,Self-motivation
+ExxonMobil;407;Rome;4/2/05;3.37;true;true;Consumer_Services;Decision Making,Self-motivation,Time Management
+ENEL;306;Mariakerke;26/4/11;2.77;true;true;Finance;Communication,Decision Making,Communication
+Areon Impex;688;Lelystad;26/5/12;1.36;false;true;Media;Time Management,Communication,Communication
+Leadertech Consulting;81;Stirling;16/12/20;3.06;true;true;Information_Technology;Conflict Resolution,Conflict Resolution,Decision Making
+ENEL;161;Jerez de la Frontera;12/9/14;2.18;false;false;Tourism;Self-motivation,Time Management,Decision Making
+Mars;609;Inverness;14/7/17;4.42;false;false;Consumer_Services;Learning,Conflict Resolution,Adaptability
+Apple Inc.;191;Berlin;7/8/14;2.49;false;true;Finance;Decision Making,Conflict Resolution,Time Management
+Team Guard SRL;342;Balclutha;16/5/09;4.51;false;false;Media;Conflict Resolution,Communication,Decision Making
+AECOM;422;Greater Hobart;25/12/21;3.41;true;false;Information_Technology;Work Under Pressure,Leadership,Teamwork
+Mars;528;Puntarenas;18/4/14;1.2;true;false;Tourism;Leadership,Work Under Pressure,Learning
+Telekom;566;Winnipeg;21/7/22;4.85;false;false;Consumer_Services;Work Under Pressure,Work Under Pressure,Leadership
+Biolife Grup;834;Onoz;14/9/16;4.63;false;false;Finance;Work Under Pressure,Adaptability,Decision Making
+Areon Impex;793;Santander;27/7/07;1.16;true;false;Media;Learning,Leadership,Decision Making
+ExxonMobil;735;Salamanca;9/5/04;2.45;false;false;Information_Technology;Self-motivation,Teamwork,Communication
+Vodafone;63;Redcliffe;30/7/14;0.86;false;true;Tourism;Self-motivation,Teamwork,Leadership
+Comcast;174;Placanica;20/12/14;0.21;true;true;Consumer_Services;Self-motivation,Learning,Leadership
+Comodo;724;San Vicente;2/10/18;2.42;false;true;Finance;Leadership,Time Management,Work Under Pressure
+AECOM;960;Dublin;16/11/11;0.35;false;true;Media;Work Under Pressure,Work Under Pressure,Teamwork
+Mars;740;Arica;25/1/17;2.74;false;true;Information_Technology;Work Under Pressure,Work Under Pressure,Learning
+Facebook;631;Limoges;9/12/08;1.87;true;true;Tourism;Communication,Self-motivation,Communication
+Demaco;973;Tocopilla;26/9/08;1.34;false;false;Consumer_Services;Communication,Self-motivation,Self-motivation
+Areon Impex;81;El Tabo;14/6/19;0.1;false;true;Finance;Adaptability,Time Management,Time Management
+Biolife Grup;304;Geneva;27/7/06;0.28;true;true;Media;Communication,Time Management,Conflict Resolution
+Team Guard SRL;515;London;10/6/16;3.99;true;true;Information_Technology;Adaptability,Teamwork,Decision Making
+ExxonMobil;307;Alphen aan den Rijn;4/11/13;4.01;true;true;Tourism;Conflict Resolution,Work Under Pressure,Conflict Resolution
+BuzzFeed;767;Vienna;6/3/10;4.76;false;false;Consumer_Services;Communication,Adaptability,Communication
+ExxonMobil;154;Weiz;11/5/15;0.05;true;true;Finance;Learning,Communication,Work Under Pressure
+UPC;827;Geneva;13/11/07;2.41;false;false;Information_Technology;Work Under Pressure,Teamwork,Adaptability
+Erickson;609;Kingston-on-Thames;22/8/13;1.59;false;true;Tourism;Decision Making,Adaptability,Teamwork
+Global Print;750;Geneva;7/5/19;2.03;true;false;Consumer_Services;Leadership,Adaptability,Leadership
+Comodo;951;Los Muermos;7/4/09;2.0;true;false;Finance;Leadership,Teamwork,Conflict Resolution
+Erickson;527;Limoges;6/7/17;4.57;true;true;Media;Adaptability,Learning,Communication
+DynCorp;363;Höchst;22/5/08;2.11;false;false;Information_Technology;Work Under Pressure,Self-motivation,Leadership
+Boeing;554;Gifhorn;30/3/10;1.87;false;true;Tourism;Decision Making,Learning,Self-motivation
+ExxonMobil;274;Guaitecas;19/5/20;3.03;false;true;Consumer_Services;Decision Making,Leadership,Time Management
+CarMax;490;Machynlleth;9/2/09;1.81;false;false;Finance;Communication,Learning,Adaptability
+Amazon.com;751;Rio Marina;21/1/23;3.26;true;false;Media;Learning,Decision Making,Work Under Pressure
+Leadertech Consulting;146;Oosterhout;27/6/07;3.16;false;true;Information_Technology;Work Under Pressure,Adaptability,Learning
+Carrefour;578;Oxford;10/7/04;1.19;true;true;Tourism;Self-motivation,Self-motivation,Conflict Resolution
+CarMax;506;Recife;18/11/13;3.31;false;false;Consumer_Services;Decision Making,Self-motivation,Time Management
+Coca-Cola Company;647;Rome;25/7/21;0.58;false;true;Finance;Work Under Pressure,Leadership,Time Management
+Demaco;367;Belfast;14/8/07;4.19;false;true;Media;Self-motivation,Work Under Pressure,Adaptability
+Mars;989;Putignano;27/12/11;4.13;false;false;Information_Technology;Work Under Pressure,Self-motivation,Conflict Resolution
+21st Century Fox;213;Erlangen;19/11/15;2.28;false;true;Tourism;Communication,Decision Making,Decision Making
+ENEL;628;Brive-la-Gaillarde;2/7/18;0.89;false;false;Consumer_Services;Learning,Work Under Pressure,Leadership
+Apple Inc.;422;Tirrases;3/9/19;3.95;true;true;Finance;Communication,Communication,Work Under Pressure
+Vodafone;477;Ulloa (Barrial];18/8/21;0.23;true;true;Media;Learning,Leadership,Time Management
+ENEL;382;San Pablo;29/4/12;4.44;true;false;Information_Technology;Teamwork,Teamwork,Self-motivation
+CarMax;104;Spijkenisse;14/4/07;2.11;true;false;Tourism;Communication,Communication,Work Under Pressure
+Areon Impex;387;Gaasbeek;2/12/12;2.42;false;true;Consumer_Services;Decision Making,Self-motivation,Time Management
+Erickson;960;North Battleford;30/11/22;4.27;false;true;Finance;Time Management,Decision Making,Teamwork
+AECOM;322;Oxford;23/11/10;1.86;true;false;Media;Decision Making,Self-motivation,Adaptability
+Metro Cash&Carry;524;Fuenlabrada;24/11/14;2.58;true;false;Information_Technology;Time Management,Teamwork,Learning
+Coca-Cola Company;451;Oxford;27/12/10;4.95;false;false;Tourism;Time Management,Self-motivation,Conflict Resolution
+BuzzFeed;771;Liaoning;1/4/15;2.03;true;false;Consumer_Services;Decision Making,Teamwork,Teamwork
+Facebook;116;California;21/6/09;0.41;false;true;Finance;Communication,Conflict Resolution,Learning
+BuzzFeed;213;Bremerhaven;3/4/11;1.66;true;true;Media;Adaptability,Leadership,Learning
+ExxonMobil;511;Milnathort;1/7/15;0.36;false;true;Information_Technology;Time Management,Leadership,Decision Making
+Telekom;249;Santa Juana;25/2/12;3.86;false;true;Tourism;Teamwork,Work Under Pressure,Learning
+Danone;774;Pachuca;4/10/13;4.78;false;true;Consumer_Services;Leadership,Learning,Decision Making
+ENEL;223;Waterbury;26/12/13;1.39;true;false;Finance;Learning,Decision Making,Adaptability
+Areon Impex;398;Tumba;19/3/13;4.2;true;false;Media;Work Under Pressure,Self-motivation,Adaptability
+Team Guard SRL;703;California;3/1/16;0.52;false;false;Information_Technology;Self-motivation,Time Management,Learning
+Mars;339;Hamburg;30/7/17;4.96;true;false;Tourism;Adaptability,Self-motivation,Communication
+Mars;127;Landeck;17/1/08;1.38;false;false;Consumer_Services;Self-motivation,Self-motivation,Conflict Resolution
+Apple Inc.;649;Canberra;30/4/05;1.52;true;true;Finance;Leadership,Self-motivation,Teamwork
+BuzzFeed;666;Taupo;4/6/08;2.84;false;true;Media;Conflict Resolution,Teamwork,Time Management
+ENEL;589;Canberra;31/8/21;2.28;false;false;Information_Technology;Self-motivation,Communication,Communication
+Areon Impex;441;Leoben;16/8/05;0.07;true;true;Tourism;Self-motivation,Adaptability,Learning
+Metro Cash&Carry;873;Timon;19/9/21;2.58;true;true;Consumer_Services;Decision Making,Decision Making,Time Management
+ENEL;197;California;26/2/11;1.48;true;true;Finance;Work Under Pressure,Conflict Resolution,Time Management
+Mars;310;Motala;5/2/23;4.54;true;true;Media;Time Management,Decision Making,Adaptability
+Carrefour;957;California;15/2/15;4.74;false;true;Information_Technology;Self-motivation,Self-motivation,Decision Making
+Coca-Cola Company;312;Oaxaca;20/2/13;2.57;false;true;Tourism;Work Under Pressure,Work Under Pressure,Work Under Pressure
+Danone;544;Whitehorse;18/4/20;0.37;true;false;Consumer_Services;Adaptability,Adaptability,Self-motivation
+Mars;159;Alness;10/12/11;3.72;true;true;Finance;Work Under Pressure,Leadership,Conflict Resolution
+CarMax;635;Ternat;12/11/10;4.2;true;false;Media;Work Under Pressure,Work Under Pressure,Communication
+ENEL;344;Vlimmeren;21/12/13;3.36;true;true;Information_Technology;Learning,Self-motivation,Learning
+DynCorp;263;California;23/4/14;3.71;true;true;Tourism;Time Management,Conflict Resolution,Leadership
+Carrefour;155;New York;3/9/16;0.24;true;false;Consumer_Services;Conflict Resolution,Communication,Self-motivation
+It Smart Group;112;Chicago;29/12/05;2.25;true;true;Finance;Work Under Pressure,Adaptability,Communication
+DynCorp;356;Korbach;16/4/21;4.0;false;true;Media;Decision Making,Leadership,Teamwork
+Mars;252;Auckland;6/5/15;0.57;false;true;Information_Technology;Conflict Resolution,Work Under Pressure,Adaptability
+Biolife Grup;933;California;10/12/16;1.0;false;true;Tourism;Self-motivation,Self-motivation,Teamwork
+Comodo;831;Guizhou;12/2/11;4.14;false;true;Consumer_Services;Self-motivation,Time Management,Leadership
+Biolife Grup;254;Chicago;14/2/05;3.33;false;false;Finance;Teamwork,Self-motivation,Learning
+Danone;221;Épernay;23/12/07;0.31;false;true;Media;Time Management,Conflict Resolution,Work Under Pressure
+Amazon.com;281;Cartago;2/9/09;2.94;true;true;Information_Technology;Conflict Resolution,Conflict Resolution,Conflict Resolution
+UPC;551;Orange;27/10/08;4.14;false;true;Tourism;Communication,Conflict Resolution,Leadership
+Areon Impex;650;Dole;5/10/10;0.24;false;false;Consumer_Services;Decision Making,Adaptability,Work Under Pressure
+Carrefour;265;Itapipoca;13/7/05;2.31;true;true;Finance;Teamwork,Teamwork,Leadership
+Amazon.com;983;Heredia;18/11/22;2.68;false;false;Media;Work Under Pressure,Adaptability,Time Management
+Metro Cash&Carry;415;Freiburg;14/8/18;2.93;false;true;Information_Technology;Self-motivation,Self-motivation,Teamwork
+CarMax;301;Dunedin;15/2/16;1.8;false;true;Tourism;Conflict Resolution,Leadership,Communication
+Demaco;227;Saint John;20/12/13;0.0;true;true;Consumer_Services;Self-motivation,Communication,Learning
+Metro Cash&Carry;988;Albury;1/8/07;2.77;false;true;Finance;Communication,Time Management,Work Under Pressure
+Vodafone;831;Louvain-la-Neuve;29/12/15;1.99;false;true;Media;Leadership,Work Under Pressure,Adaptability
+Zepter;64;Zaragoza;11/10/05;0.12;true;false;Information_Technology;Work Under Pressure,Work Under Pressure,Conflict Resolution
+BuzzFeed;690;Darwin;20/11/08;4.12;false;false;Tourism;Conflict Resolution,Learning,Decision Making
+Demaco;962;Cassano Spinola;6/6/13;4.95;true;false;Consumer_Services;Conflict Resolution,Adaptability,Self-motivation
+21st Century Fox;119;Jiangxi;18/3/22;1.42;false;true;Finance;Work Under Pressure,Learning,Time Management
+Telekom;862;Puntarenas;18/8/15;4.21;true;false;Media;Learning,Self-motivation,Conflict Resolution
+Global Print;429;San Giovanni in Galdo;14/5/17;2.91;false;true;Information_Technology;Time Management,Conflict Resolution,Time Management
+Comcast;528;Abingdon;29/2/20;3.28;true;true;Tourism;Communication,Communication,Adaptability
+Facebook;922;Avesta;23/10/11;2.51;true;true;Consumer_Services;Communication,Leadership,Self-motivation
+Biolife Grup;79;Lauro de Freitas;3/2/18;0.73;false;true;Finance;Self-motivation,Adaptability,Communication
+Leadertech Consulting;627;Berlin;2/2/21;3.68;false;false;Media;Communication,Adaptability,Teamwork
+21st Century Fox;1000;Baracaldo;28/1/10;3.65;false;true;Information_Technology;Learning,Learning,Learning
+Carrefour;425;Futrono;10/4/22;2.81;false;false;Tourism;Time Management,Leadership,Adaptability
+21st Century Fox;984;Independencia;19/10/05;4.88;false;false;Consumer_Services;Decision Making,Learning,Time Management
+Zepter;263;Ningxia;19/8/04;4.66;false;false;Finance;Communication,Work Under Pressure,Decision Making
+Vodafone;559;Chicago;21/8/15;2.08;false;false;Media;Communication,Work Under Pressure,Work Under Pressure
+Danone;862;Falerone;8/10/12;0.6;false;false;Information_Technology;Conflict Resolution,Communication,Time Management
+Danone;445;Avesta;20/9/11;2.48;true;true;Tourism;Conflict Resolution,Conflict Resolution,Adaptability
+Leadertech Consulting;704;Elx;16/3/04;1.9;true;true;Consumer_Services;Leadership,Time Management,Decision Making
+Boeing;179;Oamaru;3/4/12;0.61;true;true;Finance;Adaptability,Self-motivation,Time Management
+Coca-Cola Company;620;Mariquina;28/10/21;2.87;true;false;Media;Leadership,Leadership,Learning
+Comodo;626;Chicago;3/1/21;0.02;true;false;Information_Technology;Adaptability,Communication,Adaptability
+Comcast;952;Pau;16/11/06;0.62;false;false;Tourism;Conflict Resolution,Self-motivation,Adaptability
+Leadertech Consulting;171;Teruel;7/12/10;2.92;false;true;Consumer_Services;Decision Making,Decision Making,Decision Making
+AECOM;693;Jerez de la Frontera;28/5/14;4.83;false;true;Finance;Conflict Resolution,Learning,Decision Making
+Biolife Grup;631;Moncton;28/6/04;2.17;false;true;Media;Teamwork,Adaptability,Decision Making
+ExxonMobil;981;Cork;23/12/16;1.02;false;true;Information_Technology;Self-motivation,Teamwork,Learning
+Amazon.com;591;Borgomasino;15/12/16;3.43;false;true;Tourism;Conflict Resolution,Teamwork,Conflict Resolution
+Boeing;603;Offenburg;9/2/18;1.88;false;false;Consumer_Services;Self-motivation,Time Management,Communication
+Apple Inc.;74;San Pablo;24/3/09;1.9;false;false;Finance;Work Under Pressure,Leadership,Decision Making
+ExxonMobil;971;Los Patios;14/4/04;2.4;true;true;Information_Technology;Time Management,Conflict Resolution,Self-motivation
+Facebook;79;Bremen;16/9/16;3.12;true;false;Tourism;Learning,Communication,Adaptability
+CarMax;996;Palmerston;24/10/13;0.09;false;true;Consumer_Services;Self-motivation,Learning,Self-motivation
+ENEL;710;Chicago;18/10/13;2.4;false;false;Finance;Communication,Time Management,Communication
+Erickson;104;Springdale;23/6/18;2.56;true;false;Media;Work Under Pressure,Leadership,Teamwork
+Team Guard SRL;665;Hallein;25/7/06;0.01;true;false;Information_Technology;Communication,Adaptability,Communication
+Boeing;137;Waiheke Island;10/2/19;0.35;true;true;Tourism;Self-motivation,Leadership,Time Management
+Vodafone;476;General Lagos;7/4/22;0.4;false;true;Consumer_Services;Teamwork,Decision Making,Self-motivation
+Zepter;784;San Rafael Abajo;10/8/07;0.48;true;false;Finance;Decision Making,Self-motivation,Learning
+Zepter;92;New York;29/6/21;2.53;true;false;Media;Self-motivation,Self-motivation,Self-motivation
+Comcast;274;Paglieta;1/10/19;1.68;true;false;Information_Technology;Time Management,Time Management,Communication
+Apple Inc.;92;Levin;6/5/14;0.04;false;true;Tourism;Self-motivation,Conflict Resolution,Time Management
+Facebook;399;Watson Lake;21/6/21;0.27;true;false;Consumer_Services;Work Under Pressure,Communication,Teamwork
+Amazon.com;454;Stamford;9/7/13;3.82;true;true;Finance;Decision Making,Communication,Time Management
+Vodafone;730;Mersin;16/11/06;2.27;true;false;Media;Teamwork,Learning,Leadership
+Team Guard SRL;748;Cedar Rapids;28/3/13;4.43;false;true;Information_Technology;Teamwork,Time Management,Time Management
+Danone;676;New York;17/7/21;2.01;true;false;Tourism;Time Management,Learning,Conflict Resolution
+Biolife Grup;408;New York;8/1/10;4.11;true;false;Consumer_Services;Teamwork,Communication,Teamwork
+BuzzFeed;807;Kapfenberg;9/6/16;4.08;true;false;Finance;Time Management,Work Under Pressure,Learning
+Amazon.com;676;Swindon;11/10/19;0.21;false;false;Media;Adaptability,Time Management,Time Management
+BuzzFeed;93;Nicoya;30/6/12;0.64;true;true;Information_Technology;Work Under Pressure,Adaptability,Time Management
+Facebook;195;Guaymas;7/10/20;0.84;false;true;Tourism;Teamwork,Conflict Resolution,Adaptability
+Carrefour;481;Liberia;25/6/10;0.07;true;true;Consumer_Services;Teamwork,Communication,Decision Making
+Comodo;856;Nevers;1/7/21;3.05;false;true;Finance;Leadership,Decision Making,Conflict Resolution
+Coca-Cola Company;265;New York;31/8/04;4.14;false;true;Media;Decision Making,Leadership,Work Under Pressure
+Zepter;898;Woerden;14/7/13;2.37;true;false;Information_Technology;Adaptability,Adaptability,Learning
+BuzzFeed;108;Lauro de Freitas;5/12/10;2.42;false;true;Tourism;Communication,Decision Making,Time Management
+Leadertech Consulting;493;Armidale;21/3/17;0.88;false;false;Consumer_Services;Decision Making,Time Management,Communication
+Comcast;794;Samsun;20/7/10;4.9;true;true;Finance;Teamwork,Time Management,Decision Making
+Global Print;803;Siquirres;12/12/09;1.4;true;false;Media;Communication,Work Under Pressure,Work Under Pressure
+Carrefour;833;New York;2/3/15;2.88;true;true;Information_Technology;Self-motivation,Work Under Pressure,Self-motivation
+Areon Impex;704;Greymouth;18/9/08;0.41;true;false;Tourism;Leadership,Self-motivation,Communication
+Team Guard SRL;583;Abaetetuba;21/10/16;4.0;false;false;Consumer_Services;Adaptability,Teamwork,Conflict Resolution
+Carrefour;960;Melilla;19/6/17;4.75;true;true;Finance;Leadership,Adaptability,Communication
+Leadertech Consulting;721;Yunnan;2/11/17;2.39;false;true;Media;Communication,Conflict Resolution,Time Management
+Carrefour;618;Galway;31/10/20;4.3;false;false;Information_Technology;Adaptability,Self-motivation,Leadership
+ENEL;90;Grand-Manil;27/5/20;0.9;false;false;Tourism;Leadership,Time Management,Time Management
+BuzzFeed;441;Heredia;27/5/13;3.41;false;false;Consumer_Services;Adaptability,Conflict Resolution,Learning
+Leadertech Consulting;223;Konya;10/8/19;1.41;true;true;Finance;Adaptability,Communication,Learning
+Apple Inc.;598;Sincelejo;23/3/06;2.67;true;false;Media;Communication,Adaptability,Work Under Pressure
+Erickson;915;Pica;27/3/06;1.18;false;true;Information_Technology;Conflict Resolution,Self-motivation,Self-motivation
+BuzzFeed;693;Whyalla;7/1/11;1.22;true;false;Tourism;Self-motivation,Conflict Resolution,Conflict Resolution
+Areon Impex;993;Galway;13/9/19;2.86;false;true;Consumer_Services;Adaptability,Learning,Self-motivation
+Carrefour;570;Salzburg;22/10/11;3.97;true;true;Finance;Decision Making,Teamwork,Leadership
+Apple Inc.;88;New York;4/8/09;0.21;true;true;Media;Self-motivation,Leadership,Decision Making
+BuzzFeed;641;Göteborg;6/11/14;4.56;false;false;Information_Technology;Communication,Leadership,Leadership
+Boeing;197;Carmen de Bolivar;8/4/18;4.75;false;false;Tourism;Self-motivation,Work Under Pressure,Leadership
+Apple Inc.;162;Zamora;23/1/15;3.95;true;false;Consumer_Services;Learning,Leadership,Adaptability
+UPC;546;Lauterach;15/12/08;0.62;true;false;Finance;Leadership,Decision Making,Leadership
+Areon Impex;898;Saguenay;13/2/09;1.42;true;true;Media;Learning,Leadership,Learning
+Apple Inc.;676;Barranca;29/4/09;4.8;true;false;Information_Technology;Adaptability,Conflict Resolution,Work Under Pressure
+Coca-Cola Company;908;Antalya;1/2/06;0.78;false;true;Tourism;Time Management,Self-motivation,Decision Making
+Boeing;225;San Marcello;21/9/09;1.2;true;false;Consumer_Services;Work Under Pressure,Time Management,Adaptability
+Coca-Cola Company;611;Hunan;9/4/22;2.77;true;true;Finance;Leadership,Teamwork,Learning
+Zepter;183;Miami;17/1/20;4.58;false;false;Media;Self-motivation,Conflict Resolution,Time Management
+CarMax;896;Ludvika;7/1/17;4.63;true;true;Information_Technology;Conflict Resolution,Decision Making,Decision Making
+Amazon.com;816;Hinckley;13/5/06;2.22;false;false;Tourism;Work Under Pressure,Conflict Resolution,Learning
+Erickson;728;Telfs;7/7/12;4.75;false;true;Consumer_Services;Adaptability,Work Under Pressure,Leadership
+Facebook;269;Shanghai;25/7/07;4.61;true;false;Finance;Time Management,Communication,Decision Making
+Facebook;275;Hastings;30/4/06;1.33;true;true;Media;Decision Making,Decision Making,Leadership
+Danone;53;Mexico City;19/12/21;1.75;true;true;Information_Technology;Decision Making,Time Management,Leadership
+Demaco;821;Gisborne;24/3/19;4.79;false;true;Tourism;Communication,Communication,Learning
+Comodo;653;Beijing;20/1/07;1.57;false;true;Consumer_Services;Learning,Work Under Pressure,Conflict Resolution
+ExxonMobil;791;Falun;30/4/22;4.35;false;false;Finance;Adaptability,Self-motivation,Communication
+CarMax;792;Siquirres;31/10/14;1.1;true;false;Media;Leadership,Decision Making,Work Under Pressure
+AECOM;345;Ichtegem;7/7/18;0.95;true;false;Information_Technology;Teamwork,Time Management,Self-motivation
+Vodafone;387;Bon Accord;15/2/10;2.3;false;true;Tourism;Communication,Self-motivation,Adaptability
+BuzzFeed;701;Kirkwall;30/8/22;3.31;false;false;Consumer_Services;Conflict Resolution,Decision Making,Self-motivation
+Global Print;279;Nogales;27/9/12;1.93;false;true;Finance;Adaptability,Adaptability,Work Under Pressure
+ENEL;355;Mexico City;20/11/14;0.74;false;true;Media;Conflict Resolution,Adaptability,Leadership
+Facebook;831;Hoogeveen;7/4/10;2.21;true;true;Information_Technology;Adaptability,Decision Making,Communication
+DynCorp;936;Mexico City;12/8/19;2.1;false;true;Tourism;Work Under Pressure,Conflict Resolution,Learning
+Danone;415;Spittal an der Drau;18/7/09;1.94;true;false;Consumer_Services;Leadership,Learning,Communication
+Mars;797;Camaragibe;14/10/10;4.17;true;true;Finance;Decision Making,Communication,Self-motivation
+CarMax;844;Shanxi;25/3/15;4.91;false;true;Media;Work Under Pressure,Time Management,Adaptability
+Biolife Grup;726;Calmar;9/7/11;2.29;false;false;Information_Technology;Teamwork,Teamwork,Decision Making
+Apple Inc.;508;Parla;19/5/11;3.47;true;true;Tourism;Learning,Time Management,Self-motivation
+Mars;101;Buckley;12/4/15;1.91;false;true;Consumer_Services;Teamwork,Adaptability,Work Under Pressure
+Leadertech Consulting;167;Linton;29/7/15;2.05;true;true;Finance;Adaptability,Work Under Pressure,Learning
+Coca-Cola Company;654;Wichita;31/8/05;1.75;false;false;Media;Conflict Resolution,Communication,Communication
+Global Print;464;Jilin;22/10/12;0.11;true;false;Information_Technology;Decision Making,Self-motivation,Work Under Pressure
+Leadertech Consulting;730;Mexico City;28/8/17;1.86;false;true;Tourism;Decision Making,Adaptability,Leadership
+Carrefour;553;Guadalupe;14/5/07;2.52;false;false;Consumer_Services;Teamwork,Learning,Time Management
+CarMax;713;Petit-Thier;16/10/10;4.67;false;false;Finance;Conflict Resolution,Work Under Pressure,Self-motivation
+Danone;113;Belfast;10/3/16;1.22;false;false;Media;Leadership,Teamwork,Leadership
+ENEL;899;Groß-Gerau;23/6/14;0.49;true;true;Information_Technology;Decision Making,Work Under Pressure,Time Management
+Vodafone;927;Seville;5/7/22;2.46;false;false;Tourism;Decision Making,Leadership,Adaptability
+DynCorp;88;Nizip;19/5/05;0.75;false;true;Consumer_Services;Decision Making,Communication,Learning
+Mars;513;Finkenstein am Faaker See;22/5/22;1.17;true;false;Finance;Self-motivation,Leadership,Communication
+Comcast;136;St. Johann in Tirol;3/3/21;3.51;true;true;Media;Decision Making,Work Under Pressure,Work Under Pressure
+Telekom;668;Pencahue;28/11/22;4.33;true;true;Information_Technology;Teamwork,Decision Making,Teamwork
+Vodafone;141;Lidingo;20/3/14;1.05;true;true;Tourism;Teamwork,Adaptability,Work Under Pressure
+Areon Impex;263;Bayeux;30/11/18;3.74;true;true;Consumer_Services;Time Management,Communication,Time Management
+It Smart Group;998;Yunnan;9/12/22;0.67;true;true;Finance;Teamwork,Teamwork,Conflict Resolution
+Facebook;435;Pamplona;30/3/09;4.95;false;false;Media;Conflict Resolution,Conflict Resolution,Teamwork
+Telekom;528;Thorembais-Saint-Trond;3/2/16;1.2;true;true;Information_Technology;Adaptability,Time Management,Leadership
+ExxonMobil;753;Rothesay;22/12/19;1.68;false;false;Tourism;Time Management,Self-motivation,Adaptability
+Demaco;451;Brandon;14/8/09;1.81;true;false;Consumer_Services;Self-motivation,Leadership,Learning
+Coca-Cola Company;729;Enschede;8/8/07;2.98;true;true;Finance;Communication,Teamwork,Leadership
+Facebook;969;Napier;14/3/10;3.42;true;true;Information_Technology;Self-motivation,Work Under Pressure,Teamwork
+Zepter;751;Dublin;1/7/13;1.47;false;false;Tourism;Work Under Pressure,Decision Making,Decision Making
+Zepter;868;Hudson Bay;23/5/15;1.41;false;false;Consumer_Services;Teamwork,Time Management,Communication
+Danone;846;Oaxaca;5/11/08;3.48;false;false;Finance;Conflict Resolution,Learning,Work Under Pressure
+Biolife Grup;943;Chiguayante;22/7/13;0.86;false;true;Media;Learning,Time Management,Decision Making
+Facebook;456;Sluis;17/5/21;4.53;true;true;Information_Technology;Teamwork,Self-motivation,Leadership
+Coca-Cola Company;892;Berlin;20/1/05;1.51;true;true;Tourism;Communication,Time Management,Time Management
+Team Guard SRL;684;Tijuana;17/3/13;3.22;false;false;Consumer_Services;Learning,Self-motivation,Decision Making
+Mars;341;Fujian;18/6/19;0.01;true;false;Finance;Leadership,Time Management,Learning
+Biolife Grup;452;Belfast;4/7/12;3.0;false;true;Media;Time Management,Communication,Communication
+It Smart Group;467;Palmerston North;1/7/19;0.16;true;false;Information_Technology;Time Management,Conflict Resolution,Adaptability
+Erickson;778;Develi;9/3/19;3.34;true;true;Tourism;Conflict Resolution,Leadership,Decision Making
+Mars;486;Limoges;8/9/18;2.76;true;true;Consumer_Services;Work Under Pressure,Leadership,Self-motivation
+ENEL;383;Armenia;18/2/06;4.19;false;false;Finance;Learning,Time Management,Work Under Pressure
+Carrefour;723;San Francisco;19/1/06;4.77;true;false;Media;Conflict Resolution,Decision Making,Decision Making
+Vodafone;225;Bocchigliero;13/6/19;3.31;true;false;Information_Technology;Learning,Decision Making,Work Under Pressure
+Leadertech Consulting;142;Berlin;8/4/18;4.69;false;true;Tourism;Self-motivation,Self-motivation,Conflict Resolution
+Danone;322;Ternitz;28/3/10;0.47;false;true;Consumer_Services;Adaptability,Teamwork,Learning
+Telekom;283;Caxias do Sul;10/8/09;0.02;false;true;Finance;Communication,Communication,Communication
+Global Print;471;Berlin;1/2/07;3.8;false;true;Media;Self-motivation,Conflict Resolution,Time Management
+Global Print;467;Santa Rosa de Cabal;20/9/15;2.21;false;true;Information_Technology;Leadership,Leadership,Decision Making
+Carrefour;171;San Rafael;10/6/04;2.12;true;true;Tourism;Adaptability,Teamwork,Conflict Resolution
+Carrefour;809;Alto del Carmen;22/4/15;4.34;false;false;Consumer_Services;Work Under Pressure,Conflict Resolution,Self-motivation
+Carrefour;149;Margate;31/5/21;1.37;false;false;Finance;Teamwork,Leadership,Communication
+Leadertech Consulting;279;Vienna;10/6/10;0.21;true;true;Media;Conflict Resolution,Leadership,Teamwork
+21st Century Fox;524;Knittelfeld;20/10/15;4.71;false;false;Information_Technology;Teamwork,Conflict Resolution,Adaptability
+Vodafone;613;Barranca;14/9/15;0.92;false;false;Tourism;Teamwork,Work Under Pressure,Learning
+AECOM;703;Bredene;7/6/10;2.54;true;true;Consumer_Services;Decision Making,Learning,Time Management
+Global Print;827;Belfast;11/4/09;3.64;true;true;Finance;Conflict Resolution,Conflict Resolution,Conflict Resolution
+Leadertech Consulting;420;Tiel;30/12/06;1.25;true;false;Media;Work Under Pressure,Communication,Work Under Pressure
+Metro Cash&Carry;330;London;24/2/17;1.33;false;false;Information_Technology;Leadership,Communication,Decision Making
+Facebook;918;Canberra;5/12/19;2.81;false;false;Tourism;Work Under Pressure,Adaptability,Conflict Resolution
+Erickson;398;Ceuta;1/2/14;0.97;false;true;Consumer_Services;Communication,Conflict Resolution,Self-motivation
+Biolife Grup;206;Huesca;6/12/17;1.73;false;true;Finance;Time Management,Decision Making,Work Under Pressure
+Biolife Grup;763;Tibet;21/11/09;0.95;false;true;Media;Learning,Conflict Resolution,Decision Making
+Coca-Cola Company;349;London;27/1/07;1.02;false;true;Information_Technology;Learning,Decision Making,Work Under Pressure
+Comodo;228;Morrinsville;21/11/04;3.27;true;false;Tourism;Learning,Decision Making,Time Management
+Boeing;345;Dublin;30/8/19;4.64;false;true;Consumer_Services;Communication,Self-motivation,Work Under Pressure
+Erickson;744;London;13/7/11;4.16;false;false;Finance;Decision Making,Time Management,Teamwork
+It Smart Group;923;Jilin;19/12/12;3.91;false;true;Media;Conflict Resolution,Communication,Learning
+Amazon.com;691;Berlin;8/3/05;4.36;false;false;Information_Technology;Teamwork,Adaptability,Learning
+Team Guard SRL;852;Nieuwegein;23/2/05;4.55;false;true;Tourism;Time Management,Work Under Pressure,Work Under Pressure
+Areon Impex;828;Palencia;2/1/06;0.81;false;true;Consumer_Services;Teamwork,Time Management,Adaptability
+Zepter;354;Dublin;12/6/15;4.91;true;true;Finance;Communication,Self-motivation,Teamwork
+Leadertech Consulting;449;Talence;18/4/04;1.24;true;false;Media;Decision Making,Learning,Decision Making
+ENEL;263;Guangdong;3/10/11;1.66;false;false;Information_Technology;Decision Making,Leadership,Self-motivation
+DynCorp;718;Mandurah;2/4/08;3.02;true;false;Tourism;Communication,Communication,Leadership
+Areon Impex;481;San Antonio;9/2/07;3.22;false;true;Consumer_Services;Work Under Pressure,Self-motivation,Teamwork
+UPC;787;Bournemouth;12/3/20;0.81;false;false;Finance;Adaptability,Work Under Pressure,Time Management
+Global Print;551;Alajuela;17/11/04;2.89;false;true;Media;Conflict Resolution,Communication,Learning
+BuzzFeed;881;New Haven;1/10/20;3.58;true;true;Information_Technology;Time Management,Time Management,Learning
+Erickson;108;Kincardine;5/2/06;1.12;true;true;Tourism;Learning,Time Management,Communication
+Danone;205;Miramichi;6/10/11;3.35;false;false;Consumer_Services;Self-motivation,Decision Making,Time Management
+Vodafone;447;Chongqing;14/9/16;1.21;false;true;Finance;Self-motivation,Communication,Conflict Resolution
+Comodo;837;Florencia;15/3/16;3.86;true;true;Media;Time Management,Teamwork,Work Under Pressure
+CarMax;88;Gravelbourg;26/7/09;3.32;false;true;Information_Technology;Time Management,Work Under Pressure,Communication
+Apple Inc.;150;Barranca;7/11/07;4.1;false;true;Tourism;Communication,Teamwork,Self-motivation
+ExxonMobil;990;Santa Fiora;25/3/13;2.57;false;false;Consumer_Services;Communication,Learning,Adaptability
+Vodafone;277;Yunnan;3/5/20;4.53;false;false;Finance;Adaptability,Leadership,Decision Making
+UPC;933;Rome;10/12/12;4.19;true;false;Media;Communication,Conflict Resolution,Adaptability
+Coca-Cola Company;286;Cartagena;1/11/12;0.19;true;false;Information_Technology;Adaptability,Learning,Decision Making
+Metro Cash&Carry;523;Winterswijk;23/8/20;3.58;false;true;Tourism;Time Management,Self-motivation,Work Under Pressure
+CarMax;653;Heredia;25/7/18;0.27;true;false;Consumer_Services;Conflict Resolution,Leadership,Decision Making
+Demaco;247;Oevel;30/1/12;3.78;true;true;Finance;Adaptability,Work Under Pressure,Conflict Resolution
+Apple Inc.;803;Montese;29/4/12;0.14;false;true;Media;Work Under Pressure,Work Under Pressure,Teamwork
+ENEL;457;Patos;22/2/07;2.23;false;true;Information_Technology;Self-motivation,Leadership,Conflict Resolution
+ENEL;245;Rome;13/3/15;3.62;true;true;Tourism;Adaptability,Communication,Teamwork
+Apple Inc.;459;Mariakerke;30/5/06;1.3;false;true;Consumer_Services;Decision Making,Learning,Communication
+Vodafone;263;Lelystad;24/7/13;3.92;true;false;Finance;Time Management,Decision Making,Decision Making
+Boeing;383;Stirling;23/5/13;1.62;true;true;Media;Learning,Learning,Conflict Resolution
+Mars;774;Jerez de la Frontera;9/7/20;2.67;false;false;Information_Technology;Work Under Pressure,Leadership,Time Management
+Biolife Grup;638;Inverness;17/1/17;2.15;true;true;Tourism;Time Management,Decision Making,Leadership
+DynCorp;61;Berlin;8/2/08;2.09;false;false;Consumer_Services;Learning,Teamwork,Communication
+ExxonMobil;509;Balclutha;29/8/10;3.44;false;true;Finance;Adaptability,Adaptability,Conflict Resolution
+ExxonMobil;745;Greater Hobart;4/4/06;4.8;true;false;Media;Teamwork,Communication,Leadership
+Facebook;385;Puntarenas;14/5/07;3.38;false;false;Information_Technology;Work Under Pressure,Self-motivation,Decision Making
+It Smart Group;650;Winnipeg;16/3/11;4.88;true;false;Tourism;Adaptability,Self-motivation,Adaptability
+Apple Inc.;143;Onoz;2/3/12;0.51;true;false;Consumer_Services;Work Under Pressure,Communication,Communication
+Zepter;922;Santander;7/1/20;0.57;false;false;Finance;Adaptability,Conflict Resolution,Teamwork
+Danone;485;Salamanca;16/2/10;1.57;false;false;Media;Adaptability,Adaptability,Leadership
+Global Print;782;Redcliffe;21/10/04;1.52;true;false;Information_Technology;Communication,Decision Making,Teamwork
+Demaco;586;Placanica;27/10/19;2.02;false;false;Tourism;Time Management,Leadership,Time Management
+Carrefour;221;San Vicente;24/3/11;0.4;false;false;Consumer_Services;Teamwork,Adaptability,Communication
+Carrefour;804;Dublin;1/5/17;2.33;false;true;Finance;Work Under Pressure,Learning,Leadership
+Areon Impex;738;Arica;24/4/22;1.71;true;true;Media;Learning,Adaptability,Learning
+Facebook;943;Limoges;28/9/13;3.46;false;true;Information_Technology;Communication,Self-motivation,Teamwork
+Amazon.com;798;Tocopilla;7/1/20;1.39;false;true;Tourism;Learning,Work Under Pressure,Teamwork
+Biolife Grup;684;El Tabo;16/11/17;0.28;true;true;Consumer_Services;Adaptability,Learning,Conflict Resolution
+Erickson;741;Geneva;17/3/22;4.48;false;false;Finance;Self-motivation,Adaptability,Work Under Pressure
+CarMax;279;London;8/8/08;2.81;false;false;Media;Decision Making,Time Management,Work Under Pressure
+Carrefour;614;Alphen aan den Rijn;7/1/18;3.86;true;true;Information_Technology;Leadership,Learning,Teamwork
+Facebook;432;Vienna;15/2/17;1.47;false;true;Tourism;Learning,Time Management,Conflict Resolution
+21st Century Fox;154;Weiz;24/2/09;3.73;true;false;Consumer_Services;Conflict Resolution,Leadership,Leadership
+AECOM;840;Geneva;21/7/12;4.61;false;false;Finance;Communication,Teamwork,Decision Making
+ENEL;201;Kingston-on-Thames;7/9/13;1.19;false;false;Media;Adaptability,Learning,Communication
+Carrefour;267;Geneva;26/11/10;1.45;true;false;Information_Technology;Teamwork,Self-motivation,Communication
+Amazon.com;715;Los Muermos;28/12/07;4.61;true;false;Tourism;Leadership,Conflict Resolution,Adaptability
+DynCorp;781;Limoges;22/11/16;0.41;false;false;Consumer_Services;Adaptability,Time Management,Learning
+Vodafone;428;Höchst;2/9/04;0.42;false;false;Finance;Leadership,Learning,Learning
+BuzzFeed;695;Gifhorn;23/5/11;2.18;true;true;Information_Technology;Communication,Leadership,Leadership
+ExxonMobil;931;Guaitecas;7/10/09;3.96;true;true;Tourism;Teamwork,Decision Making,Communication
+Demaco;398;Machynlleth;18/12/07;4.44;true;true;Consumer_Services;Self-motivation,Time Management,Adaptability
+Comcast;519;Rio Marina;23/1/21;4.93;false;true;Finance;Learning,Teamwork,Communication
+Boeing;797;Oosterhout;8/5/06;0.07;false;false;Media;Self-motivation,Conflict Resolution,Decision Making
+Global Print;378;Oxford;4/7/17;3.29;false;false;Information_Technology;Time Management,Teamwork,Work Under Pressure
+Telekom;275;Recife;11/7/11;0.36;true;true;Tourism;Decision Making,Teamwork,Adaptability
+AECOM;111;Rome;16/12/08;1.61;true;false;Consumer_Services;Learning,Conflict Resolution,Decision Making
+It Smart Group;674;Belfast;16/7/10;2.04;false;false;Finance;Self-motivation,Learning,Adaptability
+Comodo;854;Putignano;28/3/06;0.88;true;false;Media;Time Management,Adaptability,Decision Making
+Boeing;307;Erlangen;23/11/05;0.51;true;false;Information_Technology;Conflict Resolution,Adaptability,Decision Making
+ExxonMobil;874;Brive-la-Gaillarde;18/2/08;4.15;true;true;Tourism;Decision Making,Communication,Teamwork
+Carrefour;299;Tirrases;30/5/11;2.21;true;false;Consumer_Services;Adaptability,Decision Making,Decision Making
+Amazon.com;878;Ulloa (Barrial];3/8/20;2.96;false;true;Finance;Leadership,Self-motivation,Decision Making
+21st Century Fox;628;San Pablo;1/5/19;1.08;false;true;Media;Communication,Time Management,Conflict Resolution
+Biolife Grup;953;Spijkenisse;28/3/09;3.61;false;true;Information_Technology;Teamwork,Self-motivation,Teamwork
+Coca-Cola Company;50;Gaasbeek;25/2/22;4.48;false;true;Tourism;Conflict Resolution,Learning,Work Under Pressure
+Leadertech Consulting;994;North Battleford;23/9/13;0.9;false;true;Consumer_Services;Decision Making,Conflict Resolution,Communication
+Erickson;459;Oxford;2/1/23;0.64;false;false;Finance;Leadership,Adaptability,Self-motivation
+AECOM;931;Fuenlabrada;7/2/23;0.61;true;false;Media;Conflict Resolution,Decision Making,Learning
+Amazon.com;644;Oxford;15/12/17;3.04;false;true;Information_Technology;Learning,Time Management,Conflict Resolution
+BuzzFeed;303;Liaoning;4/6/22;2.14;true;true;Tourism;Self-motivation,Self-motivation,Work Under Pressure
+Global Print;283;California;31/5/05;0.17;true;true;Consumer_Services;Teamwork,Leadership,Communication
+Mars;689;Bremerhaven;28/4/17;4.75;false;false;Finance;Self-motivation,Time Management,Decision Making
+Team Guard SRL;614;Milnathort;23/5/20;0.08;false;false;Media;Communication,Communication,Decision Making
+ENEL;442;Santa Juana;30/12/09;2.02;false;true;Information_Technology;Self-motivation,Teamwork,Teamwork
+Areon Impex;367;Pachuca;24/1/18;4.19;true;true;Tourism;Work Under Pressure,Self-motivation,Time Management
+Telekom;771;Waterbury;5/8/09;1.42;true;false;Consumer_Services;Adaptability,Leadership,Time Management
+Mars;877;Tumba;3/12/17;4.17;true;false;Finance;Conflict Resolution,Learning,Decision Making
+It Smart Group;140;California;5/9/16;3.63;false;true;Media;Adaptability,Learning,Learning
+BuzzFeed;352;Hamburg;10/12/15;3.65;true;false;Information_Technology;Decision Making,Communication,Adaptability
+Global Print;585;Landeck;22/7/06;0.52;false;false;Tourism;Learning,Work Under Pressure,Time Management
+It Smart Group;655;Canberra;12/8/07;3.45;true;false;Consumer_Services;Work Under Pressure,Time Management,Leadership
+Danone;844;Taupo;20/8/12;1.83;true;false;Finance;Time Management,Adaptability,Decision Making
+ExxonMobil;574;Canberra;25/1/13;0.91;false;true;Media;Conflict Resolution,Leadership,Self-motivation
+Zepter;840;Leoben;18/11/12;0.88;true;false;Information_Technology;Communication,Adaptability,Communication
+Facebook;338;Timon;12/10/07;0.7;false;true;Tourism;Teamwork,Conflict Resolution,Leadership
+Comcast;657;California;28/11/14;0.01;true;true;Consumer_Services;Self-motivation,Work Under Pressure,Work Under Pressure
+AECOM;271;Motala;24/7/12;2.84;false;false;Finance;Self-motivation,Leadership,Conflict Resolution
+Global Print;441;California;8/10/15;4.66;false;true;Media;Work Under Pressure,Work Under Pressure,Communication
+ExxonMobil;909;Oaxaca;1/3/20;2.53;true;false;Information_Technology;Decision Making,Work Under Pressure,Work Under Pressure
+ExxonMobil;675;Whitehorse;19/12/20;0.97;false;true;Tourism;Leadership,Adaptability,Communication
+Boeing;222;Alness;18/6/20;4.28;true;true;Consumer_Services;Decision Making,Adaptability,Decision Making
+Telekom;700;Ternat;10/8/14;1.65;false;false;Finance;Conflict Resolution,Conflict Resolution,Leadership
+Danone;785;Vlimmeren;7/6/22;0.4;false;true;Media;Time Management,Leadership,Decision Making
+Zepter;761;California;19/9/20;4.22;true;true;Information_Technology;Learning,Decision Making,Teamwork
+Zepter;980;New York;5/6/12;2.61;false;false;Tourism;Learning,Communication,Leadership
+CarMax;628;Chicago;18/9/10;3.4;false;true;Consumer_Services;Adaptability,Leadership,Self-motivation
+ENEL;391;Korbach;19/1/11;2.9;false;false;Finance;Leadership,Work Under Pressure,Self-motivation
+Biolife Grup;991;Auckland;6/8/20;1.95;false;true;Media;Leadership,Time Management,Time Management
+Vodafone;642;California;14/7/09;3.07;true;true;Information_Technology;Leadership,Teamwork,Teamwork
+Coca-Cola Company;710;Guizhou;22/11/06;3.57;false;true;Tourism;Work Under Pressure,Learning,Learning
+Team Guard SRL;673;Chicago;12/1/21;3.53;true;true;Consumer_Services;Self-motivation,Decision Making,Adaptability
+Amazon.com;1000;Épernay;23/12/12;3.52;false;false;Finance;Learning,Work Under Pressure,Adaptability
+Leadertech Consulting;803;Cartago;18/5/22;4.03;true;true;Media;Work Under Pressure,Learning,Adaptability
+CarMax;140;Orange;11/10/19;1.25;true;false;Information_Technology;Teamwork,Time Management,Time Management
+CarMax;607;Dole;9/2/13;3.02;false;true;Tourism;Decision Making,Learning,Time Management
+21st Century Fox;495;Itapipoca;11/1/09;1.32;false;true;Consumer_Services;Conflict Resolution,Conflict Resolution,Decision Making
+Telekom;619;Heredia;13/12/19;2.19;false;true;Finance;Leadership,Decision Making,Conflict Resolution
+Facebook;434;Freiburg;20/9/20;0.3;true;false;Media;Learning,Adaptability,Learning
+Coca-Cola Company;376;Dunedin;2/5/09;1.45;false;true;Information_Technology;Work Under Pressure,Communication,Communication
+Mars;581;Saint John;15/5/20;0.08;false;true;Tourism;Time Management,Self-motivation,Conflict Resolution
+Apple Inc.;848;Albury;14/10/20;0.97;true;false;Consumer_Services;Learning,Teamwork,Work Under Pressure
+Demaco;525;Louvain-la-Neuve;29/4/08;2.9;false;true;Finance;Leadership,Conflict Resolution,Teamwork
+It Smart Group;919;Zaragoza;10/5/08;3.21;true;false;Media;Teamwork,Teamwork,Self-motivation
+Facebook;599;Darwin;12/5/04;1.35;true;false;Information_Technology;Leadership,Leadership,Teamwork
+Comcast;60;Cassano Spinola;15/6/04;2.65;false;false;Tourism;Self-motivation,Learning,Leadership
+Leadertech Consulting;718;Jiangxi;18/4/18;3.48;true;true;Consumer_Services;Work Under Pressure,Conflict Resolution,Self-motivation
+It Smart Group;98;Puntarenas;9/12/14;3.64;false;true;Finance;Adaptability,Decision Making,Communication
+Team Guard SRL;146;San Giovanni in Galdo;25/6/18;3.85;true;true;Media;Decision Making,Time Management,Work Under Pressure
+Comodo;981;Abingdon;20/1/17;1.62;false;true;Information_Technology;Self-motivation,Learning,Decision Making
+Leadertech Consulting;599;Avesta;13/1/12;4.82;false;true;Tourism;Work Under Pressure,Decision Making,Decision Making
+Comodo;164;Lauro de Freitas;20/2/10;4.02;false;false;Consumer_Services;Conflict Resolution,Leadership,Time Management
+Carrefour;769;Berlin;10/12/09;3.27;true;false;Finance;Communication,Conflict Resolution,Work Under Pressure
+21st Century Fox;350;Baracaldo;7/4/04;4.14;false;false;Media;Work Under Pressure,Learning,Self-motivation
+Boeing;455;Futrono;2/12/14;0.71;false;false;Information_Technology;Time Management,Time Management,Conflict Resolution
+Telekom;231;Independencia;2/1/14;3.99;true;false;Tourism;Teamwork,Adaptability,Learning
+Demaco;494;Ningxia;13/12/04;1.62;true;false;Consumer_Services;Time Management,Conflict Resolution,Work Under Pressure
+It Smart Group;274;Chicago;27/7/20;0.13;false;true;Finance;Adaptability,Teamwork,Conflict Resolution
+Mars;304;Falerone;28/9/20;4.25;false;false;Media;Work Under Pressure,Time Management,Adaptability
+Leadertech Consulting;324;Avesta;1/1/23;0.97;false;false;Information_Technology;Communication,Work Under Pressure,Leadership
+Biolife Grup;413;Elx;28/7/19;0.53;true;true;Tourism;Adaptability,Conflict Resolution,Communication
+DynCorp;252;Oamaru;3/4/22;4.23;false;false;Consumer_Services;Decision Making,Adaptability,Self-motivation
+Erickson;764;Mariquina;23/6/15;4.48;true;false;Finance;Adaptability,Decision Making,Teamwork
+DynCorp;155;Chicago;13/12/06;1.48;true;true;Media;Leadership,Learning,Self-motivation
+Biolife Grup;544;Pau;8/3/13;0.5;false;false;Information_Technology;Learning,Adaptability,Decision Making
+Mars;198;Teruel;14/7/19;2.69;false;false;Tourism;Teamwork,Learning,Conflict Resolution
+Carrefour;135;Jerez de la Frontera;17/3/12;2.88;false;false;Consumer_Services;Conflict Resolution,Decision Making,Conflict Resolution
+UPC;453;Moncton;20/12/04;3.07;false;false;Finance;Self-motivation,Work Under Pressure,Conflict Resolution
+Facebook;597;Cork;8/4/21;3.45;false;false;Media;Conflict Resolution,Time Management,Decision Making
+Leadertech Consulting;652;Borgomasino;12/10/10;2.77;false;true;Information_Technology;Time Management,Work Under Pressure,Decision Making
+Areon Impex;766;Offenburg;19/2/17;1.75;true;false;Tourism;Conflict Resolution,Teamwork,Work Under Pressure
+Comodo;52;San Pablo;10/6/05;4.22;true;false;Consumer_Services;Conflict Resolution,Time Management,Conflict Resolution
+AECOM;561;Los Patios;3/6/04;2.11;false;true;Finance;Leadership,Learning,Conflict Resolution
+Carrefour;905;Bremen;13/5/20;3.2;false;true;Media;Leadership,Teamwork,Self-motivation
+Mars;722;Palmerston;25/10/19;2.48;false;false;Information_Technology;Learning,Conflict Resolution,Decision Making
+Amazon.com;620;Chicago;19/3/13;0.13;true;true;Tourism;Learning,Time Management,Teamwork
+Danone;579;Springdale;3/9/05;2.65;false;true;Consumer_Services;Learning,Work Under Pressure,Decision Making
+21st Century Fox;106;Hallein;19/5/22;4.52;true;false;Finance;Decision Making,Conflict Resolution,Communication
+ExxonMobil;590;Waiheke Island;20/8/14;1.12;false;false;Information_Technology;Self-motivation,Decision Making,Time Management
+Telekom;537;General Lagos;6/8/16;4.66;true;true;Tourism;Time Management,Work Under Pressure,Communication
+AECOM;592;San Rafael Abajo;3/9/06;0.95;false;true;Consumer_Services;Leadership,Learning,Self-motivation
+Telekom;423;New York;31/12/08;1.29;false;true;Finance;Self-motivation,Decision Making,Learning
+Mars;353;Paglieta;7/6/10;2.52;true;true;Media;Time Management,Conflict Resolution,Learning
+Comcast;540;Levin;13/8/16;4.07;true;true;Information_Technology;Time Management,Time Management,Teamwork
+Facebook;251;Watson Lake;21/7/11;0.29;true;false;Tourism;Teamwork,Self-motivation,Self-motivation
+Demaco;507;Stamford;1/2/09;2.38;true;true;Consumer_Services;Adaptability,Communication,Learning
+CarMax;755;Mersin;16/8/22;1.33;false;false;Finance;Leadership,Decision Making,Teamwork
+ExxonMobil;703;Cedar Rapids;19/9/04;1.24;true;false;Media;Decision Making,Self-motivation,Teamwork
+Demaco;626;New York;18/1/22;2.17;true;true;Information_Technology;Teamwork,Learning,Communication
+Global Print;616;New York;9/9/19;2.23;true;true;Tourism;Decision Making,Leadership,Learning
+Vodafone;389;Kapfenberg;10/11/12;4.77;true;false;Consumer_Services;Work Under Pressure,Decision Making,Decision Making
+Demaco;874;Swindon;6/7/04;4.44;false;true;Finance;Communication,Adaptability,Conflict Resolution
+Comodo;602;Nicoya;13/9/19;0.45;false;false;Media;Adaptability,Time Management,Leadership
+BuzzFeed;592;Guaymas;23/7/17;2.26;true;false;Information_Technology;Leadership,Decision Making,Leadership
+Amazon.com;981;Liberia;30/12/21;2.01;false;false;Tourism;Time Management,Self-motivation,Leadership
+Erickson;603;Nevers;30/11/13;4.22;true;false;Consumer_Services;Self-motivation,Decision Making,Leadership
+Zepter;642;New York;18/1/09;0.3;true;true;Finance;Time Management,Decision Making,Leadership
+Zepter;775;Woerden;28/3/17;0.16;false;true;Media;Self-motivation,Conflict Resolution,Communication
+Global Print;468;Lauro de Freitas;21/12/05;2.69;false;true;Information_Technology;Communication,Conflict Resolution,Time Management
+Metro Cash&Carry;105;Armidale;29/6/12;3.69;true;false;Tourism;Self-motivation,Self-motivation,Leadership
+Leadertech Consulting;914;Samsun;30/6/13;4.23;false;true;Consumer_Services;Teamwork,Communication,Self-motivation
+Facebook;562;Siquirres;16/5/09;3.1;false;true;Finance;Teamwork,Work Under Pressure,Communication
+Global Print;266;New York;1/2/08;2.15;true;true;Media;Decision Making,Conflict Resolution,Self-motivation
+Telekom;976;Greymouth;29/6/06;4.99;true;false;Information_Technology;Teamwork,Adaptability,Conflict Resolution
+Leadertech Consulting;576;Abaetetuba;4/8/07;4.43;true;true;Tourism;Adaptability,Teamwork,Teamwork
+Global Print;231;Melilla;9/11/12;4.61;true;true;Consumer_Services;Work Under Pressure,Time Management,Adaptability
+Amazon.com;664;Yunnan;5/9/08;2.6;true;true;Finance;Work Under Pressure,Decision Making,Work Under Pressure
+Demaco;206;Galway;19/4/10;2.17;false;true;Media;Leadership,Conflict Resolution,Time Management
+Erickson;154;Grand-Manil;7/12/19;0.06;true;false;Information_Technology;Leadership,Communication,Time Management
+DynCorp;829;Heredia;27/11/05;4.55;true;false;Tourism;Leadership,Teamwork,Decision Making
+Mars;623;Konya;7/8/20;3.63;false;false;Consumer_Services;Teamwork,Decision Making,Leadership
+Leadertech Consulting;559;Sincelejo;28/2/11;3.6;true;true;Finance;Teamwork,Learning,Leadership
+Zepter;720;Pica;25/1/17;3.86;true;false;Media;Self-motivation,Time Management,Conflict Resolution
+Facebook;580;Whyalla;10/11/20;3.53;true;true;Information_Technology;Work Under Pressure,Adaptability,Time Management
+Demaco;312;Galway;3/8/19;2.27;true;true;Tourism;Conflict Resolution,Work Under Pressure,Communication
+ENEL;544;Salzburg;19/10/21;0.97;false;true;Consumer_Services;Self-motivation,Decision Making,Conflict Resolution
+21st Century Fox;395;New York;30/10/05;0.37;false;true;Finance;Communication,Self-motivation,Work Under Pressure
+Boeing;806;Göteborg;18/3/08;0.88;false;false;Media;Time Management,Time Management,Leadership
+Mars;367;Carmen de Bolivar;3/2/16;4.43;false;true;Information_Technology;Communication,Time Management,Conflict Resolution
+ENEL;908;Zamora;19/4/15;2.66;true;false;Tourism;Work Under Pressure,Work Under Pressure,Self-motivation
+ENEL;53;Lauterach;14/12/08;0.52;false;false;Consumer_Services;Self-motivation,Communication,Conflict Resolution
+Vodafone;753;Saguenay;17/11/22;1.88;true;false;Finance;Leadership,Teamwork,Conflict Resolution
+Erickson;408;Barranca;14/10/13;4.39;true;true;Media;Decision Making,Adaptability,Time Management
+Leadertech Consulting;1000;Antalya;17/12/17;1.74;false;false;Information_Technology;Work Under Pressure,Learning,Adaptability
+Team Guard SRL;413;San Marcello;20/9/21;1.63;false;true;Tourism;Communication,Adaptability,Communication
+Mars;862;Hunan;12/7/09;1.53;true;false;Consumer_Services;Adaptability,Self-motivation,Time Management
+Apple Inc.;650;Miami;7/6/04;0.74;false;true;Finance;Communication,Conflict Resolution,Work Under Pressure
+It Smart Group;659;Ludvika;5/4/04;1.59;false;false;Media;Leadership,Time Management,Communication
+Carrefour;221;Hinckley;26/11/21;3.81;true;true;Information_Technology;Self-motivation,Learning,Time Management
+CarMax;192;Telfs;31/5/09;3.19;false;true;Tourism;Teamwork,Conflict Resolution,Decision Making
+Boeing;798;Shanghai;14/12/15;0.7;false;false;Consumer_Services;Decision Making,Time Management,Teamwork
+21st Century Fox;558;Hastings;11/12/22;4.88;false;false;Finance;Leadership,Learning,Time Management
+Carrefour;653;Mexico City;21/5/12;0.11;false;false;Media;Leadership,Self-motivation,Teamwork
+Amazon.com;589;Gisborne;27/3/14;2.63;true;false;Information_Technology;Time Management,Adaptability,Decision Making
+Metro Cash&Carry;448;Beijing;12/10/17;3.11;true;false;Tourism;Teamwork,Self-motivation,Communication
+Apple Inc.;60;Falun;26/11/22;2.36;true;false;Consumer_Services;Work Under Pressure,Communication,Conflict Resolution
+UPC;604;Siquirres;20/7/17;3.44;true;true;Finance;Time Management,Learning,Learning
+Team Guard SRL;623;Ichtegem;8/10/13;4.12;false;true;Media;Teamwork,Self-motivation,Learning
+Comcast;917;Bon Accord;13/4/07;1.39;false;true;Information_Technology;Conflict Resolution,Communication,Conflict Resolution
+ExxonMobil;115;Kirkwall;15/1/12;4.49;true;false;Tourism;Learning,Self-motivation,Time Management
+Demaco;862;Nogales;21/11/08;1.36;false;true;Consumer_Services;Work Under Pressure,Self-motivation,Communication
+Comodo;653;Mexico City;27/8/22;4.94;false;false;Finance;Learning,Communication,Decision Making
+CarMax;855;Hoogeveen;17/2/13;2.37;false;true;Media;Leadership,Leadership,Time Management
+Comodo;796;Mexico City;22/9/06;1.27;false;false;Information_Technology;Conflict Resolution,Teamwork,Teamwork
+21st Century Fox;873;Spittal an der Drau;11/2/05;3.26;false;false;Tourism;Work Under Pressure,Self-motivation,Self-motivation
+UPC;374;Camaragibe;17/3/09;0.72;false;false;Consumer_Services;Decision Making,Learning,Leadership
+BuzzFeed;566;Shanxi;9/7/07;4.58;true;false;Finance;Adaptability,Time Management,Work Under Pressure
+Zepter;264;Calmar;20/6/05;3.96;true;true;Media;Adaptability,Learning,Decision Making
+DynCorp;264;Parla;16/7/14;0.54;true;false;Information_Technology;Learning,Self-motivation,Learning
+Erickson;202;Buckley;11/1/18;1.45;false;true;Tourism;Conflict Resolution,Self-motivation,Work Under Pressure
+Global Print;116;Linton;24/4/07;4.28;false;false;Consumer_Services;Leadership,Work Under Pressure,Teamwork
+Comodo;917;Wichita;7/2/16;4.45;true;true;Finance;Leadership,Work Under Pressure,Self-motivation
+Erickson;169;Jilin;25/1/14;0.97;false;true;Media;Adaptability,Conflict Resolution,Leadership
+BuzzFeed;373;Mexico City;8/10/20;0.74;false;true;Information_Technology;Work Under Pressure,Time Management,Leadership
+Biolife Grup;664;Guadalupe;28/8/17;4.59;false;false;Tourism;Teamwork,Leadership,Communication
+Demaco;949;Petit-Thier;12/9/10;4.68;true;false;Consumer_Services;Learning,Adaptability,Teamwork
+Boeing;274;Belfast;25/1/16;0.8;true;false;Finance;Conflict Resolution,Leadership,Leadership
+Demaco;900;Groß-Gerau;14/12/10;0.61;false;true;Media;Decision Making,Learning,Work Under Pressure
+Comcast;366;Seville;29/4/11;3.19;true;false;Information_Technology;Teamwork,Work Under Pressure,Learning
+Boeing;771;Nizip;11/10/07;2.11;false;true;Tourism;Teamwork,Adaptability,Work Under Pressure
+DynCorp;426;Finkenstein am Faaker See;17/4/15;4.77;true;false;Consumer_Services;Learning,Decision Making,Conflict Resolution
+21st Century Fox;158;St. Johann in Tirol;14/10/19;0.33;true;true;Finance;Work Under Pressure,Self-motivation,Leadership
+AECOM;804;Pencahue;1/4/07;1.11;false;false;Media;Teamwork,Time Management,Time Management
+Demaco;593;Lidingo;28/1/20;4.66;false;false;Information_Technology;Adaptability,Decision Making,Conflict Resolution
+Leadertech Consulting;787;Bayeux;26/9/07;3.61;false;false;Tourism;Adaptability,Leadership,Adaptability
+Boeing;571;Yunnan;1/12/15;2.35;false;false;Consumer_Services;Conflict Resolution,Adaptability,Adaptability
+Boeing;609;Pamplona;25/7/08;4.74;false;true;Finance;Leadership,Teamwork,Decision Making
+Global Print;870;Thorembais-Saint-Trond;28/2/16;4.45;false;false;Media;Communication,Adaptability,Communication
+Team Guard SRL;781;Rothesay;19/4/17;0.97;false;false;Information_Technology;Time Management,Conflict Resolution,Self-motivation
+Biolife Grup;484;Brandon;21/7/18;4.7;false;true;Tourism;Leadership,Leadership,Adaptability
+Team Guard SRL;317;Enschede;28/3/13;2.67;true;false;Consumer_Services;Learning,Adaptability,Conflict Resolution
+Boeing;153;Napier;17/1/15;3.94;true;false;Finance;Communication,Conflict Resolution,Communication
+Erickson;874;Dublin;16/4/08;3.53;true;true;Media;Self-motivation,Adaptability,Self-motivation
+Erickson;498;Hudson Bay;17/1/10;0.02;true;false;Information_Technology;Leadership,Learning,Communication
+Facebook;749;Oaxaca;12/4/04;4.69;false;true;Tourism;Learning,Conflict Resolution,Time Management
+Telekom;373;Chiguayante;5/4/21;4.2;true;false;Consumer_Services;Self-motivation,Communication,Leadership
+AECOM;147;Sluis;3/7/14;4.4;true;true;Finance;Work Under Pressure,Communication,Time Management
+Biolife Grup;440;Berlin;4/7/19;3.94;false;false;Information_Technology;Learning,Work Under Pressure,Adaptability
+Mars;224;Tijuana;22/11/22;0.15;false;false;Tourism;Communication,Teamwork,Communication
+Facebook;469;Fujian;28/2/16;1.47;false;true;Consumer_Services;Communication,Leadership,Work Under Pressure
+Facebook;809;Belfast;14/11/12;1.48;true;false;Finance;Self-motivation,Work Under Pressure,Self-motivation
+AECOM;488;Palmerston North;15/1/16;4.96;false;false;Media;Conflict Resolution,Work Under Pressure,Communication
+Biolife Grup;519;Develi;1/9/15;1.32;true;false;Information_Technology;Teamwork,Time Management,Self-motivation
+Carrefour;499;Limoges;24/7/21;4.75;false;true;Tourism;Conflict Resolution,Leadership,Adaptability
+Team Guard SRL;850;Armenia;3/1/23;3.92;true;true;Consumer_Services;Self-motivation,Teamwork,Conflict Resolution
+Metro Cash&Carry;776;San Francisco;12/3/16;2.43;true;false;Finance;Leadership,Leadership,Decision Making
+Zepter;101;Bocchigliero;7/8/08;4.59;true;true;Media;Self-motivation,Learning,Communication
+ExxonMobil;989;Berlin;24/9/09;2.96;true;false;Information_Technology;Decision Making,Communication,Work Under Pressure
+Demaco;459;Ternitz;4/8/13;4.74;true;false;Tourism;Learning,Adaptability,Learning
+Vodafone;250;Caxias do Sul;17/9/22;1.33;true;true;Consumer_Services;Self-motivation,Teamwork,Time Management
+BuzzFeed;759;Berlin;2/10/20;1.11;false;true;Finance;Teamwork,Leadership,Teamwork
+Leadertech Consulting;579;Santa Rosa de Cabal;12/10/22;3.86;true;false;Media;Conflict Resolution,Conflict Resolution,Decision Making
+UPC;234;San Rafael;15/10/21;2.23;true;true;Information_Technology;Work Under Pressure,Self-motivation,Work Under Pressure
+UPC;948;Alto del Carmen;9/7/19;2.31;true;true;Tourism;Decision Making,Self-motivation,Conflict Resolution
+Facebook;926;Margate;7/5/16;1.99;false;false;Consumer_Services;Self-motivation,Leadership,Leadership
+DynCorp;152;Vienna;6/4/05;0.03;false;true;Finance;Time Management,Conflict Resolution,Work Under Pressure
+Team Guard SRL;451;Knittelfeld;18/10/05;3.72;false;true;Media;Decision Making,Leadership,Time Management
+Coca-Cola Company;105;Barranca;11/7/06;1.11;false;false;Information_Technology;Teamwork,Work Under Pressure,Teamwork
+ENEL;702;Bredene;12/6/18;4.69;true;true;Tourism;Self-motivation,Leadership,Decision Making
+Team Guard SRL;796;Belfast;27/3/06;1.27;true;true;Consumer_Services;Conflict Resolution,Decision Making,Time Management
+UPC;240;Tiel;28/2/04;4.46;true;true;Finance;Adaptability,Decision Making,Time Management
+Vodafone;327;London;6/3/15;3.36;false;false;Media;Work Under Pressure,Time Management,Adaptability
+Facebook;395;Canberra;1/6/21;1.12;true;true;Information_Technology;Adaptability,Work Under Pressure,Learning
+ExxonMobil;80;Ceuta;4/5/04;4.21;true;true;Tourism;Leadership,Communication,Conflict Resolution
+AECOM;272;Huesca;12/9/20;3.08;false;false;Consumer_Services;Self-motivation,Adaptability,Conflict Resolution
+21st Century Fox;477;Tibet;3/5/13;4.59;false;true;Finance;Conflict Resolution,Work Under Pressure,Learning
+Global Print;902;London;11/1/20;1.26;false;true;Media;Time Management,Self-motivation,Communication
+21st Century Fox;498;Morrinsville;13/10/11;4.42;false;true;Information_Technology;Communication,Adaptability,Time Management
+It Smart Group;774;Dublin;6/10/08;3.75;false;true;Tourism;Teamwork,Adaptability,Learning
+CarMax;897;London;1/4/22;3.34;false;false;Consumer_Services;Adaptability,Leadership,Self-motivation
+Carrefour;567;Jilin;23/10/20;4.55;false;false;Finance;Adaptability,Leadership,Adaptability
+DynCorp;889;Berlin;25/10/16;1.63;true;false;Media;Adaptability,Decision Making,Adaptability
+Vodafone;522;Nieuwegein;7/3/08;2.01;false;true;Information_Technology;Work Under Pressure,Time Management,Communication
+Erickson;499;Palencia;3/10/14;3.31;false;true;Tourism;Leadership,Conflict Resolution,Work Under Pressure
+It Smart Group;617;Dublin;9/12/04;0.82;true;true;Consumer_Services;Self-motivation,Learning,Work Under Pressure
+Comcast;834;Talence;14/8/18;0.4;true;false;Finance;Leadership,Communication,Time Management
+Global Print;198;Guangdong;9/11/13;2.0;false;true;Media;Learning,Work Under Pressure,Learning
+ENEL;559;Mandurah;7/12/08;0.5;true;false;Information_Technology;Leadership,Work Under Pressure,Work Under Pressure
+Areon Impex;349;San Antonio;18/1/14;3.72;false;true;Tourism;Decision Making,Conflict Resolution,Communication
+ExxonMobil;567;Bournemouth;30/11/04;3.19;false;true;Consumer_Services;Adaptability,Work Under Pressure,Time Management
+Demaco;285;Alajuela;9/5/09;2.15;false;false;Finance;Time Management,Adaptability,Time Management
+CarMax;830;New Haven;14/2/10;0.69;true;false;Media;Time Management,Leadership,Leadership
+Team Guard SRL;435;Kincardine;14/8/04;4.33;false;true;Information_Technology;Self-motivation,Self-motivation,Conflict Resolution
+Comcast;1000;Miramichi;29/10/05;3.84;false;false;Tourism;Conflict Resolution,Time Management,Adaptability
+21st Century Fox;501;Chongqing;29/7/16;2.65;false;false;Consumer_Services;Work Under Pressure,Self-motivation,Work Under Pressure
+Comcast;636;Florencia;14/5/06;0.85;false;true;Finance;Self-motivation,Work Under Pressure,Work Under Pressure
+Metro Cash&Carry;221;Gravelbourg;25/5/05;0.57;true;true;Media;Teamwork,Time Management,Conflict Resolution
+Telekom;721;Barranca;14/8/08;4.86;false;true;Information_Technology;Self-motivation,Time Management,Learning
+CarMax;374;Santa Fiora;19/6/08;0.92;false;false;Tourism;Learning,Work Under Pressure,Learning
+Metro Cash&Carry;295;Yunnan;2/8/18;0.82;true;true;Consumer_Services;Leadership,Conflict Resolution,Time Management
+DynCorp;571;Rome;16/4/14;3.44;true;false;Finance;Conflict Resolution,Work Under Pressure,Teamwork
+Vodafone;838;Cartagena;28/1/18;1.09;true;true;Media;Conflict Resolution,Decision Making,Self-motivation
+Metro Cash&Carry;835;Winterswijk;15/2/05;3.1;true;false;Information_Technology;Adaptability,Work Under Pressure,Adaptability
+Coca-Cola Company;246;Heredia;7/1/20;4.25;true;true;Tourism;Conflict Resolution,Conflict Resolution,Work Under Pressure
+Global Print;353;Oevel;2/7/14;3.63;false;false;Consumer_Services;Adaptability,Conflict Resolution,Leadership
+Demaco;707;Montese;16/8/17;0.41;false;true;Finance;Learning,Communication,Communication
+21st Century Fox;434;Patos;28/6/14;0.13;true;true;Media;Adaptability,Work Under Pressure,Work Under Pressure
+Facebook;642;Rome;29/1/08;0.72;false;true;Information_Technology;Self-motivation,Leadership,Leadership
+Leadertech Consulting;344;Mariakerke;31/5/17;4.05;false;false;Tourism;Adaptability,Leadership,Communication
+Leadertech Consulting;759;Lelystad;7/4/20;3.44;false;false;Consumer_Services;Self-motivation,Self-motivation,Communication
+Comcast;609;Stirling;2/4/15;2.89;false;true;Finance;Work Under Pressure,Communication,Teamwork
+CarMax;824;Jerez de la Frontera;8/4/11;2.99;false;true;Media;Work Under Pressure,Teamwork,Teamwork
+Amazon.com;783;Inverness;30/4/11;0.81;true;true;Information_Technology;Leadership,Leadership,Leadership
+ExxonMobil;947;Berlin;22/8/12;3.12;true;false;Tourism;Communication,Decision Making,Teamwork
+Boeing;988;Balclutha;17/4/11;4.02;true;true;Consumer_Services;Work Under Pressure,Learning,Adaptability
+Carrefour;879;Greater Hobart;5/3/06;3.53;true;true;Finance;Work Under Pressure,Decision Making,Adaptability
+UPC;943;Puntarenas;21/5/18;1.29;false;false;Media;Leadership,Adaptability,Self-motivation
+AECOM;93;Winnipeg;19/9/11;3.31;false;false;Information_Technology;Teamwork,Leadership,Time Management
+Amazon.com;572;Onoz;20/4/11;3.65;false;false;Tourism;Teamwork,Leadership,Time Management
+AECOM;356;Santander;24/1/06;4.02;false;false;Consumer_Services;Work Under Pressure,Conflict Resolution,Learning
+AECOM;389;Salamanca;13/7/06;3.61;true;true;Finance;Learning,Self-motivation,Learning
+It Smart Group;412;Redcliffe;12/7/04;4.87;true;true;Media;Time Management,Time Management,Communication
+Amazon.com;380;Placanica;10/2/06;1.29;true;false;Information_Technology;Teamwork,Learning,Time Management
+Danone;379;San Vicente;26/5/20;1.22;true;true;Tourism;Leadership,Adaptability,Leadership
+Global Print;257;Dublin;27/7/14;0.5;false;true;Consumer_Services;Leadership,Conflict Resolution,Communication
+Comcast;386;Arica;25/7/08;4.28;true;true;Finance;Work Under Pressure,Time Management,Work Under Pressure
+Amazon.com;844;Limoges;27/11/13;4.28;true;false;Media;Adaptability,Leadership,Time Management
+AECOM;748;Tocopilla;1/2/23;4.8;true;false;Information_Technology;Learning,Communication,Self-motivation
+Demaco;201;El Tabo;25/4/15;4.47;false;true;Tourism;Work Under Pressure,Teamwork,Leadership
+Apple Inc.;284;Geneva;23/7/17;4.45;false;false;Consumer_Services;Leadership,Teamwork,Time Management
+Erickson;337;London;1/9/05;1.65;false;true;Finance;Learning,Communication,Self-motivation
+Amazon.com;664;Alphen aan den Rijn;1/9/10;4.03;true;false;Media;Work Under Pressure,Leadership,Work Under Pressure
+Carrefour;245;Vienna;12/10/07;1.93;false;true;Information_Technology;Time Management,Adaptability,Decision Making
+Mars;236;Weiz;29/4/08;3.72;false;false;Tourism;Time Management,Teamwork,Learning
+It Smart Group;741;Geneva;6/1/18;2.14;false;true;Consumer_Services;Communication,Teamwork,Teamwork
+Comodo;920;Kingston-on-Thames;12/8/08;3.91;false;true;Finance;Communication,Time Management,Decision Making
+Metro Cash&Carry;53;Geneva;1/2/07;0.88;true;false;Media;Decision Making,Leadership,Decision Making
+Team Guard SRL;726;Los Muermos;24/3/09;0.88;true;true;Information_Technology;Work Under Pressure,Time Management,Decision Making
+Zepter;576;Limoges;17/3/11;4.77;true;false;Tourism;Self-motivation,Teamwork,Leadership
+Mars;184;Madrid;19/2/16;3.76;false;true;Consumer_Services;Time Management,Teamwork,Work Under Pressure
+BuzzFeed;478;Gifhorn;24/6/18;1.12;false;false;Finance;Learning,Time Management,Learning
+Comodo;207;Guaitecas;24/10/06;2.78;false;true;Media;Teamwork,Teamwork,Conflict Resolution
+It Smart Group;259;Machynlleth;9/7/10;1.06;false;false;Information_Technology;Conflict Resolution,Learning,Self-motivation
+Leadertech Consulting;464;Rio Marina;3/11/18;1.65;true;false;Tourism;Decision Making,Leadership,Conflict Resolution
+Apple Inc.;234;Oosterhout;14/12/15;1.59;true;false;Consumer_Services;Communication,Learning,Learning
+Metro Cash&Carry;609;Oxford;8/9/11;0.44;true;false;Finance;Decision Making,Work Under Pressure,Decision Making
+Comcast;276;Recife;3/1/11;0.47;true;false;Tourism;Self-motivation,Decision Making,Leadership
+ExxonMobil;343;Rome;24/4/16;0.95;true;false;Consumer_Services;Conflict Resolution,Time Management,Work Under Pressure
+Telekom;562;Belfast;1/11/05;0.75;false;true;Finance;Communication,Communication,Self-motivation
+Coca-Cola Company;384;Putignano;2/8/13;0.38;true;false;Media;Adaptability,Communication,Leadership
+Apple Inc.;143;Erlangen;25/5/08;2.61;false;true;Information_Technology;Time Management,Adaptability,Leadership
+Demaco;51;Brive-la-Gaillarde;9/7/16;1.62;false;true;Tourism;Conflict Resolution,Self-motivation,Leadership
+Biolife Grup;989;Tirrases;10/5/12;2.83;true;true;Consumer_Services;Teamwork,Decision Making,Adaptability
+Facebook;892;Ulloa (Barrial];7/3/14;0.6;false;false;Finance;Communication,Time Management,Self-motivation
+Leadertech Consulting;680;San Pablo;2/5/15;1.79;true;false;Tourism;Work Under Pressure,Teamwork,Teamwork
+21st Century Fox;;;;;;;;Work Under Pressure,Decision Making,Self-motivation
