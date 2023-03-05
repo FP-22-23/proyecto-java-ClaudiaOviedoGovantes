@@ -41,6 +41,9 @@ public class DataScienceJob {
 			throw new IllegalArgumentException(
 					"Cadena con formato no válido");
 		}
+		checkCompany(sp[0].trim());
+		checkEmployees(Integer.valueOf(sp[1].trim()));
+		
 		this.company = sp[0].trim();
 		this.employee = Integer.valueOf(sp[1].trim()); 
 		this.city = sp[2].trim();
@@ -50,6 +53,17 @@ public class DataScienceJob {
 		this.easyApply = formateoBooleano(sp[6].trim());
 		this.sector = sp[7].trim();
 		this.skills = sp[8].trim();
+	}
+	
+	private void checkCompany(String s){
+		if(s.replaceAll(" ", "").equals("")) {
+			throw new IllegalArgumentException("El nombre no puede estar vacío.");
+		}
+	}
+	private void checkEmployees(Integer i){
+		if(i < 0) {
+			throw new IllegalArgumentException("El número de empleados no puede ser menor que 0.");
+		}
 	}
 	
 	private Boolean formateoBooleano(String s){
@@ -230,7 +244,11 @@ public class DataScienceJob {
 	
 
 	
-	
+//DUDAS
+	/*propiedad derivada, propiedad auxiliar, formato corto
+	 * año del primer constructor
+	 * implementación atributos sector y lista
+	 * */
 	
 	
 	
