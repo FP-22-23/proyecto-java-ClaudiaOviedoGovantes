@@ -1,4 +1,4 @@
-package fp.Jobs;
+package fp.jobs;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -22,7 +22,7 @@ public class DataScienceJob {
 	private List<String> skills;
 
 	
-	//Constructores
+	//-----Constructores-----
 		//1
 	public DataScienceJob(String company, Integer employee, String city,
 			LocalDate foundation, Double rating, Boolean isPrivate, Boolean easyApply) {
@@ -62,18 +62,19 @@ public class DataScienceJob {
 		}
 	}
 	
-//___Checks___
+	//-----Checks-----
 	private void checkCompany(String s){
 		if(s.replaceAll(" ", "").equals("")) {
 			throw new IllegalArgumentException("El nombre no puede estar vacío.");
 		}
 	}
+	
 	private void checkEmployees(Integer i){
 		if(i < 0) {
 			throw new IllegalArgumentException("El número de empleados no puede ser menor que 0.");
 		}
 	}
-//___Parseo
+	//-----Parseo-----
 	private Boolean formateoBooleano(String s){
 		Boolean res;
 		if (s == "true") {
@@ -115,8 +116,7 @@ public class DataScienceJob {
 		return res;
 	}
 	
-//____GETTERS AND SETTERS;	
-	
+//-----GETTERS AND SETTERS-----;	
 		
 	public String getCompany() {
 		return company;
@@ -166,7 +166,8 @@ public class DataScienceJob {
 	public void setEasyApply(Boolean easyApply) {
 		this.easyApply = easyApply;
 	}
-	//____Pequeñe/Mediana/Gran empresa (propiedad derivada)
+	
+	//-----Pequeñe/Mediana/Gran empresa (propiedad derivada)-----
 	public Tamaño getTamaño() {
 		Tamaño res = Tamaño.PEQUEÑA;
 		
@@ -179,7 +180,7 @@ public class DataScienceJob {
 		return res;
 	}
 	
-//____FormatoCorto___ (propiedad derivada)
+	//-----FormatoCorto ----- (propiedad derivada)-----
 	public String getFormatoCorto() {
 		String res = getCompany();
 		if (getFoundation() != null) {
@@ -191,7 +192,7 @@ public class DataScienceJob {
 		return res;
 	}
 	
-//____ToString____
+	//-----ToString-----
 	public String toString() {
 		String res =  "DataScienceJob [company=" + company + ", employee=" + employee + ", city=" + city + ", foundation="
 				+ foundation + ", rating=" + rating + ", isPrivate=" + isPrivate + ", easyApply=" + easyApply;
@@ -204,12 +205,12 @@ public class DataScienceJob {
 		return res;	
 	}
 	
-//____HashCode____
+	//-----HashCode-----
 	public int hashCode() {
 		return Objects.hash(city, company, easyApply, employee, foundation, isPrivate, rating);
 	}
 
-//_____Equals____
+	//-----Equals-----
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
@@ -224,8 +225,7 @@ public class DataScienceJob {
 				&& Objects.equals(rating, other.rating);
 	}
 
-
-//___CompareTo
+	//-----CompareTo-----
 	public int compareTo(DataScienceJob j1) {
 		int r = this.getCity().compareTo(j1.getCity());
 		if (r==0) {

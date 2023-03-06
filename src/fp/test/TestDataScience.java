@@ -2,7 +2,7 @@ package fp.test;
 
 import java.time.LocalDate;
 
-import fp.Jobs.DataScienceJob;
+import fp.jobs.DataScienceJob;
 
 public class TestDataScience {
 
