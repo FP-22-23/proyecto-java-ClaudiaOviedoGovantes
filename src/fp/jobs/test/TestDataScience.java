@@ -1,4 +1,4 @@
-package fp.test;
+package fp.jobs.test;
 
 import java.time.LocalDate;
 

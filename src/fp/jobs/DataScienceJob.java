@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
+import fp.common.Staff;
 import fp.common.Sector;
 import fp.common.Tamaño;
 
@@ -20,6 +21,7 @@ public class DataScienceJob {
 	private Boolean easyApply;
 	private Sector sector; 
 	private List<String> skills;
+	private Staff staff;
 
 	
 	//-----Constructores-----
@@ -35,11 +37,12 @@ public class DataScienceJob {
 		this.easyApply = easyApply;
 		this.sector = null;
 		this.skills = null;
+		this.staff = null;
 	}
 		//2
 	public DataScienceJob(String s) {
 		String[] sp = s.split(",");
-		if (sp.length != 9) {
+		if (sp.length != 11) {
 			throw new IllegalArgumentException(
 					"Cadena con formato no válido");
 		}
@@ -60,6 +63,8 @@ public class DataScienceJob {
 		for (String sk : skills) {
 			lista.add(sk);
 		}
+		this.staff = new Staff(Double.valueOf(sp[9].trim()), Double.valueOf(sp[10].trim()));
+		
 	}
 	
 	//-----Checks-----
@@ -86,7 +91,7 @@ public class DataScienceJob {
 		return res;
 	}
 	
-	private LocalDate fechaFormateada(LocalDate d) {
+	private LocalDate fechaFormateada(LocalDate d) { //parsear de otra manera
 		LocalDate res;
 		String d2 = String.valueOf(d);
 		System.out.println();
@@ -234,7 +239,9 @@ public class DataScienceJob {
 		if (r==0) {
 			r = this.getFoundation().compareTo(j1.getFoundation());
 		}
-		
+		if (r==0) {
+			r = this.getEmployee().compareTo(j1.getEmployee());
+		}
 		return r;
 	}
 	
