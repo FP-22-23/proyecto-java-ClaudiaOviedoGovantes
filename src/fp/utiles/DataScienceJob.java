@@ -2,9 +2,12 @@ package fp.utiles;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Objects;
 
 import fp.common.Sector;
+import fp.common.Tamaño;
 
 public class DataScienceJob {
 	//Atributos
@@ -15,8 +18,8 @@ public class DataScienceJob {
 	private Double rating;
 	private Boolean isPrivate;
 	private Boolean easyApply;
-	private String sector; //hay que poner sector aqui?? 
-	private String skills;
+	private Sector sector; 
+	private List<String> skills;
 
 	
 	//Constructores
@@ -32,7 +35,6 @@ public class DataScienceJob {
 		this.easyApply = easyApply;
 		this.sector = null;
 		this.skills = null;
-		
 	}
 		//2
 	public DataScienceJob(String s) {
@@ -51,10 +53,16 @@ public class DataScienceJob {
 		this.rating = Double.valueOf(sp[4].trim());
 		this.isPrivate = formateoBooleano(sp[5].trim());
 		this.easyApply = formateoBooleano(sp[6].trim());
-		this.sector = sp[7].trim();
-		this.skills = sp[8].trim();
+		this.sector = formateoEnum(sp[7].trim());
+		
+		List<String> lista = new LinkedList<String>();
+		String[] skills = sp[8].trim().split(";");
+		for (String sk : skills) {
+			lista.add(sk);
+		}
 	}
 	
+//___Checks___
 	private void checkCompany(String s){
 		if(s.replaceAll(" ", "").equals("")) {
 			throw new IllegalArgumentException("El nombre no puede estar vacío.");
@@ -65,7 +73,7 @@ public class DataScienceJob {
 			throw new IllegalArgumentException("El número de empleados no puede ser menor que 0.");
 		}
 	}
-	
+//___Parseo
 	private Boolean formateoBooleano(String s){
 		Boolean res;
 		if (s == "true") {
@@ -76,6 +84,7 @@ public class DataScienceJob {
 		}
 		return res;
 	}
+	
 	private LocalDate fechaFormateada(LocalDate d) {
 		LocalDate res;
 		String d2 = String.valueOf(d);
@@ -83,47 +92,8 @@ public class DataScienceJob {
 		res =  LocalDate.parse(d2, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 		return res;
 	}
-
-	//GETTERS AND SETTERS;	
-	public String getCompany() {
-		return company;
-	}
-
-	public Integer getEmployee() {
-		return employee;
-	}
-
-	public String getCity() {
-		return city;
-	}
-
-	public LocalDate getFoundation() {
-		return foundation; 
-	}
-
-	public Double getRating() {
-		return rating;
-	}
-
-	public Boolean getIsPrivate() {
-		return isPrivate;
-	}
-
-	public Boolean getEasyApply() {
-		return easyApply;
-	}
 	
-	public String getSector() {
-		return sector;
-		
-	}
-	
-	public String getSkills() {
-	return skills;
-	
-	}
-	
-	public Sector getSectorEnum(String s) {
+	public Sector formateoEnum(String s) {
 		Sector res = null;
 		switch (s) {
 		case "Tourism":
@@ -144,44 +114,72 @@ public class DataScienceJob {
 		}
 		return res;
 	}
-//---------------------------------
+	
+//____GETTERS AND SETTERS;	
+	
+		
+	public String getCompany() {
+		return company;
+	}
+	public Integer getEmployee() {
+		return employee;
+	}
+	public String getCity() {
+		return city;
+	}
+	public LocalDate getFoundation() {
+		return foundation;
+	}
+	public Double getRating() {
+		return rating;
+	}
+	public Boolean getIsPrivate() {
+		return isPrivate;
+	}
+	public Boolean getEasyApply() {
+		return easyApply;
+	}
+	public Sector getSector() {
+		return sector;
+	}
+	public List<String> getSkills() {
+		return skills;
+	}
 	public void setCompany(String company) {
 		this.company = company;
 	}
-
 	public void setEmployee(Integer employee) {
 		this.employee = employee;
 	}
-
 	public void setCity(String city) {
 		this.city = city;
 	}
-
 	public void setFoundation(LocalDate foundation) {
 		this.foundation = foundation;
 	}
-
 	public void setRating(Double rating) {
 		this.rating = rating;
 	}
-
 	public void setIsPrivate(Boolean isPrivate) {
 		this.isPrivate = isPrivate;
 	}
-
 	public void setEasyApply(Boolean easyApply) {
 		this.easyApply = easyApply;
 	}
+	//____Pequeñe/Mediana/Gran empresa (propiedad derivada)
+	public Tamaño getTamaño() {
+		Tamaño res = Tamaño.PEQUEÑA;
 		
-	public void setSector(String sector) {
-		this.sector = sector;
+		if (getEmployee() > 250) {
+			res = Tamaño.MEDIANA;
+		}
+		else if(getEmployee() > 500) {
+			res = Tamaño.GRAN;
+		}
+		return res;
 	}
 	
-	public void setSkills(String skills) {
-		this.skills = skills;
-	}
-	
-//____FormatoCorto___
+//____FormatoCorto___ (propiedad derivada)
 	public String getFormatoCorto() {
 		String res = getCompany();
 		if (getFoundation() != null) {
@@ -193,21 +191,19 @@ public class DataScienceJob {
 		return res;
 	}
 	
-
-	
 //____ToString____
 	public String toString() {
 		String res =  "DataScienceJob [company=" + company + ", employee=" + employee + ", city=" + city + ", foundation="
 				+ foundation + ", rating=" + rating + ", isPrivate=" + isPrivate + ", easyApply=" + easyApply;
 		if (sector != null) {
-				res +=", sector=" + getSectorEnum(sector);
+				res +=", sector=" + sector;
 			}
 		if (skills != null) {
 			res += ", skills=" + skills + "]";
 		}
-		return res;
-				
+		return res;	
 	}
+	
 //____HashCode____
 	public int hashCode() {
 		return Objects.hash(city, company, easyApply, employee, foundation, isPrivate, rating);
@@ -245,10 +241,10 @@ public class DataScienceJob {
 
 	
 //DUDAS
-	/*propiedad derivada, propiedad auxiliar, formato corto
-	 * año del primer constructor
+	/*propiedad derivada (formato corto, pequeña/mediana empresa), propiedad auxiliar (mujeres / hombres)
 	 * implementación atributos sector y lista
-	 * */
+	 * 
+	 * crear objeto de tipo lista  e ir añadiendo elementos*/
 	
 	
 	

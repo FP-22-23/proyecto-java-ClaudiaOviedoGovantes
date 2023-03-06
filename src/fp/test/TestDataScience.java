@@ -9,7 +9,7 @@ public class TestDataScience {
 	public static void main(String[] args) {
 		
 		//Constructor 1
-		DataScienceJob d1 = new DataScienceJob("Zepter", 509, "Nizip", LocalDate.of(2006,10,15), 2.76, true, 
+		DataScienceJob d1 = new DataScienceJob("Zepter", 509, "Nizip", LocalDate.of(6,10,15), 2.76, true, 
 				true); 
 		/*
 		System.out.println(d1);
@@ -20,8 +20,9 @@ public class TestDataScience {
 		System.out.println(d1.getRating());
 		System.out.println(d1.getIsPrivate());
 		System.out.println(d1.getEasyApply());
-		System.out.println(d1.getFormatoCorto());
 		*/
+		System.out.println(d1.getFormatoCorto());
+		
 
 		//Constructor 2
 		DataScienceJob d2 = new DataScienceJob("Zepter,	509,	Nizip,	15/10/06,	2.76,	true,	"
@@ -35,10 +36,10 @@ public class TestDataScience {
 		System.out.println(d2.getRating());
 		System.out.println(d2.getIsPrivate());
 		System.out.println(d2.getFormatoCorto());
-		*/
+		
 		
 		System.out.println(d1.compareTo(d2));
-		System.out.println(d1.equals(d2)); //???
+		System.out.println(d1.equals(d2)); //???*/
 		//HACER COMPROBACIONES EQUALS, HASHCODE, TOSTRING
 		
 	}
