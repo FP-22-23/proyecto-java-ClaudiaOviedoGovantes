@@ -13,7 +13,7 @@ import fp.common.Tamaño;
 public class DataScienceJob {
 	//Atributos
 	private String company;
-	private Integer employee;
+	private Integer employees;
 	private String city;
 	private LocalDate foundation;
 	private Double rating;
@@ -29,7 +29,7 @@ public class DataScienceJob {
 	public DataScienceJob(String company, Integer employee, String city,
 			LocalDate foundation, Double rating, Boolean isPrivate, Boolean easyApply) {
 		this.company = company;
-		this.employee = employee;
+		this.employees = employee;
 		this.city = city;
 		this.foundation = foundation;
 		this.rating = rating;
@@ -50,7 +50,7 @@ public class DataScienceJob {
 		checkEmployees(Integer.valueOf(sp[1].trim()));
 		
 		this.company = sp[0].trim();
-		this.employee = Integer.valueOf(sp[1].trim()); 
+		this.employees = Integer.valueOf(sp[1].trim()); 
 		this.city = sp[2].trim();
 		this.foundation = LocalDate.parse(sp[3].trim(), DateTimeFormatter.ofPattern("dd/MM/yy"));
 		this.rating = Double.valueOf(sp[4].trim());
@@ -75,7 +75,7 @@ public class DataScienceJob {
 	}
 	
 	private void checkEmployees(Integer i){
-		if(i < 0) {
+		if(i <= 0) {
 			throw new IllegalArgumentException("El número de empleados no puede ser menor que 0.");
 		}
 	}
@@ -126,8 +126,8 @@ public class DataScienceJob {
 	public String getCompany() {
 		return company;
 	}
-	public Integer getEmployee() {
-		return employee;
+	public Integer getEmployees() {
+		return employees;
 	}
 	public String getCity() {
 		return city;
@@ -153,8 +153,8 @@ public class DataScienceJob {
 	public void setCompany(String company) {
 		this.company = company;
 	}
-	public void setEmployee(Integer employee) {
-		this.employee = employee;
+	public void setEmployees(Integer employee) {
+		this.employees = employee;
 	}
 	public void setCity(String city) {
 		this.city = city;
@@ -176,10 +176,10 @@ public class DataScienceJob {
 	public Tamaño getTamaño() {
 		Tamaño res = Tamaño.PEQUEÑA;
 		
-		if (getEmployee() > 250) {
+		if (getEmployees() > 250) {
 			res = Tamaño.MEDIANA;
 		}
-		else if(getEmployee() > 500) {
+		else if(getEmployees() > 500) {
 			res = Tamaño.GRAN;
 		}
 		return res;
@@ -199,7 +199,7 @@ public class DataScienceJob {
 	
 	//-----ToString-----
 	public String toString() {
-		String res =  "DataScienceJob [company=" + company + ", employee=" + employee + ", city=" + city + ", foundation="
+		String res =  "DataScienceJob [company=" + company + ", employees=" + employees + ", city=" + city + ", foundation="
 				+ foundation + ", rating=" + rating + ", isPrivate=" + isPrivate + ", easyApply=" + easyApply;
 		if (sector != null) {
 				res +=", sector=" + sector;
@@ -212,7 +212,7 @@ public class DataScienceJob {
 	
 	//-----HashCode-----
 	public int hashCode() {
-		return Objects.hash(city, company, easyApply, employee, foundation, isPrivate, rating);
+		return Objects.hash(city, company, easyApply, employees, foundation, isPrivate, rating);
 	}
 
 	//-----Equals-----
@@ -225,7 +225,7 @@ public class DataScienceJob {
 			return false;
 		DataScienceJob other = (DataScienceJob) obj;
 		return Objects.equals(city, other.city) && Objects.equals(company, other.company)
-				&& Objects.equals(easyApply, other.easyApply) && Objects.equals(employee, other.employee)
+				&& Objects.equals(easyApply, other.easyApply) && Objects.equals(employees, other.employees)
 				&& Objects.equals(foundation, other.foundation) && Objects.equals(isPrivate, other.isPrivate)
 				&& Objects.equals(rating, other.rating);
 	}
@@ -240,7 +240,7 @@ public class DataScienceJob {
 			r = this.getFoundation().compareTo(j1.getFoundation());
 		}
 		if (r==0) {
-			r = this.getEmployee().compareTo(j1.getEmployee());
+			r = this.getEmployees().compareTo(j1.getEmployees());
 		}
 		return r;
 	}
