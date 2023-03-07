@@ -30,7 +30,8 @@ public class TestDataScience {
 
 		//Constructor 2
 		DataScienceJob d2 = new DataScienceJob("Zepter,	509,	Nizip,	15/10/06,	2.76,	true,	"
-				+ "true,	Information_Technology,	Work Under Pressure;Teamwork;, 87'78621339,	 12'21378661 ");
+				+ "true,	Information_Technology,	Work Under Pressure;Teamwork;, Jackson Street- 5847,	"
+				+ "27-139-2368,	72'56445532,	 27'43554468  ");
 		
 		System.out.println(d2);
 		/*
@@ -44,12 +45,15 @@ public class TestDataScience {
 		System.out.println(d2.getSector());
 		System.out.println(d2.getHabilidades()); 
 		System.out.println(d2.getTamaño());
+		System.out.println(d2.getEmpresaR());
 		*/
 		
 		//System.out.println(d2.getFormatoCorto());
+		//System.out.println(d2.getPersonal().mujeres());
 		
 		DataScienceJob d3 = new DataScienceJob("Facebook,	892,	Ulloa (Barrial],	7/3/14,	0.6,	"
-				+ "false,false,Finance,	Communication;Time Management;Self-motivation,12'09620404	,87'90379596 ");
+				+ "false,false,Finance,	Communication;Time Management;Self-motivation,Norland  Pass- 8878,"
+				+ "	11-190-2838,	87'78621339,	 12'21378661  ");
 		System.out.println(d3);
 		
 		

@@ -51,6 +51,7 @@ Los tipos que se han implementado en este proyecto son los siguientes.
 - _Sector_, de tipo \<Sector\>, consultable. Puede tomar los valores INFORMATION_TECHNOLOGY, 
 TOURISM, CONSUMER_SERVICES, FINANCE y MEDIA.
 - _Habilidades_, de tipo \<List<String>\>, consultable.
+-_EmpresaR_, de tipo Record, consultable
 
 ---Derivadas---
 - _Tamaño_, de tipo \<Tamaño\>, consultable. Deriva del número de empleados. 
@@ -77,7 +78,6 @@ las propiedades: ciudad, company, facilSolicitud, empleados, fundacion, esPrivad
 **Criterio de ordenación**: por ciudad, empresa, fundacion y empleados.
 
 **Otras operaciones**:
--_formateoBooleano(String s)_: permite el parseo de string a boolean.
 -_formateoEnum(String s): permite el parseo de string a enum.
 -_toString()_: devuelve la representación como cadena del objeto.
 -_hashCode(): devuelve el código hash del objeto.
@@ -87,8 +87,9 @@ cuarenta por ciento.
 
 
 #### Tipos auxiliares
-	Tipo Personal, record. Se calcula a partir del porcentaje de hombres y mujeres que componen la plantilla. 
-	Este tipo queda de la siguiente forma Personal(float hombres, float mujeres).
+	Tipo EmpresaR, record. Se calcula a partir del nombre de la calle, el nif y el porcentaje de hombres 
+	y mujeres que componen la plantilla. Este tipo queda de la siguiente forma 
+	EmpresaR(String calle, String nif, Double hombres, Double mujeres).
 
 ### Factoría
 Descripción breve de la factoría.

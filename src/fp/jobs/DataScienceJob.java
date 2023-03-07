@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-import fp.common.Personal;
+import fp.common.EmpresaR;
 import fp.common.Sector;
 import fp.common.Tamaño;
 import fp.utiles.Checkers;
@@ -23,7 +23,7 @@ public class DataScienceJob {
 	private Boolean facilSolicitud;
 	private Sector sector; 
 	private List<String> habilidades;
-	private Personal personal;
+	private EmpresaR empresaR;
 
 	
 	//-----Constructores-----
@@ -44,12 +44,12 @@ public class DataScienceJob {
 		this.facilSolicitud = facilSolicitud;
 		this.sector = null;
 		this.habilidades = null;
-		this.personal = null;
+		this.empresaR = null;
 	}
 		//2
 	public DataScienceJob(String s) {
 		String[] sp = s.split(",");
-		if (sp.length != 11) {
+		if (sp.length != 13) {
 			throw new IllegalArgumentException(
 					"Cadena con formato no válido");
 		}
@@ -71,10 +71,13 @@ public class DataScienceJob {
 		String[] habilidades = sp[8].trim().split(";");
 		for (String h : habilidades) {
 			lista.add(h);
-			this.habilidades = lista;
 		}
-		this.personal = new Personal(Double.valueOf(sp[9].trim().replace("'", ".")), 
-				Double.valueOf(sp[10].trim().replace("'", ".")));
+		this.habilidades = lista;
+		this.empresaR = new EmpresaR(
+				sp[9].trim(), 
+				sp[10].trim(), 
+				Double.valueOf(sp[11].trim().replace("'", ".")), 
+				Double.valueOf(sp[12].trim().replace("'", ".")));
 		
 	}
 	
@@ -131,9 +134,9 @@ public class DataScienceJob {
 	public List<String> getHabilidades() {
 		return habilidades;
 	}
-	/*public Personal getPersonal() {
-		return personal;
-	}*/
+	public EmpresaR getEmpresaR() {
+		return empresaR;
+	}
 	public void setEmpresa(String empresa) {
 		Checkers.check("El nombre de la empresa no puede estar vacio", 
 				empresa.trim() != "");
