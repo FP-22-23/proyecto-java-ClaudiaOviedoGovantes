@@ -9,38 +9,73 @@ public class TestDataScience {
 	public static void main(String[] args) {
 		
 		//Constructor 1
-		DataScienceJob d1 = new DataScienceJob("Zepter", 509, "Nizip", LocalDate.of(6,10,15), 2.76, true, 
+		DataScienceJob d1 = new DataScienceJob("Zepter", 509, "Nizip", LocalDate.of(2006,10,15), 2.76, true, 
 				true); 
-		/*
+		
 		System.out.println(d1);
-		System.out.println(d1.getCompany());
-		System.out.println(d1.getEmployee());
-		System.out.println(d1.getCity());
-		System.out.println(d1.getFoundation());
-		System.out.println(d1.getRating());
-		System.out.println(d1.getIsPrivate());
-		System.out.println(d1.getEasyApply());
+		/*System.out.println(d1.getEmpresa());
+		System.out.println(d1.getEmpleados());
+		System.out.println(d1.getCiudad());
+		System.out.println(d1.getFundacion());
+		System.out.println(d1.getPuntuacion());
+		System.out.println(d1.getEsPrivada());
+		System.out.println(d1.getFacilSolicitud());
+		System.out.println(d1.getSector());
+		System.out.println(d1.getHabilidades());
+		System.out.println(d1.getTamaño());
 		*/
-		System.out.println(d1.getFormatoCorto());
+		
+		//System.out.println(d1.getFormatoCorto());
 		
 
 		//Constructor 2
 		DataScienceJob d2 = new DataScienceJob("Zepter,	509,	Nizip,	15/10/06,	2.76,	true,	"
-				+ "true,	Information_Technology,	(Work Under Pressure)");
-		/*
+				+ "true,	Information_Technology,	Work Under Pressure;Teamwork;, 87'78621339,	 12'21378661 ");
+		
 		System.out.println(d2);
-		System.out.println(d2.getCompany());
-		System.out.println(d2.getEmployee());
-		System.out.println(d2.getCity());
-		System.out.println(d2.getFoundation());
-		System.out.println(d2.getRating());
-		System.out.println(d2.getIsPrivate());
-		System.out.println(d2.getFormatoCorto());
+		/*
+		System.out.println(d2.getEmpresa());
+		System.out.println(d2.getEmpleados());
+		System.out.println(d2.getCiudad());
+		System.out.println(d2.getFundacion());
+		System.out.println(d2.getPuntuacion());
+		System.out.println(d2.getEsPrivada());
+		System.out.println(d2.getFacilSolicitud());
+		System.out.println(d2.getSector());
+		System.out.println(d2.getHabilidades()); 
+		System.out.println(d2.getTamaño());
+		*/
+		
+		//System.out.println(d2.getFormatoCorto());
+		
+		DataScienceJob d3 = new DataScienceJob("Facebook,	892,	Ulloa (Barrial],	7/3/14,	0.6,	"
+				+ "false,false,Finance,	Communication;Time Management;Self-motivation,12'09620404	,87'90379596 ");
+		System.out.println(d3);
 		
 		
-		System.out.println(d1.compareTo(d2));
-		System.out.println(d1.equals(d2)); //???*/
-		//HACER COMPROBACIONES EQUALS, HASHCODE, TOSTRING
+		
+		/*
+		System.out.println(d1==d2);
+		System.out.println(d1==d3);
+		System.out.println(d3==d2);
+		*/
+		
+		/*
+		System.out.println(d1.equals(d2)); // Son iguales
+		System.out.println(d1.equals(d3));
+		System.out.println(d3.equals(d2));
+		*/
+		
+		/*
+		System.out.println(d2.hashCode() == d1.hashCode()); //son iguales
+		System.out.println(d2.hashCode()==d3.hashCode()); //son distintos
+		*/
+		
+		/*
+		System.out.println(d1.compareTo(d2)); // Son iguales
+		System.out.println(d1.compareTo(d3)); // Zepter (empresa d1) va después que Facebook(empresa d3) 
+		*/
+		
 		
 	}
 

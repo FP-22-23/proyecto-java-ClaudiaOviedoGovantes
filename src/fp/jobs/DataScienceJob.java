@@ -54,48 +54,31 @@ public class DataScienceJob {
 					"Cadena con formato no válido");
 		}
 		Checkers.check("El nombre de la empresa no puede estar vacio", 
-				empresa.trim() != "");
+				sp[0].trim() != "");
 		Checkers.check("El numero de empleados tiene que ser mayor que 0",
-				empleados > 0);
+				Integer.valueOf(sp[1].trim()) > 0);
 		
 		this.empresa = sp[0].trim();
 		this.empleados = Integer.valueOf(sp[1].trim()); 
 		this.ciudad = sp[2].trim();
-		this.fundacion = LocalDate.parse(sp[3].trim(), DateTimeFormatter.ofPattern("dd/MM/yy"));
+		this.fundacion = LocalDate.parse(sp[3].trim(), DateTimeFormatter.ofPattern("d/M/yy"));
 		this.puntuacion = Double.valueOf(sp[4].trim());
-		this.esPrivada = formateoBooleano(sp[5].trim());
-		this.facilSolicitud = formateoBooleano(sp[6].trim());
-		//this.sector = formateoEnum(sp[7].trim());
-		this.sector = Sector.valueOf(sp[7].trim().toUpperCase())
-		;
+		this.esPrivada = Boolean.valueOf(sp[5].trim());
+		this.facilSolicitud = Boolean.valueOf(sp[6].trim());
+		this.sector = Sector.valueOf(sp[7].trim().toUpperCase());
+		
 		List<String> lista = new LinkedList<String>();
 		String[] habilidades = sp[8].trim().split(";");
 		for (String h : habilidades) {
 			lista.add(h);
+			this.habilidades = lista;
 		}
-		this.personal = new Personal(Double.valueOf(sp[9].trim()), Double.valueOf(sp[10].trim()));
+		this.personal = new Personal(Double.valueOf(sp[9].trim().replace("'", ".")), 
+				Double.valueOf(sp[10].trim().replace("'", ".")));
 		
 	}
 	
 	//-----Parseo-----
-	private Boolean formateoBooleano(String s){
-		Boolean res;
-		if (s == "true") {
-			res = true;
-		}
-		else {
-			res = false;
-		}
-		return res;
-	}
-	
-	private LocalDate fechaFormateada(LocalDate d) { //parsear de otra manera
-		LocalDate res;
-		String d2 = String.valueOf(d);
-		System.out.println();
-		res =  LocalDate.parse(d2, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-		return res;
-	}
 	
 	public Sector formateoEnum(String s) {
 		Sector res = null;
@@ -148,9 +131,9 @@ public class DataScienceJob {
 	public List<String> getHabilidades() {
 		return habilidades;
 	}
-	public Personal getPersonal() {
+	/*public Personal getPersonal() {
 		return personal;
-	}
+	}*/
 	public void setEmpresa(String empresa) {
 		Checkers.check("El nombre de la empresa no puede estar vacio", 
 				empresa.trim() != "");
@@ -229,9 +212,9 @@ public class DataScienceJob {
 
 	//-----CompareTo-----
 	public int compareTo(DataScienceJob j1) {
-		int r = this.getCiudad().compareTo(j1.getCiudad());
+		int r = this.getEmpresa().compareTo(j1.getEmpresa());
 		if (r==0) {
-			r = this.getEmpresa().compareTo(j1.getEmpresa());
+			r = this.getCiudad().compareTo(j1.getCiudad());
 		}
 		if (r==0) {
 			r = this.getFundacion().compareTo(j1.getFundacion());
@@ -248,6 +231,7 @@ public class DataScienceJob {
 	
 	/*DUDAS
 	 * Preguntar readme
+	 * ¿Cómo hacer el test de la propiedad auxiliar?
 	 * */
 	
 
