@@ -1,43 +1,50 @@
 package fp.jobs;
 
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-import fp.common.Staff;
+import fp.common.Personal;
 import fp.common.Sector;
 import fp.common.Tamaño;
+import fp.utiles.Checkers;
 
 public class DataScienceJob {
 	//Atributos
-	private String company;
-	private Integer employees;
-	private String city;
-	private LocalDate foundation;
-	private Double rating;
-	private Boolean isPrivate;
-	private Boolean easyApply;
+	private String empresa;
+	private Integer empleados;
+	private String ciudad;
+	private LocalDate fundacion;
+	private Double puntuacion;
+	private Boolean esPrivada;
+	private Boolean facilSolicitud;
 	private Sector sector; 
-	private List<String> skills;
-	private Staff staff;
+	private List<String> habilidades;
+	private Personal personal;
 
 	
 	//-----Constructores-----
-		//1
-	public DataScienceJob(String company, Integer employee, String city,
-			LocalDate foundation, Double rating, Boolean isPrivate, Boolean easyApply) {
-		this.company = company;
-		this.employees = employee;
-		this.city = city;
-		this.foundation = foundation;
-		this.rating = rating;
-		this.isPrivate = isPrivate;
-		this.easyApply = easyApply;
+		//1 public static void check(String textoRestriccion, Boolean condicion)
+	public DataScienceJob(String empresa, Integer empleados, String ciudad,
+			LocalDate fundacion, Double puntuacion, Boolean esPrivada, Boolean facilSolicitud) {
+		Checkers.check("El nombre de la empresa no puede estar vacio", 
+				empresa.trim() != "");
+		Checkers.check("El numero de empleados tiene que ser mayor que 0",
+				empleados > 0);
+		
+		this.empresa = empresa;
+		this.empleados = empleados;
+		this.ciudad = ciudad;
+		this.fundacion = fundacion;
+		this.puntuacion = puntuacion;
+		this.esPrivada = esPrivada;
+		this.facilSolicitud = facilSolicitud;
 		this.sector = null;
-		this.skills = null;
-		this.staff = null;
+		this.habilidades = null;
+		this.personal = null;
 	}
 		//2
 	public DataScienceJob(String s) {
@@ -46,39 +53,30 @@ public class DataScienceJob {
 			throw new IllegalArgumentException(
 					"Cadena con formato no válido");
 		}
-		checkCompany(sp[0].trim());
-		checkEmployees(Integer.valueOf(sp[1].trim()));
+		Checkers.check("El nombre de la empresa no puede estar vacio", 
+				empresa.trim() != "");
+		Checkers.check("El numero de empleados tiene que ser mayor que 0",
+				empleados > 0);
 		
-		this.company = sp[0].trim();
-		this.employees = Integer.valueOf(sp[1].trim()); 
-		this.city = sp[2].trim();
-		this.foundation = LocalDate.parse(sp[3].trim(), DateTimeFormatter.ofPattern("dd/MM/yy"));
-		this.rating = Double.valueOf(sp[4].trim());
-		this.isPrivate = formateoBooleano(sp[5].trim());
-		this.easyApply = formateoBooleano(sp[6].trim());
-		this.sector = formateoEnum(sp[7].trim());
-		
+		this.empresa = sp[0].trim();
+		this.empleados = Integer.valueOf(sp[1].trim()); 
+		this.ciudad = sp[2].trim();
+		this.fundacion = LocalDate.parse(sp[3].trim(), DateTimeFormatter.ofPattern("dd/MM/yy"));
+		this.puntuacion = Double.valueOf(sp[4].trim());
+		this.esPrivada = formateoBooleano(sp[5].trim());
+		this.facilSolicitud = formateoBooleano(sp[6].trim());
+		//this.sector = formateoEnum(sp[7].trim());
+		this.sector = Sector.valueOf(sp[7].trim().toUpperCase())
+		;
 		List<String> lista = new LinkedList<String>();
-		String[] skills = sp[8].trim().split(";");
-		for (String sk : skills) {
-			lista.add(sk);
+		String[] habilidades = sp[8].trim().split(";");
+		for (String h : habilidades) {
+			lista.add(h);
 		}
-		this.staff = new Staff(Double.valueOf(sp[9].trim()), Double.valueOf(sp[10].trim()));
+		this.personal = new Personal(Double.valueOf(sp[9].trim()), Double.valueOf(sp[10].trim()));
 		
 	}
 	
-	//-----Checks-----
-	private void checkCompany(String s){
-		if(s.replaceAll(" ", "").equals("")) {
-			throw new IllegalArgumentException("El nombre no puede estar vacío.");
-		}
-	}
-	
-	private void checkEmployees(Integer i){
-		if(i <= 0) {
-			throw new IllegalArgumentException("El número de empleados no puede ser menor que 0.");
-		}
-	}
 	//-----Parseo-----
 	private Boolean formateoBooleano(String s){
 		Boolean res;
@@ -121,98 +119,97 @@ public class DataScienceJob {
 		return res;
 	}
 	
-//-----GETTERS AND SETTERS-----;	
+	//-----GETTERS AND SETTERS-----;	
 		
-	public String getCompany() {
-		return company;
+	public String getEmpresa() {
+		return empresa;
 	}
-	public Integer getEmployees() {
-		return employees;
+	public Integer getEmpleados() {
+		return empleados;
 	}
-	public String getCity() {
-		return city;
+	public String getCiudad() {
+		return ciudad;
 	}
-	public LocalDate getFoundation() {
-		return foundation;
+	public LocalDate getFundacion() {
+		return fundacion;
 	}
-	public Double getRating() {
-		return rating;
+	public Double getPuntuacion() {
+		return puntuacion;
 	}
-	public Boolean getIsPrivate() {
-		return isPrivate;
+	public Boolean getEsPrivada() {
+		return esPrivada;
 	}
-	public Boolean getEasyApply() {
-		return easyApply;
+	public Boolean getFacilSolicitud() {
+		return facilSolicitud;
 	}
 	public Sector getSector() {
 		return sector;
 	}
-	public List<String> getSkills() {
-		return skills;
+	public List<String> getHabilidades() {
+		return habilidades;
 	}
-	public void setCompany(String company) {
-		this.company = company;
+	public Personal getPersonal() {
+		return personal;
 	}
-	public void setEmployees(Integer employee) {
-		this.employees = employee;
+	public void setEmpresa(String empresa) {
+		Checkers.check("El nombre de la empresa no puede estar vacio", 
+				empresa.trim() != "");
+		this.empresa = empresa;
 	}
-	public void setCity(String city) {
-		this.city = city;
+	public void setCiudad(String ciudad) {
+		this.ciudad = ciudad;
 	}
-	public void setFoundation(LocalDate foundation) {
-		this.foundation = foundation;
+	public void setFundacion(LocalDate fundacion) {
+		this.fundacion = fundacion;
 	}
-	public void setRating(Double rating) {
-		this.rating = rating;
+	public void setPuntuacion(Double puntuacion) {
+		this.puntuacion = puntuacion;
 	}
-	public void setIsPrivate(Boolean isPrivate) {
-		this.isPrivate = isPrivate;
-	}
-	public void setEasyApply(Boolean easyApply) {
-		this.easyApply = easyApply;
+	public void setFacilSolicitud(Boolean facilSolicitud) {
+		this.facilSolicitud = facilSolicitud;
 	}
 	
 	//-----Pequeñe/Mediana/Gran empresa (propiedad derivada)-----
 	public Tamaño getTamaño() {
 		Tamaño res = Tamaño.PEQUEÑA;
 		
-		if (getEmployees() > 250) {
+		if (getEmpleados() > 250) {
 			res = Tamaño.MEDIANA;
 		}
-		else if(getEmployees() > 500) {
+		else if(getEmpleados() > 500) {
 			res = Tamaño.GRAN;
 		}
 		return res;
 	}
-	
+
 	//-----FormatoCorto ----- (propiedad derivada)-----
 	public String getFormatoCorto() {
-		String res = getCompany();
-		if (getFoundation() != null) {
-			res += ", was founded in " + getFoundation().getYear();
+		String res = getEmpresa();
+		if (getFundacion() != null) {
+			res += ", fue fundada en el año " + getFundacion().getYear();
 		}
-		if (getRating() != null) {
-			res += ", has a rating of " + getRating()+"/5";
+		if (getPuntuacion() != null) {
+			res += ", tiene una puntuacion de " + getPuntuacion()+"/5";
 		}
 		return res;
 	}
 	
 	//-----ToString-----
 	public String toString() {
-		String res =  "DataScienceJob [company=" + company + ", employees=" + employees + ", city=" + city + ", foundation="
-				+ foundation + ", rating=" + rating + ", isPrivate=" + isPrivate + ", easyApply=" + easyApply;
+		String res =  "DataScienceJob [empresa=" + empresa + ", empleados=" + empleados + ", ciudad=" + ciudad + ", fundacion="
+				+ fundacion + ", puntuacion=" + puntuacion + ", esPrivada=" + esPrivada + ", facilSolicitud=" + facilSolicitud;
 		if (sector != null) {
 				res +=", sector=" + sector;
 			}
-		if (skills != null) {
-			res += ", skills=" + skills + "]";
+		if (habilidades != null) {
+			res += ", habilidades=" + habilidades + "]";
 		}
 		return res;	
 	}
 	
 	//-----HashCode-----
 	public int hashCode() {
-		return Objects.hash(city, company, easyApply, employees, foundation, isPrivate, rating);
+		return Objects.hash(ciudad, empresa, facilSolicitud, empleados, fundacion, esPrivada, puntuacion);
 	}
 
 	//-----Equals-----
@@ -224,36 +221,34 @@ public class DataScienceJob {
 		if (getClass() != obj.getClass())
 			return false;
 		DataScienceJob other = (DataScienceJob) obj;
-		return Objects.equals(city, other.city) && Objects.equals(company, other.company)
-				&& Objects.equals(easyApply, other.easyApply) && Objects.equals(employees, other.employees)
-				&& Objects.equals(foundation, other.foundation) && Objects.equals(isPrivate, other.isPrivate)
-				&& Objects.equals(rating, other.rating);
+		return Objects.equals(ciudad, other.ciudad) && Objects.equals(empresa, other.empresa)
+				&& Objects.equals(facilSolicitud, other.facilSolicitud) && Objects.equals(empleados, other.empleados)
+				&& Objects.equals(fundacion, other.fundacion) && Objects.equals(esPrivada, other.esPrivada)
+				&& Objects.equals(puntuacion, other.puntuacion);
 	}
 
 	//-----CompareTo-----
 	public int compareTo(DataScienceJob j1) {
-		int r = this.getCity().compareTo(j1.getCity());
+		int r = this.getCiudad().compareTo(j1.getCiudad());
 		if (r==0) {
-			r = this.getCompany().compareTo(j1.getCompany());
+			r = this.getEmpresa().compareTo(j1.getEmpresa());
 		}
 		if (r==0) {
-			r = this.getFoundation().compareTo(j1.getFoundation());
+			r = this.getFundacion().compareTo(j1.getFundacion());
 		}
 		if (r==0) {
-			r = this.getEmployees().compareTo(j1.getEmployees());
+			r = this.getEmpleados().compareTo(j1.getEmpleados());
 		}
 		return r;
 	}
 	
 
+	/*POR HACER
+	 * */
 	
-//DUDAS
-	/*propiedad derivada (formato corto, pequeña/mediana empresa), propiedad auxiliar (mujeres / hombres)
-	 * implementación atributos sector y lista
-	 * 
-	 * crear objeto de tipo lista  e ir añadiendo elementos*/
-	
-	
+	/*DUDAS
+	 * Preguntar readme
+	 * */
 	
 
 }
