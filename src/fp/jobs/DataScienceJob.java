@@ -229,13 +229,4 @@ public class DataScienceJob {
 	}
 	
 
-	/*POR HACER
-	 * */
-	
-	/*DUDAS
-	 * Preguntar readme
-	 * ¿Cómo hacer el test de la propiedad auxiliar?
-	 * */
-	
-
 }

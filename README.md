@@ -25,10 +25,12 @@ El dataset usado en este proyecto tiene 11 columnas que se describen a continuac
 * **\<City>**: de tipo \<String\>, representa la ciudad en la que se localiza la empresa.
 * **\<Foundation>**: de tipo \<LocalDate\>, representa la fecha de fundación.
 * **\<Rating>**: de tipo \<Float\>, representa la puntuación sobre 5 que recibe la compañía.
-* **\<Private>**: de tipo \<Boolean\>, representa si la compañía es privada y no del gobierno.
+* **\<Private>**: de tipo \<Boolean\>, representa si la compañía es privada y no estatal.
 * **\<Easy Apply>**: de tipo \<Boolean\>, representa si la applicación al empleo es sencilla.
 * **\<Sector>**: de tipo \<Sector(Enum)\>, representa el sector en el que se ubica.
 * **\<Job Skills>>**: de tipo \<List<String<\>, representa las habilidades necesarias para el desempeño del empleo.
+* **\<Street>**: de tipo \<String\>, representa la calle donde se sitúa la compañía.
+* **\<Nif>**: de tipo \<String\>, representa el nif (numero de identificación) de la empresa.
 * **\<Women>**: de tipo \<Double\>, representa el porcentaje de hombres contratados.
 * **\<Men>**: de tipo \<Double\>, representa el porcentaje de mujeres contratadas.
 
@@ -56,9 +58,10 @@ TOURISM, CONSUMER_SERVICES, FINANCE y MEDIA.
 ---Derivadas---
 - _Tamaño_, de tipo \<Tamaño\>, consultable. Deriva del número de empleados. 
 Puede tomar los valores PEQUEÑA, MEDIANA, GRAN.
+-_FormatoCorto()_: devuelve el nombre de la empresa, el año de la fundación y el rating de la misma.
 
 ---Auxiliares---
-_Personal_, de tipo \<Personal\>, consultable. Se calcula a partir del porcentaje
+_EmpresaR_, de tipo \<record\>, consultable. Se calcula a partir de la dirección, el nif y el porcentaje
 de hombres y mujeres que componen la plantilla.
 
 **Constructores**: 
@@ -81,7 +84,6 @@ las propiedades: ciudad, company, facilSolicitud, empleados, fundacion, esPrivad
 -_formateoEnum(String s): permite el parseo de string a enum.
 -_toString()_: devuelve la representación como cadena del objeto.
 -_hashCode(): devuelve el código hash del objeto.
--_getFormatoCorto(DataScienceJob)_: devuelve el nombre de la empresa, el año de la fundación y el rating de la misma.
 -_getParidad(Personal p)_: devuelve true si el porcentaje de mujeres contratadas es igual o superior al 
 cuarenta por ciento.
 
