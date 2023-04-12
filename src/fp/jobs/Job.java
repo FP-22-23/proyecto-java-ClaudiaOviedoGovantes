@@ -12,7 +12,7 @@ import fp.common.Sector;
 import fp.common.Tamaño;
 import fp.utiles.Checkers;
 
-public class DataScienceJob {
+public class Job {
 	//Atributos
 	private String empresa;
 	private Integer empleados;
@@ -28,7 +28,7 @@ public class DataScienceJob {
 	
 	//-----Constructores-----
 		//1 public static void check(String textoRestriccion, Boolean condicion)
-	public DataScienceJob(String empresa, Integer empleados, String ciudad,
+	public Job(String empresa, Integer empleados, String ciudad,
 			LocalDate fundacion, Double puntuacion, Boolean esPrivada, Boolean facilSolicitud) {
 		Checkers.check("El nombre de la empresa no puede estar vacio", 
 				empresa.trim() != "");
@@ -47,7 +47,7 @@ public class DataScienceJob {
 		this.empresaR = null;
 	}
 		//2
-	public DataScienceJob(String s) {
+	public Job(String s) {
 		String[] sp = s.split(",");
 		if (sp.length != 13) {
 			throw new IllegalArgumentException(
@@ -182,7 +182,7 @@ public class DataScienceJob {
 	
 	//-----ToString-----
 	public String toString() {
-		String res =  "DataScienceJob [empresa=" + empresa + ", empleados=" + empleados + ", ciudad=" + ciudad + ", fundacion="
+		String res =  "Job [empresa=" + empresa + ", empleados=" + empleados + ", ciudad=" + ciudad + ", fundacion="
 				+ fundacion + ", puntuacion=" + puntuacion + ", esPrivada=" + esPrivada + ", facilSolicitud=" + facilSolicitud;
 		if (sector != null) {
 				res +=", sector=" + sector;
@@ -206,7 +206,7 @@ public class DataScienceJob {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		DataScienceJob other = (DataScienceJob) obj;
+		Job other = (Job) obj;
 		return Objects.equals(ciudad, other.ciudad) && Objects.equals(empresa, other.empresa)
 				&& Objects.equals(facilSolicitud, other.facilSolicitud) && Objects.equals(empleados, other.empleados)
 				&& Objects.equals(fundacion, other.fundacion) && Objects.equals(esPrivada, other.esPrivada)
@@ -214,7 +214,7 @@ public class DataScienceJob {
 	}
 
 	//-----CompareTo-----
-	public int compareTo(DataScienceJob j1) {
+	public int compareTo(Job j1) {
 		int r = this.getEmpresa().compareTo(j1.getEmpresa());
 		if (r==0) {
 			r = this.getCiudad().compareTo(j1.getCiudad());

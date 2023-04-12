@@ -2,14 +2,14 @@ package fp.jobs.test;
 
 import java.time.LocalDate;
 
-import fp.jobs.DataScienceJob;
+import fp.jobs.Job;
 
-public class TestDataScience {
+public class TestJob {
 
 	public static void main(String[] args) {
 		
 		//Constructor 1
-		DataScienceJob d1 = new DataScienceJob("Zepter", 509, "Nizip", LocalDate.of(2006,10,15), 2.76, true, 
+		Job d1 = new Job("Zepter", 509, "Nizip", LocalDate.of(2006,10,15), 2.76, true, 
 				true); 
 		
 		System.out.println(d1);
@@ -29,7 +29,7 @@ public class TestDataScience {
 		
 
 		//Constructor 2
-		DataScienceJob d2 = new DataScienceJob("Zepter,	509,	Nizip,	15/10/06,	2.76,	true,	"
+		Job d2 = new Job("Zepter,	509,	Nizip,	15/10/06,	2.76,	true,	"
 				+ "true,	Information_Technology,	Work Under Pressure;Teamwork;, Jackson Street- 5847,	"
 				+ "27-139-2368,	72'56445532,	 27'43554468  ");
 		
@@ -51,7 +51,7 @@ public class TestDataScience {
 		//System.out.println(d2.getFormatoCorto());
 		//System.out.println(d2.getPersonal().mujeres());
 		
-		DataScienceJob d3 = new DataScienceJob("Facebook,	892,	Ulloa (Barrial],	7/3/14,	0.6,	"
+		Job d3 = new Job("Facebook,	892,	Ulloa (Barrial],	7/3/14,	0.6,	"
 				+ "false,false,Finance,	Communication;Time Management;Self-motivation,Norland  Pass- 8878,"
 				+ "	11-190-2838,	87'78621339,	 12'21378661  ");
 		System.out.println(d3);
@@ -72,7 +72,7 @@ public class TestDataScience {
 		
 		/*
 		System.out.println(d2.hashCode() == d1.hashCode()); //son iguales
-		System.out.println(d2.hashCode()==d3.hashCode()); //son distintos
+		System.out.println(d2.hashCode() == d3.hashCode()); //son distintos
 		*/
 		
 		/*
