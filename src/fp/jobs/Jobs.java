@@ -2,8 +2,14 @@ package fp.jobs;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
+
+import fp.common.Sector;
 
 public class Jobs {
 		
@@ -25,18 +31,17 @@ public class Jobs {
 				
 		//b -->	Añadir un elemento
 		public void anadirEmpleo(Job j) {
-			this.empleos.add(j);
+				empleos.add(j);	
 		}
 		
 		//c --> Añadir una colección de elementos
-		public void añadirColeccion(Collection c) {
-			this.empleos.addAll(c);
+		public void añadirColeccion(Collection<Job> c) {
+			empleos.addAll(c);
 		}
 		
 		//d --> Eliminar un elemento
-		public void eliminarEmpleo(Job j) {
-			Integer indice = empleos.indexOf(j);
-			this.empleos.remove(indice);
+		public void eliminarEmpleo(Job j) {;
+			empleos.remove(j);
 		}
 		
 		//HashCode
@@ -58,13 +63,93 @@ public class Jobs {
 		
 		//toString
 		public String toString() {
-			return "Jobs [empleos=" + empleos + "]";
+			return "Jobs [empleos=" + empleos + "numEmpleos= "+ empleos.size() + "]";
 		}
 		
+		//Tratamientos secuenciales 
+		// 1 -> ¿Existe alguna empresa situada en una ciudad pasada por parámetro?
+		public Boolean existeEmpresaEnCiudad(String ciudad) {
+			Boolean res = false;
+			for(Job j: empleos) {
+				if (j.getCiudad().equals(ciudad)){
+					res = true;
+					break;
+				}
+			}
+			return res;
+		}
 		
+		// 2 -> Media de puntación de la empresa pasada por parámetro
+		public Double getMediaPuntuacionEmpresa(String empresa) {
+			Double total = 0.0;
+			Integer contador = 0;
+			for (Job j: empleos) {
+				if (j.getEmpresa().equals(empresa)) {
+					total += j.getPuntuacion();
+					contador ++;
+				}}
+			if (contador != 0 ) {
+				Double res = total/contador;
+				return res;
+			}
+			else { 
+				return null;
+			}
+			
+		}
 		
-
+		// 3 -> Selección de empresas con más de 500 empleados 
+		public List<Job> getGrandesEmpresas(){
+			ArrayList<Job> lista = new ArrayList<Job>();
+			for (Job j : empleos) {
+				if(j.getEmpleados() >500) {
+					lista.add(j);
+					}
+				}
+			return lista;
+			
+			
+		}
 		
+		// 4 -> Agrupa empleos por compañías
+		public Map<String, Set<Job>> getEmpleosPorCompañias(){
+			Map<String, Set<Job>> dicc = new HashMap<String, Set<Job>>();
+			for (Job j: empleos) {
+				String key = j.getEmpresa();
+				
+				if(dicc.containsKey(key)){
+					Set<Job> value = dicc.get(key);
+					value.add(j);
+					dicc.put(key, value);
+				}
+				else {
+					Set<Job> value = new HashSet<Job>();
+					value.add(j);
+					dicc.put(key, value);		
+				}
+			}
+			return dicc;
+			
+		}
+		
+		// 5 -> Diccionario contador: empleos por sectores
+		public Map<Sector, Integer> getNumeroEmpleosPorSector(){
+			Map<Sector, Integer> res = new HashMap<Sector, Integer>();
+			for (Job j :empleos) {
+				Sector key = j.getSector();
+				if(res.containsKey(key)) {
+					Integer value = res.get(key);
+					value +=1;
+					res.put(key, value);
+					
+				}
+				else {
+					Integer value = 1;
+					res.put(key, value);
+				}
+			}
+			return res;
+		}
 	
 		
 
