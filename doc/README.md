@@ -7,7 +7,7 @@ Este proyecto trabaja con datos de empleos relacionados con la ingenieria de dat
 ## Estructura de las carpetas del proyecto
 
 * **/src**: Contiene los diferentes archivos que forman parte del proyecto. Debe estar estructurado en los siguentes paquetes
-  * **fp.\<jobs\>**: Paquete que contiene el tipo principal del proyecto "DataScienceJob".
+  * **fp.\<jobs\>**: Paquete que contiene el tipo principal del proyecto "Job".
   * **fp.\<jobs>.test**: Paquete que contiene las funciones test del proyecto.
   * **fp.common**: Paquete que contiene los tipos auxiliares del proyecto.
   * **fp.utiles**: Paquete que contiene las clases de utilidad. 
@@ -38,8 +38,7 @@ El dataset usado en este proyecto tiene 11 columnas que se describen a continuac
 
 Los tipos que se han implementado en este proyecto son los siguientes.
 
-### Tipo DataScienceJob
-
+### Tipo Job
 
 **Propiedades**:
 ---Basicas---
@@ -68,14 +67,15 @@ de hombres y mujeres que componen la plantilla.
 
 - C1: crea un objeto de tipo partida a partir de los siguientes parámetros. String empresa, Integer empleados, 
 String ciudad, LocalDate fundacion, Double puntuacion, Boolean esPrivada, Boolean facilSolicitud.
-- C2: es un constructor a partir de string que contiene valores para todas los atributos. Se implementan distintos tipos de parseos.
+- C2: es un constructor a partir de string que contiene valores para todas los atributos. 
+Se implementan distintos tipos de parseos.
 
 **Restricciones**:
  
 - R1: Impide que el nombre de la empresa esté vacío.
 - R2: impide que el número de empleados sea igual o menor que cero.
 
-**Criterio de igualdad**: dos objetos DataScienceJob serán iguales cuando 
+**Criterio de igualdad**: dos objetos Job serán iguales cuando 
 las propiedades: ciudad, company, facilSolicitud, empleados, fundacion, esPrivada y puntuacion sean iguales.
 
 **Criterio de ordenación**: por ciudad, empresa, fundacion y empleados.
@@ -93,39 +93,41 @@ cuarenta por ciento.
 	y mujeres que componen la plantilla. Este tipo queda de la siguiente forma 
 	EmpresaR(String calle, String nif, Double hombres, Double mujeres).
 
-### Factoría
-Descripción breve de la factoría.
+### Factoría - Factoria Job
+	Clase de factoría para construir objetos de tipo Job.
 
-- _método 1_: Descripción del método 1.
--	_método 2_: Descripción del método 2.
+- _leerEmpleo_:recibe como parámetro una cadena con el formato de las líneas del fichero CSV, 
+y devuelve un objeto del tipo Job a partir de esa cadena. Emplea el constructor a partir de String.
+-	_leerEmpleos_:recibe como parámetro una cadena que contiene el nombre y ruta del fichero CSV, 
+y devuelve una lista de objetos del tipo Job. También utiliza el constructor a partir de String.
 
-### Tipo Contenedor
-
-Descripción breve del tipo contenedor.
+### Tipo Contenedor - Jobs
+Clase contenedora de los objetos de tipo Job.
 
 **Propiedades**:
+- _empleos_, de tipo \<List\>, consultable y modificable.
 
-- _propiedad1_, de tipo \<Tipo1\>, consultable. 
-- _propiedad2_, de tipo \<Tipo2\>, consultable y modificable. 
-- ...
-- 
 **Constructores**: 
+-C1: Constructor por defecto. Crea un objeto de tipo Jobs sin ningun empleo almacenado.
+-C2: Constructor con un parámetro de tipo Collection<Job>. Crea un objeto de tipo Jobs 
+con los empleos incluidos en la colección dada como parámetro.
 
-- C1: Descripción del constructor 1.
-- C2: Descripción del constructor 2.
-- ...
+**Criterio de igualdad**:Dos Jobs son iguales si lo es su propiedad empleo, es decir
+si contienen los mismos objetos de tipo Job.
 
-**Restricciones**:
- 
-- R1: Descripción de la restricción 1.
-- R2: Descripción de la restricción 2.
-- ...
-- 
-**Criterio de igualdad**: Describir el criterio de igualdad
-
-**Criterio de ordenación**: Describir el criterio de ordenación (si lo hay).
+**Representación como cadena**: Imprime por pantalla el atributo empleos asi como el número de objetos
+del contenedor. 
 
 **Otras operaciones**:
  
--	_método 1_: Descripción del método 1.
-- ...
+-	_getNumeroEmpleos()_: devuelve el número de objetos de tipo Job del contenedor.
+-  _anadirEmpleo(Job j)_: añade el Job j al contenedor.
+-  _añadirColeccion(Collection<Job> c)_: añade la colleción c al contenedor.
+-  _eliminarEmpleo(Job j)_: elimina el empleo j de la colección.
+-  _existeEmpresaEnCiudad(String ciudad)_: devuelve tru si existe algun empleo en la ciudad pasada por parámetro.
+-  _getMediaPuntuacionEmpresa(String empresa)_: retorna la puntuación media de la empresa pasada por parámetro.
+-  _getGrandesEmpresas()_: devuelve un conjunto con las empresas de mas de 500 empleados.
+-  _getEmpleosPorCompañias()_:retorna un diccionario que agrupa empleos por compañías.
+-  _getNumeroEmpleosPorSector()_: devueve un diccionario que cuenta el número de empleos por sectores.
+
+

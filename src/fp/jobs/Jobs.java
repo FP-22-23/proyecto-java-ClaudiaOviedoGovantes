@@ -24,26 +24,6 @@ public class Jobs {
 			this.empleos = new ArrayList<Job>(Jobs);
 		}
 
-		//a --> Obtener el número de elementos
-		public Integer getNumeroEmpleos() {
-			return empleos.size();
-		}
-				
-		//b -->	Añadir un elemento
-		public void anadirEmpleo(Job j) {
-				empleos.add(j);	
-		}
-		
-		//c --> Añadir una colección de elementos
-		public void añadirColeccion(Collection<Job> c) {
-			empleos.addAll(c);
-		}
-		
-		//d --> Eliminar un elemento
-		public void eliminarEmpleo(Job j) {;
-			empleos.remove(j);
-		}
-		
 		//HashCode
 		public int hashCode() {
 			return Objects.hash(empleos);
@@ -66,8 +46,29 @@ public class Jobs {
 			return "Jobs [empleos=" + empleos + "numEmpleos= "+ empleos.size() + "]";
 		}
 		
+		//a --> Obtener el número de elementos
+		public Integer getNumeroEmpleos() {
+			return empleos.size();
+		}
+				
+		//b -->	Añadir un elemento
+		public void anadirEmpleo(Job j) {
+				empleos.add(j);	
+		}
+		
+		//c --> Añadir una colección de elementos
+		public void añadirColeccion(Collection<Job> c) {
+			empleos.addAll(c);
+		}
+		
+		//d --> Eliminar un elemento
+		public void eliminarEmpleo(Job j) {;
+			empleos.remove(j);
+		}
+		
+
 		//Tratamientos secuenciales 
-		// 1 -> ¿Existe alguna empresa situada en una ciudad pasada por parámetro?
+		// 1 -> ¿Existe algun empleo situado en una ciudad pasada por parámetro?
 		public Boolean existeEmpresaEnCiudad(String ciudad) {
 			Boolean res = false;
 			for(Job j: empleos) {
@@ -99,16 +100,14 @@ public class Jobs {
 		}
 		
 		// 3 -> Selección de empresas con más de 500 empleados 
-		public List<Job> getGrandesEmpresas(){
-			ArrayList<Job> lista = new ArrayList<Job>();
+		public HashSet<String> getGrandesEmpresas(){
+			HashSet<String> res = new HashSet<String>();
 			for (Job j : empleos) {
 				if(j.getEmpleados() >500) {
-					lista.add(j);
+					res.add(j.getEmpresa());
 					}
 				}
-			return lista;
-			
-			
+			return res;
 		}
 		
 		// 4 -> Agrupa empleos por compañías
@@ -137,9 +136,10 @@ public class Jobs {
 			Map<Sector, Integer> res = new HashMap<Sector, Integer>();
 			for (Job j :empleos) {
 				Sector key = j.getSector();
+				
 				if(res.containsKey(key)) {
 					Integer value = res.get(key);
-					value +=1;
+					value ++;
 					res.put(key, value);
 					
 				}
