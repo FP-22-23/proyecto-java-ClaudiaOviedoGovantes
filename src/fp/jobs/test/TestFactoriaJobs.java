@@ -8,10 +8,10 @@ import fp.jobs.Job;
 public class TestFactoriaJobs {
 
 	public static void main(String[] args) {
-		testLeerJobs("data/DataScience.csv");
+		//testLeerEmpleos("data/DataScience.csv");
 		}
 	
-	private static void testLeerJobs(String fichero) {
+	private static void testLeerEmpleos(String fichero) {
 		System.out.println("\nTestLeerJobs =============");
 		List<Job> empleos = FactoriaJob.leerEmpleos(fichero); 
 		for (Job j: empleos) {

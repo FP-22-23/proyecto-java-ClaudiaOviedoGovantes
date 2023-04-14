@@ -50,7 +50,7 @@ public class Job {
 	public Job(String s) {
 		String[] sp = s.split(";");
 		if (sp.length != 13) {
-			System.out.println(sp.length);
+			//System.out.println(sp.length);
 			throw new IllegalArgumentException(
 					"Cadena con formato no válido");
 		}

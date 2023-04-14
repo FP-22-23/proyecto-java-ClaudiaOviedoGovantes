@@ -69,7 +69,7 @@ public class Jobs {
 
 		//Tratamientos secuenciales 
 		// 1 -> ¿Existe algun empleo situado en una ciudad pasada por parámetro?
-		public Boolean existeEmpresaEnCiudad(String ciudad) {
+		public Boolean existeEmpleoEnCiudad(String ciudad) {
 			Boolean res = false;
 			for(Job j: empleos) {
 				if (j.getCiudad().equals(ciudad)){
