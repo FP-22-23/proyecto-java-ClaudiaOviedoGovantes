@@ -48,8 +48,9 @@ public class Job {
 	}
 		//2
 	public Job(String s) {
-		String[] sp = s.split(",");
+		String[] sp = s.split(";");
 		if (sp.length != 13) {
+			System.out.println(sp.length);
 			throw new IllegalArgumentException(
 					"Cadena con formato no válido");
 		}
@@ -68,7 +69,7 @@ public class Job {
 		this.sector = Sector.valueOf(sp[7].trim().toUpperCase());
 		
 		List<String> lista = new LinkedList<String>();
-		String[] habilidades = sp[8].trim().split(";");
+		String[] habilidades = sp[8].trim().split(":");
 		for (String h : habilidades) {
 			lista.add(h);
 		}

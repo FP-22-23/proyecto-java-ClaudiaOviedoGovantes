@@ -18,9 +18,11 @@ public class FactoriaJob {
 		List<Job> res= new ArrayList<Job>();
 		try { 
 			List<String> lineas=Files.readAllLines(Paths.get(nombreFichero));
-			for (String línea:lineas) {
-				res.add(new Job(línea));	//Constructor a partir de String
-			}
+			for (String linea:lineas) {
+				if(lineas.indexOf(linea) != 0) {
+				System.out.println(linea);
+				res.add(new Job(linea));	//Constructor a partir de String
+			}}
 		}catch (IOException e) {
 			e.printStackTrace();
 		}
