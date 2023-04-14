@@ -15,6 +15,7 @@ public class Jobs {
 		
 		private List<Job> empleos;
 		
+		
 		//Constructor 1: construye una colección vacía
 		public Jobs() {
 			this.empleos = new ArrayList<Job>();
@@ -24,6 +25,15 @@ public class Jobs {
 			this.empleos = new ArrayList<Job>(Jobs);
 		}
 
+		//Getters and setters
+		public List<Job> getEmpleos() {
+			return empleos;
+		}
+		public void setEmpleos(List<Job> empleos) {
+			this.empleos = empleos;
+		}
+	
+		
 		//HashCode
 		public int hashCode() {
 			return Objects.hash(empleos);
@@ -150,7 +160,6 @@ public class Jobs {
 			}
 			return res;
 		}
-	
 		
 
 	}

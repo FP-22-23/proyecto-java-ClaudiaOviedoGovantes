@@ -1,19 +1,26 @@
 package fp.jobs.test;
 
+import java.util.Collection;
+
 import fp.jobs.FactoriaJob;
 import fp.jobs.Job;
 import fp.jobs.Jobs;
 
 public class TestJobs {
+	
 	private static Jobs empleos = new Jobs(FactoriaJob.leerEmpleos("data/DataScience.csv"));
-	private static String s = "Zepter;	509;	Nizip;	15/10/06;	2.76;	true;	true;	Information_Technology;	"
-			+ "Work Under Pressure:Communication:Learning;	Jackson Street- 5847;	"
+	private static Collection<Job> col = FactoriaJob.leerEmpleos("data/DataScience.csv");
+	private static String s = "Bida;	509;	Seville;	15/10/06;	2.76;	true;	true;	Information_Technology;	"
+			+ "Work Under Pressure:Communication:Learning;	Av-Europa;	"
 			+ "27-139-2368;	72'56445532;	 27'43554468 ";
 	private static Job j1 = new Job(s);
 	
 	public static void main(String[] args) {
+		//Tes operaciones básicas
+		//testOperacionesBasicas();
 		
-		//Tratamientos secunciales 
+		
+		//Tratamientos secuenciales 
 			//1
 		//testExisteEmpleoEnCiudad("Pamplona"); //Devuelve true
 		//testExisteEmpleoEnCiudad("Badalona"); //Devuelve false
@@ -27,16 +34,37 @@ public class TestJobs {
 		//testGetNumeroEmpleosPorSector();
 		
 	}
+	
+	//Test operaciones básicas
+	private static void testOperacionesBasicas() {
+		System.out.println("\n----TestVariasOperaciones----");
+		try {
+		//a --> Obtener el número de elementos
+		System.out.println("(a) El numero de elementos del contenedor es: " + empleos.getNumeroEmpleos()+"\n");
 		
+		//b -->	Añadir un elemento
+		System.out.println("(b) Añado j1 al contenedor");
+		empleos.anadirEmpleo(j1);
+		System.out.println("Empleos contiene a j1: " + empleos.getEmpleos().contains(j1) +
+				"\nAhora el numero de elemetos es: " + empleos.getNumeroEmpleos()+ "\n");
+
+		//c --> Añadir una colección de elementos
+		System.out.println("(c) Añado una colección de elementos");
+		empleos.añadirColeccion(col);
+		System.out.println("Ahora el numero de elemetos es: " + empleos.getNumeroEmpleos()+ "\n");
+		
+		//d --> Eliminar un elemento
+		System.out.println("(d) Elimino j1 del contenedor");
+		empleos.eliminarEmpleo(j1);
+		System.out.println("Empleos contiene a j1: " + empleos.getEmpleos().contains(j1) +
+				"\nAhora el numero de elemetos es: " + empleos.getNumeroEmpleos()+ "\n");
+
+		} catch(Exception e) {
+			System.out.println("Excepción capturada:\n   " + e);	
+		}
+	}	
 	
 	
-	//Otras operaciones
-	//a --> Obtener el número de elementos
-	//System.out.println(empleos1.getNumeroEmpleos());
-	//b -->	Añadir un elemento
-	//c --> Añadir una colección de elementos
-	//d --> Eliminar un elemento
-		
 	//Test Tratamientos secuenciales
 		// 1 -> ¿Existe algun empleo situado en una ciudad pasada por parámetro?
 	private static void testExisteEmpleoEnCiudad(String ciudad) {
