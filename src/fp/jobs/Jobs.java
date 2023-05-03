@@ -169,6 +169,9 @@ public class Jobs {
 			this.empleos = empleos.collect(Collectors.toList());
 		}
 		
+		//BLOQUE I
+		
+		
 	
 		
 		
