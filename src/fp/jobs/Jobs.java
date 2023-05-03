@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fp.common.Sector;
 
@@ -15,7 +17,7 @@ public class Jobs {
 		
 		private List<Job> empleos;
 		
-		
+//----------------------------------- 2ª ENTREGA -----------------------------------
 		//Constructor 1: construye una colección vacía
 		public Jobs() {
 			this.empleos = new ArrayList<Job>();
@@ -161,7 +163,18 @@ public class Jobs {
 			return res;
 		}
 		
-
+//----------------------------------- 3ª ENTREGA -----------------------------------
+		//Constructor 3: crea un objeto del tipo contenedor con todos los elementos del stream.
+		public Jobs(Stream<Job> empleos) {
+			this.empleos = empleos.collect(Collectors.toList());
+		}
+		
+	
+		
+		
+		
+		
+		
 	}
 
 

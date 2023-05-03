@@ -5,8 +5,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FactoriaJob {
+	//----------------------------------- 2ª ENTREGA -----------------------------------
 	//Devuelve un objeto de tipo Job a partir de una cadena
 	public static Job leerEmpleo(String cadena) {
 		Job res = new Job(cadena);
@@ -28,7 +31,23 @@ public class FactoriaJob {
 		}
 		return res;
 	}
-	
+	//----------------------------------- 3ª ENTREGA -----------------------------------
+	 public static Jobs leeEmpleosStream(String nombreFichero){
+		 Jobs res = null;
+		 try {
+			 Stream<Job> empleos = Files.lines(Paths.get(nombreFichero))
+					 .skip(1)
+					 .map(FactoriaJob::leerEmpleo);
+			 
+			 res = new Jobs(empleos);
+			 
+		 }catch(IOException e){
+				System.out.println("Fichero no encontrado: "+nombreFichero);
+				e.printStackTrace();
+			}
+		 return res;
+		 
+	 }
 
 
 
