@@ -32,7 +32,7 @@ public class FactoriaJob {
 		return res;
 	}
 	//----------------------------------- 3ª ENTREGA -----------------------------------
-	 public static Jobs leeEmpleosStream(String nombreFichero){
+	 public static Jobs leerEmpleosStream(String nombreFichero){
 		 Jobs res = null;
 		 try {
 			 Stream<Job> empleos = Files.lines(Paths.get(nombreFichero))
@@ -42,13 +42,13 @@ public class FactoriaJob {
 			 res = new Jobs(empleos);
 			 
 		 }catch(IOException e){
-				System.out.println("Fichero no encontrado: "+nombreFichero);
+				System.out.println("Fichero no encontrado: " + nombreFichero);
 				e.printStackTrace();
 			}
 		 return res;
 		 
 	 }
-//prueba 02
+
 	 
 
 

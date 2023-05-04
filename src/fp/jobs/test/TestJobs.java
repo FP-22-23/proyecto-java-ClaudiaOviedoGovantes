@@ -16,6 +16,8 @@ public class TestJobs {
 	private static Job j1 = new Job(s);
 	
 	public static void main(String[] args) {
+		//----------------------------------- 2ª ENTREGA -----------------------------------
+		
 		//Tes operaciones básicas
 		//testOperacionesBasicas();
 		
@@ -33,8 +35,10 @@ public class TestJobs {
 			//5
 		//testGetNumeroEmpleosPorSector();
 		
+		//----------------------------------- 3ª ENTREGA -----------------------------------
+		
 	}
-	
+	//----------------------------------- 2ª ENTREGA -----------------------------------
 	//Test operaciones básicas
 	private static void testOperacionesBasicas() {
 		System.out.println("\n----TestVariasOperaciones----");
@@ -117,7 +121,11 @@ public class TestJobs {
 			System.out.println(empleos.getNumeroEmpleosPorSector());
 		} catch(Exception e) {
 			System.out.println("Excepción capturada:\n   " + e);	
+	
 		}
+	//----------------------------------- 3ª ENTREGA -----------------------------------
+		
+		
 	}
 	
 }
