@@ -2,6 +2,7 @@ package fp.jobs.test;
 
 import java.util.Collection;
 
+import fp.common.Sector;
 import fp.jobs.FactoriaJob;
 import fp.jobs.Job;
 import fp.jobs.Jobs;
@@ -16,7 +17,7 @@ public class TestJobs {
 	private static Job j1 = new Job(s);
 	
 	public static void main(String[] args) {
-		//----------------------------------- 2ª ENTREGA -----------------------------------
+	//----------------------------------- 2ª ENTREGA -----------------------------------
 		
 		//Tes operaciones básicas
 		//testOperacionesBasicas();
@@ -35,7 +36,20 @@ public class TestJobs {
 			//5
 		//testGetNumeroEmpleosPorSector();
 		
-		//----------------------------------- 3ª ENTREGA -----------------------------------
+	//----------------------------------- 3ª ENTREGA -----------------------------------
+			//1
+		//testExisteEmpleoEnCiudadStream("Pamplona"); //Devuelve true
+		//testExisteEmpleoEnCiudadStream("Badalona"); //Devuelve false
+			//2
+		//testGetMediaPuntuacionEmpresaStream("Apple Inc.");
+			//3
+		//testGetGrandesEmpresasStream();
+			//4
+		//testgetEmpleoFacilSolicitudMaxEmpleados();
+			//5
+		//testGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector.CONSUMER_SERVICES);
+		
+		
 		
 	}
 	//----------------------------------- 2ª ENTREGA -----------------------------------
@@ -74,7 +88,7 @@ public class TestJobs {
 	private static void testExisteEmpleoEnCiudad(String ciudad) {
 		System.out.println("\n----TestExisteEmpleoEnCiudad----");
 		try {
-		System.out.println("¿Hay algun empleo en la ciudad " + ciudad +"?"+"\n");
+		System.out.println("¿Hay algun empleo en la ciudad " + ciudad +"?");
 		System.out.println(empleos.existeEmpleoEnCiudad(ciudad));
 		} catch(Exception e) {
 			System.out.println("Excepción capturada:\n   " + e);	
@@ -91,7 +105,6 @@ public class TestJobs {
 		}
 	}
 		// 3 -> Selección de empresas con más de 500 empleados
-	
 	private static void testGetGrandesEmpresas() {
 		System.out.println("\n----TestGetGrandesEmpresas()----");
 		try {
@@ -102,7 +115,6 @@ public class TestJobs {
 		}
 	}
 		// 4 -> Agrupa empleos por compañías
-	
 	private static void testGetEmpleosPorCompañias() {
 		System.out.println("\n----TestGetEmpleosPorCompañias()----");
 		try {
@@ -113,7 +125,6 @@ public class TestJobs {
 		}
 	}
 		// 5 -> Diccionario contador: empleos por sectores
-	
 	private static void testGetNumeroEmpleosPorSector() {
 		System.out.println("\n----TestGetNumeroEmpleosPorSector()----");
 		try {
@@ -122,11 +133,60 @@ public class TestJobs {
 		} catch(Exception e) {
 			System.out.println("Excepción capturada:\n   " + e);	
 	
-		}
+		}}
 	//----------------------------------- 3ª ENTREGA -----------------------------------
+		// 1 -> ¿Existe algun empleo situado en una ciudad pasada por parámetro?
+		private static void testExisteEmpleoEnCiudadStream(String ciudad) {
+			System.out.println("\n----TestExisteEmpleoEnCiudadStream----");
+			try {
+			System.out.println("¿Hay algun empleo en la ciudad " + ciudad +"?");
+			System.out.println(empleos.existeEmpleoEnCiudadStream(ciudad));
+			} catch(Exception e) {
+				System.out.println("Excepción capturada:\n   " + e);	
+			}}
+			
+		// 2 -> Media de puntación de la empresa pasada por parámetro
+			private static void testGetMediaPuntuacionEmpresaStream(String empresa) {
+				System.out.println("\n----TestGetMediaPuntuacionEmpresaStream(String empresa)----");
+				try {
+				System.out.println("La puntuación media de la empresa " + empresa +" es: ");
+				System.out.print(empleos.getMediaPuntuacionEmpresaStream(empresa)+"\n");
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}}
 		
-		
-	}
+		// 3 -> Selección de empresas con más de 500 empleados
+			private static void testGetGrandesEmpresasStream() {
+				System.out.println("\n----TestGetGrandesEmpresasStream()----");
+				try {
+				System.out.println("Las grandes empresas son: ");
+				System.out.print(empleos.getGrandesEmpresasStream()+"\n");
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
+		// 4 -> Agrupa empleos por compañías
+			private static void testgetEmpleoFacilSolicitudMaxEmpleados() {
+				System.out.println("\n----TestGetEmpleoFacilSolicitudMaxEmpleados()----");
+				try {
+					System.out.println("El empleo con fácil solicitud cuya empresa tiene más empleados es: ");
+					System.out.println(empleos.getEmpleoFacilSolicitudMaxEmpleados());
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
+		// 5 -> Diccionario contador: empleos por sectores
+			private static void testGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s) {
+				System.out.println("\n----TestGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s)----");
+				try {
+					System.out.println("Los empleos de empresas privadas ordenados por fecha de "
+							+ "fundacion y puntuación son: ");
+					System.out.println(empleos.getEmpleoPrivadoSectorOrdenadoFechaPuntuacion(s));
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
+	
 	
 }
 

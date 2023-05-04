@@ -1,12 +1,15 @@
 package fp.jobs;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.OptionalDouble;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -169,12 +172,51 @@ public class Jobs {
 			this.empleos = empleos.collect(Collectors.toList());
 		}
 		
-		//BLOQUE I
+		//BLOQUE I	
+	//1 -> ¿Existe algun empleo situado en una ciudad pasada por parámetro?
+		public Boolean existeEmpleoEnCiudadStream(String ciudad) {
+			Boolean res = empleos.stream()
+					.anyMatch(e -> e.getCiudad().equals(ciudad));
+			return res;
+		}
 		
 		
-	
-		
-		
+	// 2 -> Media de puntación de la empresa pasada por parámetro
+		public Double getMediaPuntuacionEmpresaStream(String empresa) {
+			OptionalDouble opt = empleos.stream()
+					.filter(e -> e.getEmpresa().equals(empresa))
+					.mapToDouble(e -> e.getPuntuacion())
+					.average();
+			return opt.orElse(0.);
+					
+				}
+	// 3 -> Selección de empresas con más de 500 empleados 
+		public Set<String> getGrandesEmpresasStream(){
+			Set<String> res = empleos.stream()
+					.filter(e -> e.getEmpleados() > 500)
+					.map(Job::getEmpresa)
+					.collect(Collectors.toSet());
+			return res;
+		}
+	// 4 -> Empleo de facil solicitud y más empleados
+		public Job getEmpleoFacilSolicitudMaxEmpleados() {
+			Job res = empleos.stream()
+					.filter(e -> e.getFacilSolicitud().equals(true))
+					.max(Comparator.comparing(Job::getEmpleados))
+					.orElse(null);
+			return res;
+		}
+	// 5 -> Selección de empleos ofrecidos por empresas privadas de sector pasado por parámetro 
+		//ordenadas por fecha de fundación de la empresa y después por puntuación.
+		public Set<Job> getEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s){
+			Set<Job> res = empleos.stream()
+					.filter(e -> e.getEsPrivada().equals(true))
+					.filter(e -> e.getSector().equals(s))
+					.sorted(Comparator.comparing(Job::getFundacion) 
+					.thenComparing(Comparator.comparing(Job::getPuntuacion)))
+					.collect(Collectors.toSet());
+			return res;
+		}
 		
 		
 		

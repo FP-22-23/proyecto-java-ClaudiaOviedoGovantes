@@ -12,7 +12,7 @@ public class TestJob {
 		Job d1 = new Job("Zepter", 509, "Nizip", LocalDate.of(2006,10,15), 2.76, true, 
 				true); 
 		
-		System.out.println(d1);
+		//System.out.println(d1);
 		/*System.out.println(d1.getEmpresa());
 		System.out.println(d1.getEmpleados());
 		System.out.println(d1.getCiudad());
@@ -33,7 +33,7 @@ public class TestJob {
 				+ "true,	Information_Technology,	Work Under Pressure;Teamwork;, Jackson Street- 5847,	"
 				+ "27-139-2368,	72'56445532,	 27'43554468  ");
 		
-		System.out.println(d2);
+		//System.out.println(d2);
 		/*
 		System.out.println(d2.getEmpresa());
 		System.out.println(d2.getEmpleados());
@@ -54,7 +54,7 @@ public class TestJob {
 		Job d3 = new Job("Facebook,	892,	Ulloa (Barrial],	7/3/14,	0.6,	"
 				+ "false,false,Finance,	Communication;Time Management;Self-motivation,Norland  Pass- 8878,"
 				+ "	11-190-2838,	87'78621339,	 12'21378661  ");
-		System.out.println(d3);
+		//System.out.println(d3);
 		
 		
 		
