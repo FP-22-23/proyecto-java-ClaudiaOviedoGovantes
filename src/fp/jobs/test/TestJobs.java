@@ -48,7 +48,10 @@ public class TestJobs {
 		//testgetEmpleoFacilSolicitudMaxEmpleados();
 			//5
 		//testGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector.CONSUMER_SERVICES);
-		
+			//6
+		//testGetNumeroEmpleosPorSectorStream();
+			//7
+		//testGetCiudadesPorSectorStream();
 		
 		
 	}
@@ -175,7 +178,8 @@ public class TestJobs {
 					System.out.println("Excepción capturada:\n   " + e);	
 				}
 			}
-		// 5 -> Diccionario contador: empleos por sectores
+		// 5 -> Selección de empleos ofrecidos por empresas privadas de sector pasado por parámetro 
+			//ordenadas por fecha de fundación de la empresa y después por puntuación. 
 			private static void testGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s) {
 				System.out.println("\n----TestGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s)----");
 				try {
@@ -186,8 +190,28 @@ public class TestJobs {
 					System.out.println("Excepción capturada:\n   " + e);	
 				}
 			}
-	
-	
+			
+		// 6 -> Diccionario contador: empleos por sectores
+			private static void testGetNumeroEmpleosPorSectorStream() {
+				System.out.println("\n----TestGetNumeroEmpleosPorSectorStream()----");
+				try {
+					System.out.println("Diccionario contador: empleos por sectores ");
+					System.out.println(empleos.getNumeroEmpleosPorSectorStream());
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
+		// 7 -> Diccionario que obtiene por cada sector las ciudades en las que se encuentran los empleos.
+			private static void testGetCiudadesPorSectorStream() {
+				System.out.println("\n----TestGetNumeroEmpleosPorSectorStream()----");
+				try {
+					System.out.println("Diccionario que obtiene por cada sector las ciudades en "
+							+ "las que se encuentran los empleos.\n");
+					System.out.println(empleos.getCiudadesPorSectorStream());
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
 }
 
 

@@ -217,8 +217,38 @@ public class Jobs {
 					.collect(Collectors.toSet());
 			return res;
 		}
+		//BLOQUE I	
 		
-		
+	// 6 -> Diccionario contador: empleos por sectores
+		public Map<Sector, Long> getNumeroEmpleosPorSectorStream(){
+			return empleos.stream()
+					.collect(Collectors.groupingBy(Job::getSector, Collectors.counting()));
+			
+		}
+	// 7 -> Diccionario que obtiene por cada sector las ciudades en las que se encuentran los empleos.
+		//(Collectors.mapping()
+		public Map<Sector, Set<String>> getCiudadesPorSectorStream(){
+			return empleos.stream()
+					.collect(Collectors.groupingBy(Job::getSector,
+							Collectors.mapping(Job::getCiudad, Collectors.toSet())));
+		}
+	// 8 -> Devuelve un map en el que las claves son los años de fundacion y 
+		//los valores la puntuacion obtenida por la mejor empresa (max)
+		public Map<String, Double> getPuntuacionPorFechaStream(){
+			Map<String, Set<Double>> aux =  empleos.stream()
+					.collect(Collectors.groupingBy(Job::getEmpresa,
+							Collectors.mapping(Job::getPuntuacion, Collectors.toSet())));
+			
+			return aux.entrySet().stream()
+					.collect(Collectors.toMap(
+							entry -> entry.getKey(), 
+							entry -> entry.max(
+									Comparator.comparing(entry.getValue() :: Long)
+							.get()
+									
+								));
+
+		}
 		
 	}
 
