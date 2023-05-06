@@ -3,11 +3,13 @@ package fp.jobs;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.OptionalDouble;
 import java.util.Set;
@@ -234,21 +236,22 @@ public class Jobs {
 		}
 	// 8 -> Devuelve un map en el que las claves son los años de fundacion y 
 		//los valores la puntuacion obtenida por la mejor empresa (max)
-		public Map<String, Double> getPuntuacionPorFechaStream(){
-			Map<String, Set<Double>> aux =  empleos.stream()
-					.collect(Collectors.groupingBy(Job::getEmpresa,
+		public Map<Integer, Double> getPuntuacionPorFechaStream(){
+			Map<Integer, Set<Double>> aux =  empleos.stream()
+					.collect(Collectors.groupingBy(j -> j.getFundacion().getYear(),
 							Collectors.mapping(Job::getPuntuacion, Collectors.toSet())));
 			
 			return aux.entrySet().stream()
 					.collect(Collectors.toMap(
-							entry -> entry.getKey(), 
-							entry -> entry.max(
-									Comparator.comparing(entry.getValue() :: Long)
-							.get()
-									
-								));
-
+							entry-> entry.getKey(), 
+							entry -> Collections.max(entry.getValue())));
 		}
+		
+		
+		
+		
+		
+		
 		
 	}
 

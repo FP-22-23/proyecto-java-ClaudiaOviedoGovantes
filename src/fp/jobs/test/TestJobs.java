@@ -52,6 +52,8 @@ public class TestJobs {
 		//testGetNumeroEmpleosPorSectorStream();
 			//7
 		//testGetCiudadesPorSectorStream();
+			//8
+		testGetPuntuacionPorFechaStream();
 		
 		
 	}
@@ -172,7 +174,8 @@ public class TestJobs {
 			private static void testgetEmpleoFacilSolicitudMaxEmpleados() {
 				System.out.println("\n----TestGetEmpleoFacilSolicitudMaxEmpleados()----");
 				try {
-					System.out.println("El empleo con fácil solicitud cuya empresa tiene más empleados es: ");
+					System.out.println("El empleo con fácil solicitud cuya empresa "
+							+ "tiene más empleados es: ");
 					System.out.println(empleos.getEmpleoFacilSolicitudMaxEmpleados());
 				} catch(Exception e) {
 					System.out.println("Excepción capturada:\n   " + e);	
@@ -181,7 +184,8 @@ public class TestJobs {
 		// 5 -> Selección de empleos ofrecidos por empresas privadas de sector pasado por parámetro 
 			//ordenadas por fecha de fundación de la empresa y después por puntuación. 
 			private static void testGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s) {
-				System.out.println("\n----TestGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s)----");
+				System.out.println("\n----TestGetEmpleoPrivadoSectorOrdenadoFecha"
+						+ "Puntuacion(Sector s)----");
 				try {
 					System.out.println("Los empleos de empresas privadas ordenados por fecha de "
 							+ "fundacion y puntuación son: ");
@@ -201,7 +205,8 @@ public class TestJobs {
 					System.out.println("Excepción capturada:\n   " + e);	
 				}
 			}
-		// 7 -> Diccionario que obtiene por cada sector las ciudades en las que se encuentran los empleos.
+		// 7 -> Diccionario que obtiene por cada sector las ciudades en las que se encuentran 
+			//los empleos.
 			private static void testGetCiudadesPorSectorStream() {
 				System.out.println("\n----TestGetNumeroEmpleosPorSectorStream()----");
 				try {
@@ -212,6 +217,25 @@ public class TestJobs {
 					System.out.println("Excepción capturada:\n   " + e);	
 				}
 			}
+		//8 -> Devuelve un map en el que las claves son los años de fundacion y 
+			//los valores la puntuacion obtenida por la mejor empresa (max)
+			private static void testGetPuntuacionPorFechaStream(){
+				System.out.println("\n----TestGetPuntuacionPorFechaStream()----");
+				try {
+					System.out.println("Devuelve un map en el que las claves son los años"
+							+ "\n de fundacion y los valores la puntuacion obtenida por "
+							+ "\n la mejor empresa (max).\n");
+					System.out.println(empleos.getPuntuacionPorFechaStream());
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
+			
+			
+			
+			
+			
+			
 }
 
 
