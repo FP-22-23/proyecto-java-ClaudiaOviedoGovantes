@@ -16,6 +16,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fp.common.EmpresaR;
 import fp.common.Sector;
 
 public class Jobs {
@@ -234,7 +235,7 @@ public class Jobs {
 					.collect(Collectors.groupingBy(Job::getSector,
 							Collectors.mapping(Job::getCiudad, Collectors.toSet())));
 		}
-	// 8 -> Devuelve un map en el que las claves son los años de fundacion y 
+	// 8 -> Devuelve un map en el que las claves son los años de la fecha de fundacion y 
 		//los valores la puntuacion obtenida por la mejor empresa (max)
 		public Map<Integer, Double> getPuntuacionPorFechaStream(){
 			Map<Integer, Set<Double>> aux =  empleos.stream()
@@ -246,6 +247,45 @@ public class Jobs {
 							entry-> entry.getKey(), 
 							entry -> Collections.max(entry.getValue())));
 		}
+	
+		//9-> Un método que devuelva un SortedMap en el que las claves sean un atributo o
+		//una función sobre un atributo, y los valores sean listas con los n mejores o 
+		//peores elementos que comparten el valor de ese atributo (o función sobre el atributo).
+		
+		/*public Map<Sector, List<Double>> getMejoresEmpresasParidadPorSector(Integer n){
+			Map<Sector, List<Job>> aux = empleos.stream()
+					.collect(Collectors.groupingBy(Job::getSector, 
+							
+							Collectors.toList()));
+					
+					/*.collect(Collectors.groupingBy(Job::getSector,
+							Collectors.mapping(Job::getEmpresaR,
+									Collectors.collectingAndThen(e -> e.mujeres(), Collectors.toList()))));*/
+			
+			/*return aux.entrySet()
+					.sorted(Comparator.comparing(e-> e.getValue));*/
+			
+		
+		/*public List<Double> getPorcentajeMujeres(List<Job>){
+			return empleos.stream()
+					.filter(e->e.getSector().equals(s))
+					.map(Job::getEmpresaR)
+					.mapToDouble(r->r.mujeres())
+					.getAsDouble()
+					.collect(Collectors.toList());
+		}*/
+		
+		//10 -> Calcula un map con la puntuación media por empresa y devuelve 
+		//la empresa con mayor puntuación
+		public String getMejorEmpresaPorMedia() {
+			
+			Map<String, Double> aux = empleos.stream()
+					.collect(Collectors.groupingBy(Job::getEmpresa, 
+							Collectors.averagingDouble(Job::getPuntuacion)));
+	
+			return aux.entrySet().stream().max(Comparator.comparing(Entry::getValue)).get().getKey();
+		}
+		
 		
 		
 		

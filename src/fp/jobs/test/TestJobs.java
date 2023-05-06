@@ -53,7 +53,9 @@ public class TestJobs {
 			//7
 		//testGetCiudadesPorSectorStream();
 			//8
-		testGetPuntuacionPorFechaStream();
+		//testGetPuntuacionPorFechaStream();
+			//10
+		 testGetMejorEmpresaPorMedia();
 		
 		
 	}
@@ -230,7 +232,18 @@ public class TestJobs {
 					System.out.println("Excepción capturada:\n   " + e);	
 				}
 			}
-			
+		//10 -> Calcula un map con la puntuación media por empresa y devuelve 
+			//la empresa con mayor puntuación
+			private static void testGetMejorEmpresaPorMedia(){
+				System.out.println("\n----TestGetMejorEmpresaPorMedia()----");
+				try {
+					System.out.println("Calcula un map con la puntuación media por empresa y devuelve "
+							+ "la empresa\ncon mayor puntuación\n");
+					System.out.println(empleos.getMejorEmpresaPorMedia());
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
 			
 			
 			
