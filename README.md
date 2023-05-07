@@ -102,3 +102,43 @@ _getMediaPuntuacionEmpresa(String empresa)_: retorna la puntuación media de la 
 _getGrandesEmpresas()_: devuelve un conjunto con las empresas de mas de 500 empleados.
 _getEmpleosPorCompañias()_:retorna un diccionario que agrupa empleos por compañías.
 _getNumeroEmpleosPorSector()_: devueve un diccionario que cuenta el número de empleos por sectores.
+
+------- 3ª ENTREGA -------
+Factoría - Factoria Job
+
+Clase de factoría para construir objetos de tipo Job.
+_leerEmpleosStream(String nombreFichero): recibe como parámetro una cadena que contiene el nombre 
+del fichero CSV, y devuelve un objeto del tipo contenedor Jobs creado mediante el constructor 
+a partir de Stream.
+
+Tipo Contenedor - Jobs
+
+Clase contenedora de los objetos de tipo Job.
+
+Constructor C3:crea un objeto del tipo contenedor Jobs con todos los elementos del stream.
+
+BLOQUE I
+-1 -> existeEmpleoEnCiudadStream(String ciudad): devuelve true si existe algun empleo en 
+la ciudad pasada por parámetro.
+-2 -> getMediaPuntuacionEmpresaStream(String empresa): retorna la puntación media 
+de la empresa pasada por parámetro
+-3 -> getGrandesEmpresasStream(): devuelve un conjunto con las empresas de mas de 500 empleados.
+-4 -> getEmpleoFacilSolicitudMaxEmpleados(): devuelve el empleo de facil solicitud con más empleados
+en la empresa.
+-5 -> getEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s): Selección de empleos ofrecidos por empresas privadas de sector pasado por parámetro 
+		ordenadas por fecha de fundación de la empresa y después por puntuación.
+		
+BLOQUE II
+-6 -> getNumeroEmpleosPorSectorStream(): devuelve un diccionario contador de empleos por sectores.
+-7 -> getCiudadesPorSectorStream():retorna un diccionario que obtiene por cada sector las ciudades 
+en las que se encuentran los empleo.
+-8 -> getPuntuacionPorFechaStream(): devuelve un map en el que las claves son los años de la fecha 
+de fundacion y los valores la puntuacion obtenida por la mejor empresa.
+-9 -> 
+-10 -> getMejorEmpresaPorMedia(): calcula un map con la puntuación media por empresa y devuelve 
+la empresa con mayor puntuación.
+
+
+
+
+
