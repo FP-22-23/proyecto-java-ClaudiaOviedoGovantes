@@ -13,6 +13,7 @@ import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.OptionalDouble;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -220,7 +221,7 @@ public class Jobs {
 					.collect(Collectors.toSet());
 			return res;
 		}
-		//BLOQUE I	
+		//BLOQUE II	
 		
 	// 6 -> Diccionario contador: empleos por sectores
 		public Map<Sector, Long> getNumeroEmpleosPorSectorStream(){
@@ -228,6 +229,7 @@ public class Jobs {
 					.collect(Collectors.groupingBy(Job::getSector, Collectors.counting()));
 			
 		}
+		
 	// 7 -> Diccionario que obtiene por cada sector las ciudades en las que se encuentran los empleos.
 		//(Collectors.mapping()
 		public Map<Sector, Set<String>> getCiudadesPorSectorStream(){
@@ -235,6 +237,7 @@ public class Jobs {
 					.collect(Collectors.groupingBy(Job::getSector,
 							Collectors.mapping(Job::getCiudad, Collectors.toSet())));
 		}
+		
 	// 8 -> Devuelve un map en el que las claves son los años de la fecha de fundacion y 
 		//los valores la puntuacion obtenida por la mejor empresa (max)
 		public Map<Integer, Double> getPuntuacionPorFechaStream(){
@@ -248,32 +251,26 @@ public class Jobs {
 							entry -> Collections.max(entry.getValue())));
 		}
 	
-		//9-> Un método que devuelva un SortedMap en el que las claves sean un atributo o
-		//una función sobre un atributo, y los valores sean listas con los n mejores o 
-		//peores elementos que comparten el valor de ese atributo (o función sobre el atributo).
-		
-		/*public Map<Sector, List<Double>> getMejoresEmpresasParidadPorSector(Integer n){
-			Map<Sector, List<Job>> aux = empleos.stream()
-					.collect(Collectors.groupingBy(Job::getSector, 
-							
-							Collectors.toList()));
-					
-					/*.collect(Collectors.groupingBy(Job::getSector,
-							Collectors.mapping(Job::getEmpresaR,
-									Collectors.collectingAndThen(e -> e.mujeres(), Collectors.toList()))));*/
-			
-			/*return aux.entrySet()
-					.sorted(Comparator.comparing(e-> e.getValue));*/
-			
-		
-		/*public List<Double> getPorcentajeMujeres(List<Job>){
+		//9-> Devuelve un SortedMap en el que las claves son los sectores y los valores 
+		//con listas con las n peores empresas de ese sector.
+		public Map<Sector, List<String>> getMejoresEmpresasParidadPorSector3(Integer n){
 			return empleos.stream()
-					.filter(e->e.getSector().equals(s))
-					.map(Job::getEmpresaR)
-					.mapToDouble(r->r.mujeres())
-					.getAsDouble()
-					.collect(Collectors.toList());
-		}*/
+					.collect(Collectors.groupingBy(Job::getSector, 
+							TreeMap::new,
+							Collectors.collectingAndThen(Collectors.toList(), 
+									list -> getEmpresasPuntuacion(list, n))
+							));
+		}
+		
+		//aux
+		public List<String> getEmpresasPuntuacion(List<Job> l, Integer n){
+			return l.stream()
+			.sorted(Comparator.comparing(Job::getPuntuacion))
+			.limit(n)
+			.map(Job::getEmpresa)
+			.collect(Collectors.toList());
+			
+		}
 		
 		//10 -> Calcula un map con la puntuación media por empresa y devuelve 
 		//la empresa con mayor puntuación
@@ -285,13 +282,6 @@ public class Jobs {
 	
 			return aux.entrySet().stream().max(Comparator.comparing(Entry::getValue)).get().getKey();
 		}
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

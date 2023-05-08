@@ -134,7 +134,10 @@ BLOQUE II
 en las que se encuentran los empleo.
 -8 -> getPuntuacionPorFechaStream(): devuelve un map en el que las claves son los años de la fecha 
 de fundacion y los valores la puntuacion obtenida por la mejor empresa.
--9 -> 
+-9 -> getMejoresEmpresasParidadPorSector3(Integer n) Devuelve un SortedMap en el que las claves son los sectores y los valores 
+con listas con las n peores empresas de ese sector.
+	(función auxiliar) -> getEmpresasPuntuacion(List<Job> l, Integer n): retorna la lista que actuará como 
+	valor del diccionario. 
 -10 -> getMejorEmpresaPorMedia(): calcula un map con la puntuación media por empresa y devuelve 
 la empresa con mayor puntuación.
 
