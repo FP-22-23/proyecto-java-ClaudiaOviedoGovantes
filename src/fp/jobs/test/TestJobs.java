@@ -34,7 +34,7 @@ public class TestJobs {
 			//4
 		//testGetEmpleosPorCompañias();
 			//5
-		//testGetNumeroEmpleosPorSector();
+		testGetNumeroEmpleosPorSector();
 		
 	//----------------------------------- 3ª ENTREGA -----------------------------------
 			//1
@@ -49,13 +49,15 @@ public class TestJobs {
 			//5
 		//testGetEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector.CONSUMER_SERVICES);
 			//6
-		//testGetNumeroEmpleosPorSectorStream();
+		//testGetNumeroEmpleosPorSectorStream();  //Función 4 de la 2ª entrega con Stream
 			//7
 		//testGetCiudadesPorSectorStream();
 			//8
 		//testGetPuntuacionPorFechaStream();
+			//9
+		//testGetEmpresasPeoresPorSector(3);
 			//10
-		 testGetMejorEmpresaPorMedia();
+		 //testGetMejorEmpresaPorMedia();
 		
 		
 	}
@@ -228,6 +230,20 @@ public class TestJobs {
 							+ "\n de fundacion y los valores la puntuacion obtenida por "
 							+ "\n la mejor empresa (max).\n");
 					System.out.println(empleos.getPuntuacionPorFechaStream());
+				} catch(Exception e) {
+					System.out.println("Excepción capturada:\n   " + e);	
+				}
+			}
+			
+			//9 -> Devuelve un SortedMap en el que las claves son los sectores y los valores 
+			//con listas con las n peores empresas de ese sector.
+			private static void testGetEmpresasPeoresPorSector(Integer n){
+				System.out.println("\n----GetEmpresasPeoresPorSector----");
+				try {
+					System.out.println("Devuelve un map en el que las claves son los años"
+							+ "\n de fundacion y los valores la puntuacion obtenida por "
+							+ "\n la mejor empresa (max).\n");
+					System.out.println(empleos.getEmpresasPeoresPorSector(n));
 				} catch(Exception e) {
 					System.out.println("Excepción capturada:\n   " + e);	
 				}

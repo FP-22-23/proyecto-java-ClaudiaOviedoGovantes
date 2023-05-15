@@ -32,6 +32,9 @@ public class FactoriaJob {
 		return res;
 	}
 	//----------------------------------- 3ª ENTREGA -----------------------------------
+	//recibe como parámetro una cadena que contiene el nombre y ruta del fichero CSV, 
+	//y devuelve un objeto del tipo contenedor "Jobs" creado mediante el constructor a partir de stream.
+	
 	 public static Jobs leerEmpleosStream(String nombreFichero){
 		 Jobs res = null;
 		 try {

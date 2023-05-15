@@ -253,7 +253,7 @@ public class Jobs {
 	
 		//9-> Devuelve un SortedMap en el que las claves son los sectores y los valores 
 		//con listas con las n peores empresas de ese sector.
-		public Map<Sector, List<String>> getMejoresEmpresasParidadPorSector3(Integer n){
+		public Map<Sector, List<String>> getEmpresasPeoresPorSector(Integer n){
 			return empleos.stream()
 					.collect(Collectors.groupingBy(Job::getSector, 
 							TreeMap::new,

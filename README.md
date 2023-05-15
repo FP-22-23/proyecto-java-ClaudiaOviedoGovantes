@@ -36,109 +36,129 @@ Tipos implementados
 
 Los tipos que se han implementado en este proyecto son los siguientes.
 
-Tipo Job
+### Tipo Job
 
-Propiedades: ---Basicas---
+**Propiedades**: 
+---Basicas---
 
-_Empresa_, de tipo \<String\>, consultable y modificable.
-_Empleados_, de tipo \<Integer\>, consultable.
-_Ciudad_, de tipo \<String\>, consultable y modificable.
-_Fundacion_, de tipo \<LocalDate\>, consultable y modificable.
-_Puntuacion_, de tipo \<Double\>, consultable y modificable
-_EsPrivada_, de tipo \<Boolean\>, consultable.
-_FacilSolicitud_, de tipo \<Boolean\>, consultable y modificable.
-_Sector_, de tipo \<Sector\>, consultable. Puede tomar los valores INFORMATION_TECHNOLOGY, TOURISM, CONSUMER_SERVICES, FINANCE y MEDIA.
-_Habilidades_, de tipo \<List\>, consultable. -_EmpresaR_, de tipo Record, consultable
+- _Empresa_, de tipo \<String\>, consultable y modificable.
+- _Empleados_, de tipo \<Integer\>, consultable.
+- _Ciudad_, de tipo \<String\>, consultable y modificable.
+- _Fundacion_, de tipo \<LocalDate\>, consultable y modificable.
+- _Puntuacion_, de tipo \<Double\>, consultable y modificable
+- _EsPrivada_, de tipo \<Boolean\>, consultable.
+- _FacilSolicitud_, de tipo \<Boolean\>, consultable y modificable.
+- _Sector_, de tipo \<Sector\>, consultable. Puede tomar los valores INFORMATION_TECHNOLOGY, TOURISM, CONSUMER_SERVICES, FINANCE y MEDIA.
+- _Habilidades_, de tipo \<List\>, consultable. -_EmpresaR_, de tipo Record, consultable
+
 ---Derivadas---
 
-_Tamaño_, de tipo \<Tamaño\>, consultable. Deriva del número de empleados. Puede tomar los valores PEQUEÑA, MEDIANA, GRAN. -_FormatoCorto()_: devuelve el nombre de la empresa, el año de la fundación y el rating de la misma.
----Auxiliares--- _EmpresaR_, de tipo \<record\>, consultable. Se calcula a partir de la dirección, el nif y el porcentaje de hombres y mujeres que componen la plantilla.
+- _Tamaño_, de tipo \<Tamaño\>, consultable. Deriva del número de empleados. Puede tomar los valores PEQUEÑA, MEDIANA, GRAN. 
+-_FormatoCorto()_: devuelve el nombre de la empresa, el año de la fundación y el rating de la misma.
 
-Constructores:
+---Auxiliares--- 
+- _EmpresaR_, de tipo \<record\>, consultable. Se calcula a partir de la dirección, el nif y el porcentaje de hombres y mujeres que componen la plantilla.
 
+**Constructores**: 
 C1: crea un objeto de tipo partida a partir de los siguientes parámetros. String empresa, Integer empleados, String ciudad, LocalDate fundacion, Double puntuacion, Boolean esPrivada, Boolean facilSolicitud.
 C2: es un constructor a partir de string que contiene valores para todas los atributos. Se implementan distintos tipos de parseos.
-Restricciones:
 
+**Restricciones**:
 R1: Impide que el nombre de la empresa esté vacío.
 R2: impide que el número de empleados sea igual o menor que cero.
-Criterio de igualdad: dos objetos Job serán iguales cuando las propiedades: ciudad, company, facilSolicitud, empleados, fundacion, esPrivada y puntuacion sean iguales.
 
-Criterio de ordenación: por ciudad, empresa, fundacion y empleados.
+**Criterio de igualdad**:  dos objetos Job serán iguales cuando las propiedades: ciudad, company, facilSolicitud, empleados, fundacion, esPrivada y puntuacion sean iguales.
 
-Otras operaciones: -_formateoEnum(String s): permite el parseo de string a enum. -_toString()_: devuelve la representación como cadena del objeto. -_hashCode(): devuelve el código hash del objeto. -_getParidad(Personal p)_: devuelve true si el porcentaje de mujeres contratadas es igual o superior al cuarenta por ciento.
+**Criterio de ordenación**: por ciudad, empresa, fundacion y empleados.
 
-Tipos auxiliares
+**Otras operaciones**: 
+-_formateoEnum(String s): permite el parseo de string a enum. 
+-_toString()_: devuelve la representación como cadena del objeto. 
+-_hashCode(): devuelve el código hash del objeto. 
+-_getParidad(Personal p)_: devuelve true si el porcentaje de mujeres contratadas es igual 
+o superior al cuarenta por ciento.
+
+#### Tipos auxiliares
 
 Tipo EmpresaR, record. Se calcula a partir del nombre de la calle, el nif y el porcentaje de hombres 
 y mujeres que componen la plantilla. Este tipo queda de la siguiente forma 
 EmpresaR(String calle, String nif, Double hombres, Double mujeres).
-Factoría - Factoria Job
+
+### Factoría - Factoria Job
 
 Clase de factoría para construir objetos de tipo Job.
-_leerEmpleo_:recibe como parámetro una cadena con el formato de las líneas del fichero CSV, y devuelve un objeto del tipo Job a partir de esa cadena. Emplea el constructor a partir de String.
-_leerEmpleos_:recibe como parámetro una cadena que contiene el nombre y ruta del fichero CSV, y devuelve una lista de objetos del tipo Job. También utiliza el constructor a partir de String.
-Tipo Contenedor - Jobs
+
+- _leerEmpleo_:recibe como parámetro una cadena con el formato de las líneas del fichero CSV, y devuelve un objeto del tipo Job a partir de esa cadena. Emplea el constructor a partir de String.
+- _leerEmpleos_:recibe como parámetro una cadena que contiene el nombre y ruta del fichero CSV, y devuelve una lista de objetos del tipo Job. También utiliza el constructor a partir de String.
+
+### Tipo Contenedor - Jobs
 
 Clase contenedora de los objetos de tipo Job.
 
-Propiedades:
+**Propiedades**:
 
-_empleos_, de tipo \<List\>, consultable y modificable.
-Constructores: -C1: Constructor por defecto. Crea un objeto de tipo Jobs sin ningun empleo almacenado. -C2: Constructor con un parámetro de tipo Collection. Crea un objeto de tipo Jobs con los empleos incluidos en la colección dada como parámetro.
+- _empleos_, de tipo \<List\>, consultable y modificable.
 
-Criterio de igualdad:Dos Jobs son iguales si lo es su propiedad empleo, es decir si contienen los mismos objetos de tipo Job.
+**Constructores**: 
+- C1: Constructor por defecto. Crea un objeto de tipo Jobs sin ningun empleo almacenado.
+- C2: Constructor con un parámetro de tipo Collection<Job>. Crea un objeto de tipo Jobs 
+con los empleos incluidos en la colección dada como parámetro.
 
-Representación como cadena: Imprime por pantalla el atributo empleos asi como el número de objetos del contenedor.
+**Criterio de igualdad**:Dos Jobs son iguales si lo es su propiedad empleo, es decir
+si contienen los mismos objetos de tipo Job.
 
-Otras operaciones:
+**Representación como cadena**: Imprime por pantalla el atributo empleos asi como el número de objetos
+del contenedor. 
 
-_getNumeroEmpleos()_: devuelve el número de objetos de tipo Job del contenedor.
-_anadirEmpleo(Job j)_: añade el Job j al contenedor.
-_añadirColeccion(Collection c)_: añade la colleción c al contenedor.
-_eliminarEmpleo(Job j)_: elimina el empleo j de la colección.
-_existeEmpresaEnCiudad(String ciudad)_: devuelve tru si existe algun empleo en la ciudad pasada por parámetro.
-_getMediaPuntuacionEmpresa(String empresa)_: retorna la puntuación media de la empresa pasada por parámetro.
-_getGrandesEmpresas()_: devuelve un conjunto con las empresas de mas de 500 empleados.
-_getEmpleosPorCompañias()_:retorna un diccionario que agrupa empleos por compañías.
-_getNumeroEmpleosPorSector()_: devueve un diccionario que cuenta el número de empleos por sectores.
+**Otras operaciones**:
 
-------- 3ª ENTREGA -------
-Factoría - Factoria Job
+- _getNumeroEmpleos()_: devuelve el número de objetos de tipo Job del contenedor.
+- _anadirEmpleo(Job j)_: añade el Job j al contenedor.
+- _añadirColeccion(Collection c)_: añade la colleción c al contenedor.
+- _eliminarEmpleo(Job j)_: elimina el empleo j de la colección.
+- _existeEmpresaEnCiudad(String ciudad)_: devuelve tru si existe algun empleo en la ciudad pasada por parámetro.
+- _getMediaPuntuacionEmpresa(String empresa)_: retorna la puntuación media de la empresa pasada por parámetro.
+- _getGrandesEmpresas()_: devuelve un conjunto con las empresas de mas de 500 empleados.
+- _getEmpleosPorCompañias()_:retorna un diccionario que agrupa empleos por compañías.
+- _getNumeroEmpleosPorSector()_: devueve un diccionario que cuenta el número de empleos por sectores.
+
+#------- 3ª ENTREGA -------
+# Factoría - Factoria Job
 
 Clase de factoría para construir objetos de tipo Job.
-_leerEmpleosStream(String nombreFichero): recibe como parámetro una cadena que contiene el nombre 
+
+- _leerEmpleosStream(String nombreFichero): recibe como parámetro una cadena que contiene el nombre 
 del fichero CSV, y devuelve un objeto del tipo contenedor Jobs creado mediante el constructor 
 a partir de Stream.
 
-Tipo Contenedor - Jobs
+##Tipo Contenedor - Jobs
 
 Clase contenedora de los objetos de tipo Job.
-
-Constructor C3:crea un objeto del tipo contenedor Jobs con todos los elementos del stream.
+**Constructores**: 
+- Constructor C3:crea un objeto del tipo contenedor Jobs con todos los elementos del stream.
 
 BLOQUE I
--1 -> existeEmpleoEnCiudadStream(String ciudad): devuelve true si existe algun empleo en 
+- 1 -> _existeEmpleoEnCiudadStream(String ciudad)_: devuelve true si existe algun empleo en 
 la ciudad pasada por parámetro.
--2 -> getMediaPuntuacionEmpresaStream(String empresa): retorna la puntación media 
+- 2 -> _getMediaPuntuacionEmpresaStream(String empresa)_: retorna la puntación media 
 de la empresa pasada por parámetro
--3 -> getGrandesEmpresasStream(): devuelve un conjunto con las empresas de mas de 500 empleados.
--4 -> getEmpleoFacilSolicitudMaxEmpleados(): devuelve el empleo de facil solicitud con más empleados
+- 3 -> _getGrandesEmpresasStream()_: devuelve un conjunto con las empresas de mas de 500 empleados.
+- 4 -> _getEmpleoFacilSolicitudMaxEmpleados()_: devuelve el empleo de facil solicitud con más empleados
 en la empresa.
--5 -> getEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s): Selección de empleos ofrecidos por empresas privadas de sector pasado por parámetro 
+- 5 -> _getEmpleoPrivadoSectorOrdenadoFechaPuntuacion(Sector s)_: Selección de empleos ofrecidos por empresas privadas de sector pasado por parámetro 
 		ordenadas por fecha de fundación de la empresa y después por puntuación.
 		
 BLOQUE II
--6 -> getNumeroEmpleosPorSectorStream(): devuelve un diccionario contador de empleos por sectores.
--7 -> getCiudadesPorSectorStream():retorna un diccionario que obtiene por cada sector las ciudades 
+- 6 -> _getNumeroEmpleosPorSectorStream()_: devuelve un diccionario contador de empleos por sectores.
+- 7 -> _getCiudadesPorSectorStream()_:retorna un diccionario que obtiene por cada sector las ciudades 
 en las que se encuentran los empleo.
--8 -> getPuntuacionPorFechaStream(): devuelve un map en el que las claves son los años de la fecha 
+- 8 -> _getPuntuacionPorFechaStream()_: devuelve un map en el que las claves son los años de la fecha 
 de fundacion y los valores la puntuacion obtenida por la mejor empresa.
--9 -> getMejoresEmpresasParidadPorSector3(Integer n) Devuelve un SortedMap en el que las claves son los sectores y los valores 
-con listas con las n peores empresas de ese sector.
-	(función auxiliar) -> getEmpresasPuntuacion(List<Job> l, Integer n): retorna la lista que actuará como 
+- 9 -> _getEmpresasPeoresPorSector(Integer n)_: Devuelve un SortedMap en el que las claves son los 
+sectores y los valores con listas con las n peores empresas de ese sector.
+	- (función auxiliar) -> _getEmpresasPuntuacion(List<Job> l, Integer n)_: retorna la lista que actuará como 
 	valor del diccionario. 
--10 -> getMejorEmpresaPorMedia(): calcula un map con la puntuación media por empresa y devuelve 
+- 10 -> _getMejorEmpresaPorMedia()_: calcula un map con la puntuación media por empresa y devuelve 
 la empresa con mayor puntuación.
 
 
